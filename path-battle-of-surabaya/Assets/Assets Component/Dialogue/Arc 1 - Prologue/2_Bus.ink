@@ -1,4 +1,7 @@
 Jadi begitulah cerita bagaimana aku bisa ada dalam keadaan sekarang. Sambil menatap keluar jendela bis aku berpikir apa yang akan aku coba temukan dan jelaskan nanti karena dari awal aku tidak mengerti tentang cerita pak guru. Aku juga tidak suka dengan pelajaran sejarah karena aku sama sekali tidak tertarik tentang cerita yang membosankan seperti itu karena kita sudah hidup pada jaman sekarang buat apa kita memikirkan masa lalu.
+-> main
+
+==main==
 
 AHHHH…… aku sangat kebingungan #speaker:Galang #portrait:galang_normal #layout:left
 

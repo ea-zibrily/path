@@ -70,7 +70,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
             return;
         }
 
-        if (isDialogueEnd && Input.GetKeyDown(KeyCode.Space)||Input.GetMouseButtonDown(0))
+        if (isDialogueEnd && Input.GetKeyDown(KeyCode.Space))
         {
             ContinueDialogue();
         }
@@ -112,6 +112,12 @@ public class DialogueManager : MonoSingleton<DialogueManager>
         currentStory = new Story(inkJSONText.text);
         isDialogueActive = true;
         textBoxPanel.SetActive(true);
+
+        //reset
+        characterNameTextUI.text = "";
+        characterPanelAnimator.Play("default");
+        dialoguePanelAnimator.Play("left");
+        
         ContinueDialogue();
     }
     
@@ -144,20 +150,15 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     private IEnumerator DisplayLine(string newLine)
     {
         bool isAddingRichTextTag = false;
-        
+
         //empty dialogue text
         conversationTextUI.text = "";
         isDialogueEnd = false;
+        continueObj.SetActive(false);
         
         //display each letter one at the time
-        foreach (char letter in newLine.ToCharArray())
+        foreach (var letter in newLine.ToCharArray())
         {
-            if (Input.GetKeyDown(KeyCode.Space)||Input.GetMouseButtonDown(0))
-            {
-                conversationTextUI.text = newLine;
-                break;
-            }
-
             //add rich text tag 
             if (letter == '<' || isAddingRichTextTag)
             {
@@ -174,7 +175,8 @@ public class DialogueManager : MonoSingleton<DialogueManager>
                 yield return new WaitForSeconds(textSpeed);
             }
         }
-        
+
+        continueObj.SetActive(true);
         isDialogueEnd = true;
     }
 

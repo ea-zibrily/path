@@ -1,4 +1,7 @@
 Pada tanggal 10 November terjadi perang di Surabaya yang ... #speaker:Pak Guru #portrait:pakguru_normal #layout:left
+-> main
+
+==main==
 
 Jadi begitu anak-anak cerita tentang peristiwa 10 November di Surabaya, ada yang ditanyakan? #speaker:Pak Guru #portrait:pakguru_normal #layout:left
 
