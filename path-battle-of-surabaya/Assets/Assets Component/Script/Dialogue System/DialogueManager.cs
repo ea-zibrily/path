@@ -115,7 +115,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
 
         //reset
         characterNameTextUI.text = "";
-        characterPanelAnimator.Play("default");
+        characterPanelAnimator.Play("empty");
         dialoguePanelAnimator.Play("left");
         
         ContinueDialogue();
