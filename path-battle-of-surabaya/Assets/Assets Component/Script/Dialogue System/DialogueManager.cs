@@ -25,7 +25,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     [SerializeField] private TextMeshProUGUI conversationTextUI;
     [SerializeField] private GameObject textBoxPanel;
     [SerializeField] private GameObject continueObj;
-    [field: SerializeField] public bool isDialogueActive { get; private set; }
+    public bool isDialogueActive { get; private set; }
 
     #endregion
     
@@ -36,11 +36,18 @@ public class DialogueManager : MonoSingleton<DialogueManager>
 
     #endregion
 
+    #region Dialogue SoundEffect
+    
+    private AudioSource myAudio;
+
+    #endregion
+    
     #region Dialogue Tag
    
     private const string SPEAKER_TAG = "speaker";
     private const string POTRAIT_TAG = "portrait";
     private const string LAYOUT_TAG = "layout";
+    private const string ANIMATION_TAG = "animation";
 
     #endregion
 
@@ -48,6 +55,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     
     [Header("Reference")]
     [SerializeField] private Animator characterPanelAnimator;
+    private DialogueAnimationHandler dialogueAnimationHandler;
     private Animator dialoguePanelAnimator;
 
     #endregion
@@ -55,6 +63,8 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     protected override void Awake()
     {
         dialoguePanelAnimator = textBoxPanel.GetComponent<Animator>();
+        dialogueAnimationHandler = textBoxPanel.GetComponent<DialogueAnimationHandler>();
+        myAudio = GetComponent<AudioSource>();
     }
     
     private void Start()
@@ -100,6 +110,9 @@ public class DialogueManager : MonoSingleton<DialogueManager>
                 case LAYOUT_TAG:
                     dialoguePanelAnimator.Play(tagValue);
                     break;
+                case ANIMATION_TAG:
+                    characterPanelAnimator.Play(tagValue);
+                    break;
                 default:
                     Debug.Log("Tagnya gaada kang");
                     break;
@@ -123,8 +136,9 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     
     public IEnumerator ExitDialogueMode()
     {
+        dialoguePanelAnimator.Play("closing");
         yield return new WaitForSeconds(0.2f);
-        
+
         isDialogueActive = false;
         textBoxPanel.SetActive(false);
         conversationTextUI.text = "";
@@ -134,6 +148,11 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     {
         if (currentStory.canContinue)
         {
+            if (!isDialogueActive)
+            {
+                return;
+            }
+            
             if (displayLineCoroutine != null)
             {
                 StopCoroutine(displayLineCoroutine);
@@ -172,6 +191,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
             else
             {
                 conversationTextUI.text += letter;
+                myAudio.Play();
                 yield return new WaitForSeconds(textSpeed);
             }
         }
