@@ -2,65 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aabeb4e3-0343-4f19-9234-ed470167c51c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.path-battle-of-surabaya/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.path-battle-of-surabaya/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.path-battle-of-surabaya/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.path-battle-of-surabaya/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.path-battle-of-surabaya/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Data/Player.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Data/Player/Galang.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Data/Player/Galang.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Data/Weapon.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Data/Weapon/Bamboo.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Data/Weapon/Bamboo.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Character.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Enemy.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Enemy/EnemyBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Enemy/EnemyBase.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Enemy/EnemyManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Enemy/EnemyManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Player.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Player/PlayerMain.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Player/PlayerMain.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Player/PlayerManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Player/PlayerManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Abstract.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Concrete.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Context.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/Singleton.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/Singleton/MonoSingleton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/Singleton/MonoSingleton.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Enum.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Enum/CharacterEnum.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Enum/CharacterEnum.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Enum/WeaponEnum.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Enum/WeaponEnum.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/ScriptableObject.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/ScriptableObject/DialogueData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/ScriptableObject/DialogueData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/ScriptableObject/PlayerData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/ScriptableObject/PlayerData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/ScriptableObject/WeaponData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/ScriptableObject/WeaponData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Weapon.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Weapon/Components.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Weapon/Components/WeaponComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Weapon/Components/WeaponComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Weapon/WeaponAnimationEventHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Weapon/WeaponAnimationEventHandler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Weapon/WeaponBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Weapon/WeaponBase.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/SceneTemplateSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserSettings/Search.settings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.path-battle-of-surabaya/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.path-battle-of-surabaya/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Dialogue/DLG-P-02 Left.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Dialogue/DLG-P-02 Left.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tileset/1_Kelas/jendela.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Tileset/1_Kelas/jendela.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tileset/1_Kelas/kursi.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Tileset/1_Kelas/kursi.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tileset/1_Kelas/meja.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Tileset/1_Kelas/meja.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tileset/1_Kelas/ubin.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Tileset/1_Kelas/ubin.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tileset/1_Kelas/ventilasi_kanan.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Tileset/1_Kelas/ventilasi_kanan.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tileset/1_Kelas/ventilasi_kiri.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Tileset/1_Kelas/ventilasi_kiri.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tileset/1_Kelas/ventilasi_tengah.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Tileset/1_Kelas/ventilasi_tengah.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/PanelButton/tombol.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/PanelButton/tombol.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/1_Ruang Kelas.ink" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/1_Ruang Kelas.ink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/1_Ruang Kelas.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/1_Ruang Kelas.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-01 Prologue.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-01 Prologue.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +23,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Assets Component/Script/Dialogue System/DialogueController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Assets Component/Script/Game Manager/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -147,6 +102,7 @@
       <workItem from="1678097322285" duration="3339000" />
       <workItem from="1678116610933" duration="4588000" />
       <workItem from="1678172477938" duration="515000" />
+      <workItem from="1679629726927" duration="836000" />
     </task>
     <servers />
   </component>
