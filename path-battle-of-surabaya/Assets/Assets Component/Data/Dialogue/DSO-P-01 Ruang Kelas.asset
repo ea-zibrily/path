@@ -10,12 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fffe15ba4d714ded830349652939fa91, type: 3}
-  m_Name: Prologue Arc
+  m_Name: DSO-P-01 Ruang Kelas
   m_EditorClassIdentifier: 
   characterName: Galang
   characterRole: 0
   storyCount: 3
   <StoryList>k__BackingField:
-  - {fileID: 4900000, guid: 6f399eca18e90ea4687583efc6bdaa29, type: 3}
-  - {fileID: 4900000, guid: 5ff31f41e0b291e4e8827564ea64ce9f, type: 3}
-  - {fileID: 4900000, guid: 59276e47b9bc95b41a2d264d207cf791, type: 3}
+  - {fileID: 4900000, guid: 5e3e4612f2af0d0438fa4a9125de8f93, type: 3}
+  - {fileID: 4900000, guid: 1f29430bc04536e49a3e6deb6aac7bc2, type: 3}

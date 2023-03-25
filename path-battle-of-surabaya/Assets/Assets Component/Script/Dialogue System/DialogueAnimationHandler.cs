@@ -1,10 +1,12 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class DialogueAnimationHandler : MonoBehaviour
 {
-    public bool isDialoguePanelActive { get; private set; }
+    public event Action OnDialoguePanelActive;
+    public event Action OnDialoguePanelNonActive;
 
-    public void DialoguePanelActive() => isDialoguePanelActive = true;
-    public void DialoguePanelNonActive() => isDialoguePanelActive = false;
+    public void DialoguePanelActive() => OnDialoguePanelActive?.Invoke();
+    public void DialoguePanelNonActive() => OnDialoguePanelNonActive?.Invoke();
 
 }

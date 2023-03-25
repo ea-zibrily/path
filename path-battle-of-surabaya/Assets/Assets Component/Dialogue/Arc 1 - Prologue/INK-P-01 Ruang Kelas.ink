@@ -5,9 +5,11 @@ Pada tanggal 10 November terjadi perang di Surabaya yang ... #speaker:Pak Guru #
 
 Jadi begitu anak-anak cerita tentang peristiwa 10 November di Surabaya, ada yang ditanyakan? #speaker:Pak Guru #portrait:pakguru_normal #layout:left
 
-Woi bangun woi! #speaker:Jamet #portrait:jamet_normal #layout:left
+ #layout:closing
 
-Ughhh… udah selesai kah pelajarannya? #speaker:Galang #portrait:galang_normal #layout:left
+Woi bangun woi! #speaker:Jamet #portrait:jamet_normal #layout:left
+ 
+Ughhh… udah selesai kah pelajarannya? #speaker:Galang #portrait:galang_normal #layout:left #layout:opening
 
 Udah selesai kok pelajarannya #speaker:Pak Guru #portrait:pakguru_normal #layout:left
 
@@ -31,21 +33,6 @@ Ba-baik pak #speaker:Galang #portrait:galang_normal #layout:left
 
 Baiklah kalau sudah jelas #speaker:Pak Guru #portrait:pakguru_normal #layout:left
 
-Oke anak-anak bapak akhiri pelajaran hari ini, sampai bertemu minggu depan #speaker:Pak Guru #portrait:pakguru_normal #layout:left
-
-Pak guru meninggalkan kelas
-
-Oi yang dimaksud kunjungan museum tadi apa? #speaker:Galang #portrait:galang_normal #layout:left
-
-Oiya kamu kan tadi tidur #speaker:Jamet #portrait:jamet_normal #layout:left
-
-Jadi untuk pengganti nilai ulangan minggu lalu, kita diajak pak guru untuk mengunjungi museum 10 november akhir bulan nanti #speaker:Jamet #portrait:jamet_normal #layout:left
-
-Pak guru bilang cukup datang dan siswa akan dapat nilai #speaker:Jamet #portrait:jamet_normal #layout:left
-
-APAAAA!!!!! #speaker:Galang #portrait:galang_normal #layout:left
-
-Jadi untuk nilaiku aku harus melaksanakan tugas merepotkan tadi??? #speaker:Galang #portrait:galang_normal #layout:left
-
+Oke anak-anak bapak akhiri pelajaran hari ini, sampai bertemu minggu depan #speaker:Pak Guru #portrait:pakguru_normal #layout:left #timeline: 0
 
 -> END

@@ -33,6 +33,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
 
     private Story currentStory;
     private bool isDialogueEnd;
+    private int timelineIndex;
 
     #endregion
 
@@ -48,6 +49,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     private const string POTRAIT_TAG = "portrait";
     private const string LAYOUT_TAG = "layout";
     private const string ANIMATION_TAG = "animation";
+    private const string TIMELINE_TAG = "timeline";
 
     #endregion
 
@@ -55,16 +57,18 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     
     [Header("Reference")]
     [SerializeField] private Animator characterPanelAnimator;
+    private DialogueController dialogueController;
     private DialogueAnimationHandler dialogueAnimationHandler;
     private Animator dialoguePanelAnimator;
 
     #endregion
-    
+
     protected override void Awake()
     {
         dialoguePanelAnimator = textBoxPanel.GetComponent<Animator>();
         dialogueAnimationHandler = textBoxPanel.GetComponent<DialogueAnimationHandler>();
         myAudio = GetComponent<AudioSource>();
+        dialogueController = GameObject.Find("DialogueController").GetComponent<DialogueController>();
     }
     
     private void Start()
@@ -111,7 +115,10 @@ public class DialogueManager : MonoSingleton<DialogueManager>
                     dialoguePanelAnimator.Play(tagValue);
                     break;
                 case ANIMATION_TAG:
-                    characterPanelAnimator.Play(tagValue);
+                    // Soon
+                    break;
+                case TIMELINE_TAG:
+                    timelineIndex = Convert.ToInt32(tagValue);
                     break;
                 default:
                     Debug.Log("Tagnya gaada kang");
@@ -137,6 +144,9 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     public IEnumerator ExitDialogueMode()
     {
         dialoguePanelAnimator.Play("closing");
+        yield return new WaitForSeconds(0.4f); 
+        
+        SetTimeline();
         yield return new WaitForSeconds(0.2f);
 
         isDialogueActive = false;
@@ -148,11 +158,6 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     {
         if (currentStory.canContinue)
         {
-            if (!isDialogueActive)
-            {
-                return;
-            }
-            
             if (displayLineCoroutine != null)
             {
                 StopCoroutine(displayLineCoroutine);
@@ -174,7 +179,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
         conversationTextUI.text = "";
         isDialogueEnd = false;
         continueObj.SetActive(false);
-        
+
         //display each letter one at the time
         foreach (var letter in newLine.ToCharArray())
         {
@@ -199,6 +204,13 @@ public class DialogueManager : MonoSingleton<DialogueManager>
         continueObj.SetActive(true);
         isDialogueEnd = true;
     }
-
+    
+    private void SetTimeline()
+    {
+        if (timelineIndex < 10)
+        {
+            dialogueController.TimelineList[timelineIndex].playableDirector.Play();
+        }
+    }
 }
 
