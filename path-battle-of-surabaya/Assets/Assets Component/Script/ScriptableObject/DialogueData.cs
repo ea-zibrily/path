@@ -9,12 +9,27 @@ public class DialogueData : ScriptableObject
 {
     [Header("General")] 
     public string arcName;
-    public string characterName;
-    public CharacterRole characterRole;
+    public ActList[] actLists;
     
     [Header("Main Component")]
     public float invokeDelay;
     [field: SerializeField]public bool isDialogueOnFirstTime {get; private set;}
     [field: SerializeField] public TextAsset[] StoryList { get; private set; }
-
+    
+    
+    [Serializable]
+    public class ActList
+    {
+        public string actName;
+        public CharacterList[] characterLists;
+    }
+    
+    [Serializable]
+    public class CharacterList
+    {
+        public string characterName;
+        public CharacterRole characterRole;
+    }
+   
+    
 }

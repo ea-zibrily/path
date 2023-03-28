@@ -2,32 +2,87 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aabeb4e3-0343-4f19-9234-ed470167c51c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Data/Dialogue/DSO-P-02 Bus.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Data/Dialogue/DSO-P-02 Bus.asset.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.path-battle-of-surabaya/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.path-battle-of-surabaya/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Opening/CTS-O-01 Opening.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Opening/CTS-O-01 Opening.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Controller/Character/PakGuruController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Controller/Character/PakGuruController.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/2_Bus/dinding.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/2_Bus/dinding.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/2_Bus/jendela.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/2_Bus/jendela.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/2_Bus/jendela_kanan.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/2_Bus/jendela_kanan.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/2_Bus/jendela_kiri.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/2_Bus/jendela_kiri.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/2_Bus/jendela_tengah.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/2_Bus/jendela_tengah.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/2_Bus/kursi.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/2_Bus/kursi.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/2_Bus/lantai.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/2_Bus/lantai.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Data/Dialogue/DSO-P-01 Ruang Kelas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Data/Dialogue/DSO-P-01 Ruang Kelas.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/INK-P-01 Ruang Kelas.ink" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/INK-P-01 Ruang Kelas.ink" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/INK-P-01 Ruang Kelas.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/INK-P-01 Ruang Kelas.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/INK-P-02 Ruang Kelas.ink" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/INK-P-02 Ruang Kelas.ink" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/INK-P-02 Ruang Kelas.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/INK-P-02 Ruang Kelas.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Timeline/TML-E-00 Empty.playable" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Timeline/TML-E-00 Empty.playable.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Timeline/TML-PG-01 PakGuru Kelas.playable" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Timeline/TML-PG-01 PakGuru Kelas.playable.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/3_Museum.ink" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/3_Museum.ink.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/3_Museum.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/3_Museum.json.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-01 Prologue.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-01 Prologue.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Dialogue System/DialogueController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Dialogue System/DialogueController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Dialogue System/DialogueManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Dialogue System/DialogueManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-02 Prologue.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-02 Prologue.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Game Manager/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Game Manager/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/ScriptableObject/DialogueData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/ScriptableObject/DialogueData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Archived/OldGUIExamplesCS.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Archived/OldGUIExamplesCS.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Archived/TestingPunch.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Archived/TestingPunch.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Archived/TestingRigidbodyCS.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Archived/TestingRigidbodyCS.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/AlphBumps.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/AlphBumps.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/AlphaReadyMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/AlphaReadyMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/DirectionalArrowMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/DirectionalArrowMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/FrictionLess.physicMaterial" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/FrictionLess.physicMaterial" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/Futoro_PlanetMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/Futoro_PlanetMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/Futoro_SineWave.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/Futoro_SineWave.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/Graph.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/Graph.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/GridLines.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/GridLines.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/Ground.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/Ground.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/LineGlowMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/LineGlowMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/Mock2d.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/Mock2d.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/ParticleGlow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/ParticleGlow.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/PointMark.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/PointMark.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/SpaceLineGlowMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/SpaceLineGlowMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/TrackCar.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/TrackCar.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/TrackFollowMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/TrackFollowMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/TrackGlowMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/TrackGlowMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/TrackLines.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/TrackLines.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/TrailFollowMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/TrailFollowMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/WalkingStick.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/WalkingStick.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/LeanTween.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/LeanTween.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/LMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/LMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/LineMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/LineMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/Material.001.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/Material.001.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/Material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/Material_001.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/Material_001.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/No Name.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/No Name.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/SimpleAvatarAlphaBlue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/SimpleAvatarAlphaBlue.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/SimpleAvatarBlue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/SimpleAvatarBlue.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/SimpleAvatarHat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/SimpleAvatarHat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/SimpleAvatarMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/SimpleAvatarMat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/SimpleAvatarSpace.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/SimpleAvatarSpace.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/SubTitleText.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/SubTitleText.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/eanTween.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/eanTween.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Prefabs/Avatar2dParticles.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Prefabs/Avatar2dParticles.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Prefabs/AvatarAlpha.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Prefabs/AvatarAlpha.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Prefabs/AvatarDiffuse 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Prefabs/AvatarDiffuse 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Prefabs/AvatarDiffuse.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Prefabs/AvatarDiffuse.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Prefabs/AvatarEventsCS.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Prefabs/AvatarEventsCS.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Prefabs/AvatarSpace.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Prefabs/AvatarSpace.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Prefabs/AvatarSparkles.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Prefabs/AvatarSparkles.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Prefabs/BasicExamplesText.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Prefabs/BasicExamplesText.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Prefabs/DustCloud.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Prefabs/DustCloud.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Prefabs/GridLine.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Prefabs/GridLine.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Prefabs/Grids.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Prefabs/Grids.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/Following.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/Following.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralAdvancedTechniques.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralAdvancedTechniques.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralBasic.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralBasic.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralBasics2d.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralBasics2d.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralCameraShake.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralCameraShake.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralEasingTypes.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralEasingTypes.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralEvents.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralEvents.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralSequencer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralSequencer.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralSimpleUi.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralSimpleUi.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralUISpace.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralUISpace.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/LogoCinematic.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/LogoCinematic.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/PathBezier.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/PathBezier.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/PathBezier2d.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/PathBezier2d.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/PathSpline2d.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/PathSpline2d.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/PathSplineEndless.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/PathSplineEndless.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/PathSplinePerformance.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/PathSplinePerformance.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/PathSplineTrack.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/PathSplineTrack.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/PathSplines.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/PathSplines.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/TestingUnitTests.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/TestingUnitTests.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/TestingZLegacy.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/TestingZLegacy.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/TestingZLegacyExt.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/TestingZLegacyExt.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RiderFlow.UserData/Editor/Scenes/Sections.Map/cb904475159057a40ad1abfd0ed948fc.userdata" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RiderFlow.UserData/Editor/Scenes/Sections.Map/cb904475159057a40ad1abfd0ed948fc.userdata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
@@ -124,7 +179,8 @@
       <workItem from="1679850965060" duration="2328000" />
       <workItem from="1679853495302" duration="3543000" />
       <workItem from="1679891264396" duration="3989000" />
-      <workItem from="1679973857352" duration="2662000" />
+      <workItem from="1679973857352" duration="3820000" />
+      <workItem from="1680007090055" duration="4428000" />
     </task>
     <servers />
   </component>
