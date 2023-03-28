@@ -34,6 +34,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     private Story currentStory;
     private bool isDialogueEnd;
     private int timelineIndex;
+    private bool isStoryEnd;
 
     #endregion
 
@@ -50,6 +51,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     private const string LAYOUT_TAG = "layout";
     private const string ANIMATION_TAG = "animation";
     private const string TIMELINE_TAG = "timeline";
+    private const string END_TAG = "end";
 
     #endregion
 
@@ -74,6 +76,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     private void Start()
     {
         isDialogueActive = false;
+        isStoryEnd = false;
         textBoxPanel.SetActive(false);
     }
 
@@ -119,6 +122,10 @@ public class DialogueManager : MonoSingleton<DialogueManager>
                     break;
                 case TIMELINE_TAG:
                     timelineIndex = Convert.ToInt32(tagValue);
+                    dialogueController.timelinePlayingIndex = timelineIndex;
+                    break;
+                case END_TAG:
+                    isStoryEnd = Convert.ToBoolean(tagValue);
                     break;
                 default:
                     Debug.Log("Tagnya gaada kang");
@@ -144,11 +151,13 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     public IEnumerator ExitDialogueMode()
     {
         dialoguePanelAnimator.Play("closing");
-        yield return new WaitForSeconds(0.4f); 
-        
+        yield return new WaitForSeconds(0.4f);
         SetTimeline();
+        
+        yield return new WaitForSeconds(2.5f);
+        SetScene();
+        
         yield return new WaitForSeconds(0.2f);
-
         isDialogueActive = false;
         textBoxPanel.SetActive(false);
         conversationTextUI.text = "";
@@ -211,6 +220,15 @@ public class DialogueManager : MonoSingleton<DialogueManager>
         {
             dialogueController.TimelineList[timelineIndex].playableDirector.Play();
         }
+    }
+    private void SetScene()
+    {
+        if (!isStoryEnd)
+        {
+            return;
+        }
+        
+        GameManager.Instance.SceneMoveController(GameManager.NEXT_LEVEL);
     }
 }
 

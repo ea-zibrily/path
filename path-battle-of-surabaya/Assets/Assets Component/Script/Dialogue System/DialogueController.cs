@@ -23,58 +23,50 @@ public class DialogueController : MonoBehaviour
     }
     
     [field: SerializeField] public TimelineLists[] TimelineList { get; private set; }
-    public int timelinePlayingIndex;
+    [HideInInspector] public int timelinePlayingIndex;
     
     #endregion
-    
+
     #region Etc
     
-    private OpeningArcAnimationHandler openingArcAnimationHandler;
     private int storyIndex;
+    private bool isDialogueFirstActive;
+    public bool isStoryEnd;
+    private OpeningArcAnimationHandler openingArcAnimationHandler;
 
     #endregion
     
+    private void Start()
+    {
+        storyIndex = 0;
+        isDialogueFirstActive = DialogueDataSO.isDialogueOnFirstTime;
+        isStoryEnd = false;
+    }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Z))
+        if (!DialogueDataSO.isDialogueOnFirstTime)
         {
-            if (storyIndex < DialogueDataSO.StoryList.Length - 1)
-            {
-                DialogueManager.Instance.EnterDialogueMode(DialogueDataSO.StoryList[storyIndex]);
-                storyIndex++;
-            }
-            else
-            {
-                DialogueManager.Instance.ExitDialogueMode();
-            }
+            return;
         }
 
-        // if (Input.GetKeyDown(KeyCode.Space))
-        // {
-        //     if (DialogueManager.Instance.isDialogueActive)
-        //     {
-        //         if (isDialogueEnd)
-        //         {
-        //             if (storyIndex < dialogueDataSO.storyCount - 1)
-        //             {
-        //                 storyIndex++;
-        //                 DialogueManager.Instance.EnterDialogueMode(dialogueDataSO.StoryList[storyIndex]);
-        //             }
-        //             else
-        //             {
-        //                 DialogueManager.Instance.ExitDialogueMode();
-        //                 GameManager.Instance.SceneController(GameManager.NEXT_LEVEL);
-        //             }
-        //         }
-        //         else
-        //         {
-        //             DialogueManager.Instance.DisplayAllText();
-        //         }
-        //     }
-        // }
-        
+        if (isDialogueFirstActive)
+        {
+            Invoke("EnterDialogue", DialogueDataSO.invokeDelay);
+            isDialogueFirstActive = false;
+        }
     }
 
-
+    public void EnterDialogue()
+    {
+        if (storyIndex <= DialogueDataSO.StoryList.Length - 1)
+        {
+            DialogueManager.Instance.EnterDialogueMode(DialogueDataSO.StoryList[storyIndex]);
+            storyIndex++;
+        }
+        else
+        {
+            DialogueManager.Instance.ExitDialogueMode();
+        }
+    }
 }

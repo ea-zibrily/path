@@ -3,12 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour
+public class GameManager : MonoSingleton<GameManager>
 {
+    #region Game Condition
+
     public const string NEXT_LEVEL = "NextLevel";
     public const string GAME_OVER = "GameOver";
 
-    public void SceneController(string gameCondition)
+    #endregion
+    
+    public void SceneMoveController(string gameCondition)
     {
         switch (gameCondition)
         {

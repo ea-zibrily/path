@@ -3,27 +3,31 @@
   <component name="ChangeListManager">
     <list default="true" id="aabeb4e3-0343-4f19-9234-ed470167c51c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.path-battle-of-surabaya/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.path-battle-of-surabaya/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Dialogue/DLG-P-03 Opening.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Dialogue/DLG-P-03 Opening.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Dialogue/DLG-P-04 Closing.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Dialogue/DLG-P-04 Closing.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/Dialogue.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/Dialogue/ContinueIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/Dialogue/ContinueIcon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Data/Dialogue/Prologue Arc.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Data/Dialogue/Prologue Arc.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/1_Ruang Kelas.ink" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/1_Ruang Kelas.ink.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/1_Ruang Kelas.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/1_Ruang Kelas.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/Abaddon/Abaddon Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/Abaddon/Abaddon Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/Abaddon/Abaddon Light SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/Abaddon/Abaddon Light SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/Peaberry Monospace/Peaberry-Mono SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/Peaberry Monospace/Peaberry-Mono SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Opening/CTS-O-01 Opening.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Opening/CTS-O-01 Opening.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Controller/Character/PakGuruController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Controller/Character/PakGuruController.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/2_Bus/dinding.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/2_Bus/dinding.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/2_Bus/jendela.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/2_Bus/jendela.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/2_Bus/jendela_kanan.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/2_Bus/jendela_kanan.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/2_Bus/jendela_kiri.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/2_Bus/jendela_kiri.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/2_Bus/jendela_tengah.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/2_Bus/jendela_tengah.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/2_Bus/kursi.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/2_Bus/kursi.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/2_Bus/lantai.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/2_Bus/lantai.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Data/Dialogue/DSO-P-01 Ruang Kelas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Data/Dialogue/DSO-P-01 Ruang Kelas.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/INK-P-01 Ruang Kelas.ink" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/INK-P-01 Ruang Kelas.ink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/INK-P-01 Ruang Kelas.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/INK-P-01 Ruang Kelas.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/INK-P-02 Ruang Kelas.ink" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/INK-P-02 Ruang Kelas.ink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/INK-P-02 Ruang Kelas.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/INK-P-02 Ruang Kelas.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Timeline/TML-E-00 Empty.playable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Timeline/TML-E-00 Empty.playable.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Timeline/TML-PG-01 PakGuru Kelas.playable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Timeline/TML-PG-01 PakGuru Kelas.playable.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-01 Prologue.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-01 Prologue.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Dialogue System/DialogueAnimationHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Dialogue System/DialogueAnimationHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Dialogue System/DialogueController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Dialogue System/DialogueController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Dialogue System/DialogueManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Dialogue System/DialogueManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Game Manager/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Game Manager/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/ScriptableObject/DialogueData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/ScriptableObject/DialogueData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
@@ -51,7 +55,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;discord-project&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;discord-application&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -117,6 +121,10 @@
       <workItem from="1679629726927" duration="836000" />
       <workItem from="1679718511184" duration="5032000" />
       <workItem from="1679758381607" duration="9542000" />
+      <workItem from="1679850965060" duration="2328000" />
+      <workItem from="1679853495302" duration="3543000" />
+      <workItem from="1679891264396" duration="3989000" />
+      <workItem from="1679973857352" duration="2662000" />
     </task>
     <servers />
   </component>

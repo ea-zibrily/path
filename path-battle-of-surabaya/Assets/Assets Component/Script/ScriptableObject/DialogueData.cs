@@ -8,11 +8,13 @@ using UnityEngine.Playables;
 public class DialogueData : ScriptableObject
 {
     [Header("General")] 
+    public string arcName;
     public string characterName;
     public CharacterRole characterRole;
     
     [Header("Main Component")]
-    public int storyCount;
+    public float invokeDelay;
+    [field: SerializeField]public bool isDialogueOnFirstTime {get; private set;}
     [field: SerializeField] public TextAsset[] StoryList { get; private set; }
 
 }

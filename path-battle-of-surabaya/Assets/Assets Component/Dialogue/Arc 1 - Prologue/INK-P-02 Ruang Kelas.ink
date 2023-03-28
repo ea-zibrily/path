@@ -10,6 +10,6 @@ Pak guru bilang cukup datang dan siswa akan dapat nilai #speaker:Jamet #portrait
 
 APAAAA!!!!! #speaker:Galang #portrait:galang_normal #layout:left
 
-Jadi untuk nilaiku aku harus melaksanakan tugas merepotkan tadi??? #speaker:Galang #portrait:galang_normal #layout:left #timeline:10
+Jadi untuk nilaiku, aku harus melaksanakan tugas merepotkan tadi??? #speaker:Galang #portrait:galang_normal #layout:left #timeline:10 #end:true
 
 -> END
