@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: DSO-P-02 Bus
   m_EditorClassIdentifier: 
   arcName: Prologue
-  actLists: []
-  invokeDelay: 5
+  actName: 
+  characterList:
+  - characterName: Galang
+    characterRole: 0
+  - characterName: Pak Guru
+    characterRole: 1
+  invokeDelay: 3.5
   <isDialogueOnFirstTime>k__BackingField: 1
   <StoryList>k__BackingField:
   - {fileID: 4900000, guid: a8142d8eb1a612244ab5db0f955f20d0, type: 3}

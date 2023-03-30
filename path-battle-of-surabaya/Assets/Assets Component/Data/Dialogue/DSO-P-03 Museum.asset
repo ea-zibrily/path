@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fffe15ba4d714ded830349652939fa91, type: 3}
+  m_Name: DSO-P-03 Museum
+  m_EditorClassIdentifier: 
+  arcName: Prologue
+  actName: Museum
+  characterList:
+  - characterName: Galang
+    characterRole: 0
+  - characterName: Pak Guru
+    characterRole: 1
+  - characterName: ???
+    characterRole: 1
+  invokeDelay: 3.5
+  <isDialogueOnFirstTime>k__BackingField: 1
+  <StoryList>k__BackingField:
+  - {fileID: 4900000, guid: f1a062b6b0865fb43911c64df2643404, type: 3}
+  - {fileID: 4900000, guid: 1cf995761ef7486458f15d3720cf61ad, type: 3}
+  - {fileID: 4900000, guid: a381e1d6e489f584c9ac545fda317ea9, type: 3}
+  - {fileID: 4900000, guid: 9a7de7a26a9a89a4eb53d71e032843b4, type: 3}
+  - {fileID: 4900000, guid: d48114bb7f8d3ad49af3c6def52c5eb5, type: 3}
+  - {fileID: 4900000, guid: a00ece1836d402c438c429629e854204, type: 3}
+  - {fileID: 4900000, guid: ded9240578fc1f24aaadc226d0144a27, type: 3}

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: DSO-P-01 Ruang Kelas
   m_EditorClassIdentifier: 
   arcName: Prologue
-  characterName: Galang
-  characterRole: 0
+  actName: Class Act
+  characterList: []
   invokeDelay: 9.5
   <isDialogueOnFirstTime>k__BackingField: 1
   <StoryList>k__BackingField:

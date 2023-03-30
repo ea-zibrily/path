@@ -19,7 +19,6 @@ public class MonoSingleton<T> : MonoBehaviour where T : Component
                 {
                     // Jika masih kosong, maka script akan membuat gameObject baru
                     // dengan class yang sama dengan target
-                        
                     GameObject obj = new GameObject();
                     obj.name = typeof(T).Name;
                     _instance = obj.AddComponent<T>();
@@ -35,7 +34,6 @@ public class MonoSingleton<T> : MonoBehaviour where T : Component
         {
             // jika instance masih kosong, derived class (class yang ngeextend MonoSingleton)
             // akan di assign ke instance
-                
             _instance = this as T;
             DontDestroyOnLoad(gameObject);
         }
