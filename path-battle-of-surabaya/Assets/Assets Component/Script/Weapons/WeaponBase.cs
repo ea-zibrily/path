@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Diablo.Utilities;
+using Tsukuyomi.Utilities;
 using UnityEngine.Serialization;
 
 namespace Tsukuyomi.Weapons

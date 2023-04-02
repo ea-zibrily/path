@@ -34,6 +34,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     private Story currentStory;
     private bool isDialogueEnd;
     private int timelineIndex;
+    private int questIndex;
     private bool isStoryEnd;
 
     #endregion
@@ -52,6 +53,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     private const string ANIMATION_TAG = "animation";
     private const string TIMELINE_TAG = "timeline";
     private const string END_TAG = "end";
+    private const string QUEST_TAG = "quest";
 
     #endregion
 
@@ -127,6 +129,9 @@ public class DialogueManager : MonoSingleton<DialogueManager>
                 case END_TAG:
                     isStoryEnd = Convert.ToBoolean(tagValue);
                     break;
+                case QUEST_TAG:
+                    questIndex = Convert.ToInt32(tagValue);
+                    break;
                 default:
                     Debug.Log("Tagnya gaada kang");
                     break;
@@ -153,6 +158,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
         dialoguePanelAnimator.Play("closing");
         yield return new WaitForSeconds(0.4f);
         SetTimeline();
+        // SetQuest();
         
         yield return new WaitForSeconds(2.5f);
         SetScene();
@@ -230,5 +236,13 @@ public class DialogueManager : MonoSingleton<DialogueManager>
         
         GameManager.Instance.SceneMoveController(GameManager.NEXT_LEVEL);
     }
+    // private void SetQuest()
+    // {
+    //     if (questIndex < 15)
+    //     {
+    //         return;
+    //     }
+    //     QuestManager.Instance.EnterQuest(questIndex);
+    // }
 }
 

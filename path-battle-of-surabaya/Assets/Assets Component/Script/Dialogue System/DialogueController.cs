@@ -32,7 +32,6 @@ public class DialogueController : MonoBehaviour
     private int storyIndex;
     private bool isDialogueFirstActive;
     [HideInInspector] public bool isStoryEnd;
-    private OpeningArcAnimationHandler openingArcAnimationHandler;
 
     #endregion
     

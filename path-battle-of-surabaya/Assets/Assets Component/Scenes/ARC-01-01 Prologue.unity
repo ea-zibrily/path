@@ -786,7 +786,7 @@ MonoBehaviour:
   m_text: ' Conversation in here!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6ac39b0c1b3561a4bbaf8a4e73c1c491, type: 2}
-  m_sharedMaterial: {fileID: -4469040885611963885, guid: 6ac39b0c1b3561a4bbaf8a4e73c1c491, type: 2}
+  m_sharedMaterial: {fileID: 7784356470467010062, guid: 6ac39b0c1b3561a4bbaf8a4e73c1c491, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1607,7 +1607,7 @@ MonoBehaviour:
   m_text: Character Name
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6caa0482ffa6a704da659424e925d7a1, type: 2}
-  m_sharedMaterial: {fileID: -6309584908799587929, guid: 6caa0482ffa6a704da659424e925d7a1, type: 2}
+  m_sharedMaterial: {fileID: 5316686211084893528, guid: 6caa0482ffa6a704da659424e925d7a1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6932,7 +6932,7 @@ Transform:
   m_Children:
   - {fileID: 1120176687}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1259643764
 PrefabInstance:
@@ -7394,6 +7394,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4356935185495870779, guid: 192b36cf61f24254b950999387c638d9, type: 3}
   m_PrefabInstance: {fileID: 1468808476}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1483001082
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1483001083}
+  m_Layer: 0
+  m_Name: =====Quest=====
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1483001083
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483001082}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 711.10974, y: 320.30203, z: -0.40260315}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1489785994
 GameObject:
   m_ObjectHideFlags: 0
@@ -7460,7 +7491,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1509157586
 GameObject:

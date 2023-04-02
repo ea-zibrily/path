@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Diablo.Utilities
+namespace Tsukuyomi.Utilities
 {
     public class Timer
     {
