@@ -8,6 +8,7 @@ public class QuestData : ScriptableObject
     [Header("General")]
     public string questName;
     public string questId;
+    public int questNumber;
     [TextArea(3, 10)] public string questDescription;
     public QuestCondition questType;
     public bool isTaskMoreThanOne;
@@ -16,5 +17,8 @@ public class QuestData : ScriptableObject
     [Header("Reward n Goal")]
     public int questReward;
     public int questGoal;
+
+    [Header("Dialogue Component")] 
+    public TextAsset[] questDialogue;
 
 }

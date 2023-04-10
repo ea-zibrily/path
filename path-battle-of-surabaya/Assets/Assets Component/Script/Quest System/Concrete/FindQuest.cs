@@ -1,52 +1,74 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class FindQuest : QuestBase
 {
-    [Header("Scriptable Object Component")]
-    [SerializeField] private QuestData questDataSO;
-
     [Header("Object Component")]
-    [SerializeField] private GameObject[] objTaskList;
-    
-    // Redundant
-    // public Transform objTransform;
-    // public float objRadius;
-    // public LayerMask objLayer;
-    // private Collider2D[] objCollider;
+    [SerializeField] private GameObject[] objectList;
+    private bool isObjectRemainsOne;
+
+    #region MonoBihaviour
+
+    private void Start()
+    {
+        isQuestCompleted = false;
+    }
 
     private void Update()
     {
         QuestActivated();
-        QuestManager.Instance.isQuestCompleted = isQuestCompleted;
+        QuestController();
     }
+    
+    #endregion
 
+    #region Some Method
+
+    private void QuestController()
+    {
+        if (isQuestCompleted)
+        {
+            QuestManager.Instance.CompleteQuestInterface(QuestDataSO);
+        }
+        else
+        {
+            QuestManager.Instance.ActiveQuestInterface(QuestDataSO);
+        }
+    }
+    
     public override void QuestActivated()
     {
-        QuestManager.Instance.SetQuestInterface(questDataSO);
-        isQuestCompleted = false;
+        if (!isObjectRemainsOne)
+        {
+            return;
+        }
+        
+        EnterQuestDialogue();
     }
 
     public override void QuestCompleted()
     {
         isQuestCompleted = true;
+        QuestManager.Instance.SubQuestIndex = 0;
     }
     
-    private void OnTriggerEnter2D(Collider2D col)
+    private void OnTriggerEnter2D(Collider2D collider)
     {
-        for (int i = 0; i < objTaskList.Length; i++)
+        for (int i = 0; i < objectList.Length; i++)
         {
-            if (objTaskList.Length != questDataSO.subTaskCount)
+            if (objectList.Length != QuestDataSO.subTaskCount)
             {
                 return;
             }
             
-            if (col.gameObject == objTaskList[i])
+            if (collider.gameObject == objectList[i])
             {
                 QuestManager.Instance.SubQuestIndex++;
-                col.gameObject.GetComponentInChildren<Collider2D>().enabled = false;
+                collider.gameObject.GetComponentInChildren<Collider2D>().enabled = false;
                 
-                if (QuestManager.Instance.SubQuestIndex >= objTaskList.Length)
+                isObjectRemainsOne = QuestManager.Instance.SubQuestIndex == objectList.Length - 1;
+                if (QuestManager.Instance.SubQuestIndex >= objectList.Length)
                 {
                     Debug.Log("Completed");
                     QuestCompleted();
@@ -55,6 +77,17 @@ public class FindQuest : QuestBase
         }
     }
 
+    #endregion
+
+    #region Redundant Code
+    
+    // Some Variable
+    // public Transform objTransform;
+    // public float objRadius;
+    // public LayerMask objLayer;
+    // private Collider2D[] objCollider;
+    
+    // Some Method
     // private void CheckObjectTask()
     // {
     //     objCollider = Physics2D.OverlapCircleAll(objTransform.position, objRadius, objLayer);
@@ -79,6 +112,7 @@ public class FindQuest : QuestBase
     //     Gizmos.DrawWireSphere(objTransform.position, objRadius);
     // }
     
+    #endregion
     
 }
     

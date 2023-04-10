@@ -1601,6 +1601,7 @@ GameObject:
   - component: {fileID: 702234750}
   - component: {fileID: 702234752}
   - component: {fileID: 702234751}
+  - component: {fileID: 702234753}
   m_Layer: 5
   m_Name: Continue
   m_TagString: Untagged
@@ -1666,6 +1667,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 702234749}
   m_CullTransparentMesh: 1
+--- !u!95 &702234753
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702234749}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3c34cc67e1e02484ea5c9c5cf9cfee4d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!4 &706864506 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2551678701468488517, guid: a5cb5cbb26e6b5643be59f9eeede317b, type: 3}
@@ -2367,7 +2388,7 @@ MonoBehaviour:
   m_text: Character Name
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6caa0482ffa6a704da659424e925d7a1, type: 2}
-  m_sharedMaterial: {fileID: -6309584908799587929, guid: 6caa0482ffa6a704da659424e925d7a1, type: 2}
+  m_sharedMaterial: {fileID: 5316686211084893528, guid: 6caa0482ffa6a704da659424e925d7a1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6432,7 +6453,7 @@ MonoBehaviour:
   m_text: ' Conversation in here!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6ac39b0c1b3561a4bbaf8a4e73c1c491, type: 2}
-  m_sharedMaterial: {fileID: -4469040885611963885, guid: 6ac39b0c1b3561a4bbaf8a4e73c1c491, type: 2}
+  m_sharedMaterial: {fileID: 7784356470467010062, guid: 6ac39b0c1b3561a4bbaf8a4e73c1c491, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
