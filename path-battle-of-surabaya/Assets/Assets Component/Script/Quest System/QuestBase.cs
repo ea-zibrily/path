@@ -6,6 +6,7 @@ public abstract class QuestBase : MonoBehaviour
     #region ScriptableObject
 
     [field: SerializeField] public QuestData QuestDataSO { get; private set; }
+    public DialogueController DialogueController { get; private set; }
 
     #endregion
 
@@ -19,6 +20,7 @@ public abstract class QuestBase : MonoBehaviour
     private void Awake()
     {
         storyIndex = 0;
+        DialogueController = GameObject.Find("DialogueController").GetComponent<DialogueController>();
     }
 
     public abstract void QuestActivated();

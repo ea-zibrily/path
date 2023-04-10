@@ -61,7 +61,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     
     [Header("Reference")]
     [SerializeField] private Animator characterPanelAnimator;
-    // private DialogueController dialogueController;
+    private DialogueController dialogueController;
     private DialogueAnimationHandler dialogueAnimationHandler;
     private Animator dialoguePanelAnimator;
 
@@ -72,7 +72,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
         dialoguePanelAnimator = textBoxPanel.GetComponent<Animator>();
         dialogueAnimationHandler = textBoxPanel.GetComponent<DialogueAnimationHandler>();
         myAudio = GetComponent<AudioSource>();
-        // dialogueController = GameObject.Find("DialogueController").GetComponent<DialogueController>();
+        dialogueController = GameObject.Find("DialogueController").GetComponent<DialogueController>();
     }
     
     private void Start()
@@ -157,9 +157,9 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     {
         dialoguePanelAnimator.Play("closing");
         yield return new WaitForSeconds(0.4f);
-        // SetTimeline();
-        // SetQuest();
-        
+        SetQuest();
+        SetTimeline();
+
         yield return new WaitForSeconds(2.5f);
         SetScene();
         
@@ -220,29 +220,28 @@ public class DialogueManager : MonoSingleton<DialogueManager>
         isDialogueEnd = true;
     }
     
-    // private void SetTimeline()
-    // {
-    //     if (timelineIndex < 10)
-    //     {
-    //         dialogueController.TimelineList[timelineIndex].playableDirector.Play();
-    //     }
-    // }
+    private void SetTimeline()
+    {
+        if (timelineIndex < 10)
+        {
+            dialogueController.TimelineList[timelineIndex].playableDirector.Play();
+        }
+    }
     private void SetScene()
     {
         if (!isStoryEnd)
         {
             return;
         }
-        
         GameManager.Instance.SceneMoveController(GameManager.NEXT_LEVEL);
     }
-    // private void SetQuest()
-    // {
-    //     if (questIndex < 15)
-    //     {
-    //         return;
-    //     }
-    //     QuestManager.Instance.EnterQuest(questIndex);
-    // }
+    private void SetQuest()
+    {
+        if (questIndex > 15)
+        {
+            return;
+        }
+        QuestManager.Instance.EnterQuest(questIndex);
+    }
 }
 

@@ -42,7 +42,7 @@ public class QuestManager : MonoSingleton<QuestManager>
     
     public void EnterQuest(int questIndex)
     {
-        questList[questIndex].gameObject.SetActive(true);
+        questList[questIndex].SetActive(true);
     }
 
     public void ActiveQuestInterface(QuestData questData)
@@ -50,7 +50,7 @@ public class QuestManager : MonoSingleton<QuestManager>
         questPanel.SetActive(true);
         questAnimator.Play("QuestOpening");
         questNumberText.text = questData.questNumber.ToString();
-        questDescriptionText.text = questData.questName;
+        questDescriptionText.text = questData.questDescription;
         
         if (questData.isTaskMoreThanOne)
         {
@@ -68,12 +68,20 @@ public class QuestManager : MonoSingleton<QuestManager>
     public void CompleteQuestInterface(QuestData questData)
     {
         questAnimator.Play("QuestClosing");
-        questPanel.SetActive(false);
+        // yield return new WaitForSeconds(0.5f);
+        // questPanel.SetActive(false);
 
         if (questData.isTaskMoreThanOne)
         {
             subQuestAnimator.Play("SubQuestClosing");
+            // yield return new WaitForSeconds(0.5f);
+            SubQuestIndex = 0;
+            // subQuestPanel.SetActive(false);
+        }
+        else
+        {
             subQuestPanel.SetActive(false);
+            subQuestCountText.text = "";
         }
     }
     

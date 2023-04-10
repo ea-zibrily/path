@@ -1,12 +1,16 @@
-Di pintu masuk museum terdapat sebuah peta besar seperti denah museum yang terdapat nama di setiap ruangannya. Aku langsung mencari dan menghafal nama ruangan yang aku gunakan sebagai tempatku kabur dari rombongan pak guru. Begitu selesai dan menghafal nama ruangan yang menurutku pas untuk tempat singgah, aku pun kembali ke rombongan pak guru. Kami berhenti di depan sebuah patung yang aku tidak tau sama sekali patung apa itu #speaker:  #portrait:empty  #layout:naratoropen 
+Ohh ternyata denah museum. Kalau dilihat-lihat lagi lengkap juga ya, ada nama di setiap ruangannya.  #speaker:Galang #portrait:galang_normal #layout:opening
 -> main
 
 ==main==
 
-Jadi seperti yang bapak ceritakan minggu kemain ini adalah... #speaker:PakGuru #portrait:pakguru_normal #layout:left
+Setelah melihat denah besar itu, aku langsung berpikiran untuk menghafal denah salah satu ruangan yang dapat digunakan untuk bersembunyi dari Bu Guru. #speaker:  #portrait:empty  #layout:narator
 
-Pak guru sedang fokus menjelaskan ke siswa lain, sepertinya ini kesempatanku untuk kabur dan pergi ke ruangan yang aku tandai tadi #speaker:Galang #portrait:galang_normal #layout:left
+Sepertinya aku sudah hafal semua ruangannya, aku harus segera kembali ke rombongan Bu Guru. #speaker:Galang #portrait:galang_normal #layout:left #quest:1
 
-Dengan cepat aku pun kabur dan pergi ke ruangan lain saat pak guru fokus bercerita. #speaker:  #portrait:empty  #layout:naratoropen #timeline:0
+Begitu selesai dan menghafal nama ruangan yang menurutku pas untuk tempat singgah, aku pun kembali ke rombongan pak guru. Kami berhenti di depan sebuah patung yang aku tidak tau sama sekali patung apa itu #speaker:  #portrait:empty  #layout:narator
+
+Jadi seperti yang bapak ceritakan minggu kemain ini adalah... #speaker:Bu Guru #portrait:pakguru_normal #layout:left
+
+Pak guru sedang fokus menjelaskan ke siswa lain, sepertinya ini kesempatanku untuk kabur dan pergi ke ruangan yang aku tandai tadi #speaker:Galang #portrait:galang_normal #layout:left #quest:2
 
 -> END

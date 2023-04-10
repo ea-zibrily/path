@@ -11,7 +11,6 @@ public class PlayerMain : MonoBehaviour
     [Header("Player Movement Component")]
     [SerializeField] private float normalSpeed;
     public Vector2 movementDirection;
-    public string[] directionName;
 
     [Space]
     public bool isSprint;
@@ -21,6 +20,8 @@ public class PlayerMain : MonoBehaviour
     [Header("Reference")]
     private Rigidbody2D myRb;
     private Animator myAnim;
+
+    #region MonoBehaviour Method
 
     private void Awake()
     {
@@ -50,21 +51,28 @@ public class PlayerMain : MonoBehaviour
         #endregion
     }
 
-    void PlayerMovement()
+    #endregion
+
+    #region Tsukuyomi Method
+
+    private void PlayerMovement()
     {
-        if (!isPlayerAttack)
+        if (isPlayerAttack || DialogueManager.Instance.isDialogueActive)
         {
-            float x, y;
-            x = Input.GetAxisRaw("Horizontal");
-            y = Input.GetAxisRaw("Vertical");
-        
-            movementDirection = new Vector2(x, y); 
-            movementDirection.Normalize();
-            myRb.velocity = movementDirection * playerDataSO.originalSpeed;
+            SetZeroVelocity();
+            return;
         }
+        
+        float x, y;
+        x = Input.GetAxisRaw("Horizontal");
+        y = Input.GetAxisRaw("Vertical");
+        
+        movementDirection = new Vector2(x, y); 
+        movementDirection.Normalize();
+        myRb.velocity = movementDirection * playerDataSO.originalSpeed;
     }
 
-    void PlayerMovementAnimation()
+    private void PlayerMovementAnimation()
     {
         if (myRb.velocity != Vector2.zero)
         {
@@ -78,7 +86,7 @@ public class PlayerMain : MonoBehaviour
         }
     }
 
-    void PlayerSprint()
+    private void PlayerSprint()
     {
         if (PlayerManager.Instance.isEnergyRegen)
         {
@@ -86,16 +94,18 @@ public class PlayerMain : MonoBehaviour
             normalSpeed = isSprint ? playerDataSO.sprintSpeed : playerDataSO.originalSpeed;
         }
     }
+    
     public void SetVelocity(Vector2 direction, float velocity)
     {
         myRb.velocity = direction * velocity;
     }
-   
-    
+
     public void SetZeroVelocity()
     {
         myRb.velocity = Vector2.zero;
     }
+    
+    #endregion
 }
 
 

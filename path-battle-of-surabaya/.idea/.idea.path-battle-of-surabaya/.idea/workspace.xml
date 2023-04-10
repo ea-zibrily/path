@@ -3,26 +3,40 @@
   <component name="ChangeListManager">
     <list default="true" id="aabeb4e3-0343-4f19-9234-ed470167c51c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.path-battle-of-surabaya/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.path-battle-of-surabaya/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Dialogue/DLG-B-01 ContinueButton.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Dialogue/DLG-B-01 ContinueButton.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Data/Quest/QST-P-01 DefeatEnemy.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Data/Quest/QST-P-01 DefeatEnemy.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Galang/Non-Story/ANM-I-01 Idle Right.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Galang/Non-Story/ANM-I-01 Idle Right.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Galang/Non-Story/ANM-I-02 Idle Left.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Galang/Non-Story/ANM-I-02 Idle Left.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Galang/Non-Story/ANM-I-03 Idle Top.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Galang/Non-Story/ANM-I-03 Idle Top.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Galang/Non-Story/ANM-I-04 Idle Down.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Galang/Non-Story/ANM-I-04 Idle Down.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Galang/Non-Story/ANM-W-01 Walk Right.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Galang/Non-Story/ANM-W-01 Walk Right.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Galang/Non-Story/ANM-W-02 Walk Left.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Galang/Non-Story/ANM-W-02 Walk Left.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Galang/Non-Story/ANM-W-03 Walk Top.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Galang/Non-Story/ANM-W-03 Walk Top.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Galang/Non-Story/ANM-W-04 Walk Down.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Galang/Non-Story/ANM-W-04 Walk Down.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Quest/SubQuestClosing.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Quest/SubQuestClosing.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Quest/SubQuestOpening.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Quest/SubQuestOpening.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Data/Dialogue/DSO-P-03 Museum.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Data/Dialogue/DSO-P-03 Museum.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Data/Quest/QST-P-01 FindObject.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Data/Quest/QST-P-01 FindObject.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/01_Kelas/INK-P-01 Ruang Kelas.ink" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/01_Kelas/INK-P-01 Ruang Kelas.ink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/01_Kelas/INK-P-01 Ruang Kelas.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/01_Kelas/INK-P-01 Ruang Kelas.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/01_Kelas/INK-P-02 Ruang Kelas.ink" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/01_Kelas/INK-P-02 Ruang Kelas.ink.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/01_Kelas/INK-P-02 Ruang Kelas.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/01_Kelas/INK-P-02 Ruang Kelas.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/02_Bus/INK-P-03 Bus.ink" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/02_Bus/INK-P-03 Bus.ink.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/02_Bus/INK-P-03 Bus.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/02_Bus/INK-P-03 Bus.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-04 Museum.ink" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-04 Museum.ink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-04 Museum.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-04 Museum.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/8 Bit Limit/8-bit-limit.brk SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/8 Bit Limit/8-bit-limit.brk SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/8 Bit Limit/8-bit-limit.o-brk SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/8 Bit Limit/8-bit-limit.o-brk SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/8 Bit Limit/8-bit-limit.r-brk SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/8 Bit Limit/8-bit-limit.r-brk SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/8 Bit Limit/8-bit-limit.ro-brk SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/8 Bit Limit/8-bit-limit.ro-brk SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/Abaddon/Abaddon Light SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/Abaddon/Abaddon Light SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-01 Prologue.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-01 Prologue.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-02 Prologue.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-02 Prologue.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-03 Prologue.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-03 Prologue.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Player/PlayerMain.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Player/PlayerMain.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Dialogue System/DialogueController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Dialogue System/DialogueController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Dialogue System/DialogueManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Dialogue System/DialogueManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/Concrete/FindQuest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/Concrete/FindQuest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/QuestBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/QuestBase.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/QuestManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/QuestManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/ScriptableObject/QuestData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/ScriptableObject/QuestData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/dummy.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/dummy.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
@@ -34,6 +48,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Assets Component/Script/Dialogue System/DialogueController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Assets Component/Script/Game Manager/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/Concrete/MoveToObject.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -138,6 +153,7 @@
       <workItem from="1680811615713" duration="845000" />
       <workItem from="1681013627850" duration="8690000" />
       <workItem from="1681095870255" duration="4417000" />
+      <workItem from="1681111435001" duration="7961000" />
     </task>
     <servers />
   </component>

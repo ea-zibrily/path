@@ -8,7 +8,7 @@ public class FindQuest : QuestBase
     [SerializeField] private GameObject[] objectList;
     private bool isObjectRemainsOne;
 
-    #region MonoBihaviour
+    #region MonoBehaviour Method
 
     private void Start()
     {
@@ -23,19 +23,7 @@ public class FindQuest : QuestBase
     
     #endregion
 
-    #region Some Method
-
-    private void QuestController()
-    {
-        if (isQuestCompleted)
-        {
-            QuestManager.Instance.CompleteQuestInterface(QuestDataSO);
-        }
-        else
-        {
-            QuestManager.Instance.ActiveQuestInterface(QuestDataSO);
-        }
-    }
+    #region Tsukuyomi Method
     
     public override void QuestActivated()
     {
@@ -50,9 +38,23 @@ public class FindQuest : QuestBase
     public override void QuestCompleted()
     {
         isQuestCompleted = true;
-        QuestManager.Instance.SubQuestIndex = 0;
+        gameObject.SetActive(false);
     }
     
+    private void QuestController()
+    {
+        if (isQuestCompleted)
+        {
+            // StartCoroutine(QuestManager.Instance.CompleteQuestInterface(QuestDataSO));
+            QuestManager.Instance.CompleteQuestInterface(QuestDataSO);
+        }
+        else
+        {
+            // StartCoroutine(QuestManager.Instance.ActiveQuestInterface(QuestDataSO));
+            QuestManager.Instance.ActiveQuestInterface(QuestDataSO);
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D collider)
     {
         for (int i = 0; i < objectList.Length; i++)
@@ -71,7 +73,7 @@ public class FindQuest : QuestBase
                 if (QuestManager.Instance.SubQuestIndex >= objectList.Length)
                 {
                     Debug.Log("Completed");
-                    QuestCompleted();
+                    Invoke("QuestCompleted", 2f);
                 }
             }
         }

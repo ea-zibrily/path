@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 123d625a4b06c1b4c930eb1f9f637911, type: 3}
-  m_Name: QST-P-01 FindObject
+  m_Name: QST-P-00 FindObject
   m_EditorClassIdentifier: 
   questName: Cari Ruangan
-  questId: QST-P-01
+  questId: QST-P-00
+  questNumber: 0
   questDescription: Cari ruangan yang mantap buat kabur!
   questType: 0
   isTaskMoreThanOne: 1

@@ -29,7 +29,7 @@ public class DialogueController : MonoBehaviour
 
     #region Etc
     
-    private int storyIndex;
+    [SerializeField] private int storyIndex;
     private bool isDialogueFirstActive;
     [HideInInspector] public bool isStoryEnd;
 

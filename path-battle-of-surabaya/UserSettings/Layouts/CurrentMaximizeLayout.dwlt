@@ -224,9 +224,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 76630000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 02fbffffe862000004630000c0630000d26300004a640000
+      m_SelectedIDs: aa74ffff
+      m_LastClickedID: -35670
+      m_ExpandedIDs: 7075ffff02fbffffe86200000e630000ba630000d4630000026400004e6400005a6400008264000086640000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -322,9 +322,9 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -141, y: 149}
+      snapOffset: {x: -141, y: -134.19998}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 1
+      snapCorner: 3
       id: unity-grid-and-snap-toolbar
       index: 2
       layout: 1
@@ -553,9 +553,9 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 150, y: 150}
+      snapOffset: {x: 150, y: -133.19998}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
+      snapCorner: 2
       id: RiderFlow.SceneToolbar
       index: 0
       layout: 1
@@ -569,9 +569,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1190.1407, y: 509.99615, z: -3.0545688}
+    m_Target: {x: 7.596944, y: 2.449768, z: 11.710394}
     speed: 2
-    m_Value: {x: 1190.1407, y: 509.99615, z: -3.0545688}
+    m_Value: {x: 7.596944, y: 2.449768, z: 11.710394}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -622,9 +622,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 408.01434
+    m_Target: 6.7642365
     speed: 2
-    m_Value: 408.01434
+    m_Value: 6.7642365
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -748,22 +748,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Assets Component/Art/UI/PanelButton
+    - Assets/Assets Component/Data/Quest
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Assets Component/Art/UI/PanelButton
+  - Assets/Assets Component/Data/Quest
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\LENOVO\Documents\Game Development\Project\path\path-battle-of-surabaya
   m_LockTracker:
     m_IsLocked: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 334.2}
-    m_SelectedIDs: ae6d0000
-    m_LastClickedID: 28078
-    m_ExpandedIDs: 00000000bc680000be680000c0680000c2680000c4680000c6680000c8680000ca680000cc680000ce680000d0680000d2680000d4680000d6680000d8680000da680000dc680000de680000e0680000
+    scrollPos: {x: 0, y: 398.2}
+    m_SelectedIDs: 106c0000
+    m_LastClickedID: 27664
+    m_ExpandedIDs: 00000000d8680000da680000dc680000de680000e0680000e2680000e4680000e6680000e8680000ea680000ec680000ee680000f0680000f2680000f4680000f6680000f8680000fa680000fc68000034690000a475000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -791,7 +791,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000bc680000be680000c0680000c2680000c4680000c6680000c8680000ca680000cc680000ce680000d0680000d2680000d4680000d6680000d8680000da680000dc680000de680000e0680000
+    m_ExpandedIDs: 00000000d8680000da680000dc680000de680000e0680000e2680000e4680000e6680000e8680000ea680000ec680000ee680000f0680000f2680000f4680000f6680000f8680000fa680000fc680000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -816,8 +816,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 72630000
-    m_LastClickedInstanceID: 25458
+    m_SelectedInstanceIDs: 02640000
+    m_LastClickedInstanceID: 25602
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000a87700001a75000020ef00008c870000c0640000d6640000
     m_RenameOverlay:
@@ -905,7 +905,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 25462
+  m_LastSelectedObjectID: 25770
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -948,6 +948,8 @@ MonoBehaviour:
     - {fileID: -504984503290460072, guid: 0067c2d05e4e07a45a922802fa4f8d6b, type: 2}
     - {fileID: 1991969759772425097, guid: a98c145f1df0daa41a13148c39e576f2, type: 2}
     - {fileID: -6735193293796679566, guid: a98c145f1df0daa41a13148c39e576f2, type: 2}
+    - {fileID: 4003106926136859176, guid: ea94d1fc3ababa74494cdc907bc3187e, type: 2}
+    - {fileID: -86774571104925438, guid: c06f5a14bc6033b42868f8700528f2fe, type: 2}
     m_ValueSerializationHelper:
     - e00: 0.83407414
       e01: 0
@@ -968,7 +970,7 @@ MonoBehaviour:
     - e00: 0.8661539
       e01: 0
       e02: 0
-      e03: 1.7384338
+      e03: 0.53848267
       e10: 0
       e11: 0.8661539
       e12: 0
@@ -1141,10 +1143,42 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+    - e00: 0.93600005
+      e01: 0
+      e02: 0
+      e03: -31.799957
+      e10: 0
+      e11: 0.93600005
+      e12: 0
+      e13: 5.920006
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.93600005
+      e01: 0
+      e02: 0
+      e03: -31.799988
+      e10: 0
+      e11: 0.93600005
+      e12: 0
+      e13: 5.919998
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: e82f6d9b6766a0f4a9e9b208e74944c9, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: f84c7df83834d344daf2754f285c83c6, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: -772182050332247164, guid: e82f6d9b6766a0f4a9e9b208e74944c9, type: 2}
+  - m_Target: {fileID: 1991969759772425097, guid: f84c7df83834d344daf2754f285c83c6, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -1179,7 +1213,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 529.60004
-    width: 1171
+    width: 1168.6
     height: 293.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
