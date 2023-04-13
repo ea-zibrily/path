@@ -18,5 +18,5 @@ MonoBehaviour:
   invokeDelay: 9.5
   <isDialogueOnFirstTime>k__BackingField: 1
   <StoryList>k__BackingField:
+  - {fileID: 4900000, guid: 724d52481eb61544aa2029e84db32767, type: 3}
   - {fileID: 4900000, guid: 5e3e4612f2af0d0438fa4a9125de8f93, type: 3}
-  - {fileID: 4900000, guid: 1f29430bc04536e49a3e6deb6aac7bc2, type: 3}

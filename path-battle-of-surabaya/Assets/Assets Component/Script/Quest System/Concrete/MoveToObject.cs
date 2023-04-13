@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -54,5 +55,10 @@ public class MoveToObject : QuestBase
             QuestCompleted();
         }
     }
-    
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.black;
+        Gizmos.DrawWireSphere(objTransform.position, objRadius);
+    }
 }
