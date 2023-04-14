@@ -57,11 +57,11 @@ public class PlayerMain : MonoBehaviour
 
     private void PlayerMovement()
     {
-        if (isPlayerAttack || DialogueManager.Instance.isDialogueActive)
-        {
-            SetZeroVelocity();
-            return;
-        }
+        // if (isPlayerAttack || DialogueManager.Instance.isDialogueActive)
+        // {
+        //     SetZeroVelocity();
+        //     return;
+        // }
         
         float x, y;
         x = Input.GetAxisRaw("Horizontal");
@@ -69,7 +69,7 @@ public class PlayerMain : MonoBehaviour
         
         movementDirection = new Vector2(x, y); 
         movementDirection.Normalize();
-        myRb.velocity = movementDirection * playerDataSO.originalSpeed;
+        myRb.velocity = movementDirection * normalSpeed;
     }
 
     private void PlayerMovementAnimation()

@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerName: Galang
   originalSpeed: 5
-  sprintSpeed: 8
+  sprintSpeed: 7

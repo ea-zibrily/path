@@ -41,7 +41,7 @@ public class PlayerManager : MonoSingleton<PlayerManager>
     public Image experienceBar;
     
     [Header("Reference")]
-    PlayerMain playerMain;
+    private PlayerMain playerMain;
 
     protected override void Awake()
     {
@@ -89,13 +89,13 @@ public class PlayerManager : MonoSingleton<PlayerManager>
         return currentHealth;
     }
 
-    void HealthInterface()
+    private void HealthInterface()
     {
         float currentColor = 1 - (currentHealth / maxHealth);
         healthEffect.color = new Color(0, 0, 0, currentColor);
     }
 
-    void DecreaseEnergy()
+    private void DecreaseEnergy()
     {
         if (playerMain.isSprint && currentEnergy >= 0)
         {
@@ -103,7 +103,7 @@ public class PlayerManager : MonoSingleton<PlayerManager>
         }
     }
 
-    void IncreaseEnergy()
+    private void IncreaseEnergy()
     {
         if (!playerMain.isSprint && currentEnergy <= maxEnergy)
         {
@@ -117,7 +117,7 @@ public class PlayerManager : MonoSingleton<PlayerManager>
         }
     }
 
-    void EnergyInterface()
+    private void EnergyInterface()
     {
         energyBar.fillAmount = currentEnergy / maxEnergy;
 
@@ -145,7 +145,7 @@ public class PlayerManager : MonoSingleton<PlayerManager>
         return currentExperience;
     }
 
-    void ExperienceInterface()
+    private void ExperienceInterface()
     {
         experienceBar.fillAmount = currentExperienceProgress / maxExperienceProgress;
 
