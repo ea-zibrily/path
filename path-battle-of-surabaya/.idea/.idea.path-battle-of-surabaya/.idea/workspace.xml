@@ -2,18 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aabeb4e3-0343-4f19-9234-ed470167c51c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Enum/TeleportEnum.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Enum/TeleportEnum.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.path-battle-of-surabaya/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.path-battle-of-surabaya/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Controller/Character/GalangController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Controller/Character/GalangController.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Data/Dialogue/DSO-P-01 Ruang Kelas.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Data/Dialogue/DSO-P-01 Ruang Kelas.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Data/Dialogue/DSO-P-02 Bus.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Data/Dialogue/DSO-P-02 Bus.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Data/Dialogue/DSO-P-03 Museum.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Data/Dialogue/DSO-P-03 Museum.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Data/Player/Galang.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Data/Player/Galang.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Opening.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Opening/CTS-O-01 Opening.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Opening/CTS-O-01 Opening.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Controller/Opening.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Controller/Opening/Opening.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Controller/Opening/Opening/OpeningController.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Controller/Opening/Opening/OpeningController.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-01 Prologue.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-01 Prologue.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-02 Prologue.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-02 Prologue.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-03 Prologue.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-03 Prologue.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-02-01 Tempat Berkumpul.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-02-01 Tempat Berkumpul.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Player/PlayerMain.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Player/PlayerMain.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Player/PlayerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Player/PlayerManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/NewBehaviourScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/NewBehaviourScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/NewBehaviourScript1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/NewBehaviourScript1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RiderFlow.UserData/Editor/Scenes/Sections.Map/118fa4112ddad614a869ca5853fa51a8.userdata" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RiderFlow.UserData/Editor/Scenes/Sections.Map/118fa4112ddad614a869ca5853fa51a8.userdata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
@@ -26,9 +33,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Assets Component/Script/Dialogue System/DialogueController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Assets Component/Script/Game Manager/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Assets Component/Script/NewBehaviourScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Assets Component/Script/NewBehaviourScript1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/Concrete/MoveToObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Assets Component/Script/World/TeleporterEventHandler.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -137,6 +143,7 @@
       <workItem from="1681245100488" duration="636000" />
       <workItem from="1681452912284" duration="1274000" />
       <workItem from="1681454512549" duration="3273000" />
+      <workItem from="1681529127169" duration="4340000" />
     </task>
     <servers />
   </component>

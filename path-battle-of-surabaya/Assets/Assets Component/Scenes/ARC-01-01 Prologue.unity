@@ -8440,7 +8440,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1845180477}
-  - component: {fileID: 1845180478}
   m_Layer: 5
   m_Name: Fader
   m_TagString: Untagged
@@ -8469,26 +8468,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!95 &1845180478
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1845180476}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 91c59c0f161bae34f9c6ee5533eb370f, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
 --- !u!1001 &1910763453
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9327,6 +9306,7 @@ MonoBehaviour:
   - timelineName: Pak guru keluar kelas
     playableDirector: {fileID: 1727835103}
   timelinePlayingIndex: 0
+  storyIndex: 0
   isStoryEnd: 0
 --- !u!1 &2146574704
 GameObject:
