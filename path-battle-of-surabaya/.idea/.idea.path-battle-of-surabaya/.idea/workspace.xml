@@ -2,27 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aabeb4e3-0343-4f19-9234-ed470167c51c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Enum/TeleportEnum.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Enum/TeleportEnum.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/BurstAotSettings_Android.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/BurstAotSettings_StandaloneWindows.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/BurstAotSettings_WSAPlayer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/BurstAotSettings_WebGL.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/BurstAotSettings_iOS.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/CommonBurstAotSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.path-battle-of-surabaya/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.path-battle-of-surabaya/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Opening.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Opening/CTS-O-01 Opening.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Opening/CTS-O-01 Opening.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Controller/Opening.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Controller/Opening/Opening.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Controller/Opening/Opening/OpeningController.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Controller/Opening/Opening/OpeningController.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tile Pallete/01_Kelas/PLT-01-01 Class.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tile Pallete/01_Kelas/PLT-01-01 Class.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tile Pallete/02_Bus/PLT-PG-02 Bus.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tile Pallete/02_Bus/PLT-PG-02 Bus.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/BusChair.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/BusChair.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/Chair n Table.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/Chair n Table.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/Empty.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/Empty.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-01 Prologue.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-01 Prologue.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-02 Prologue.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-02 Prologue.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-03 Prologue.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-03 Prologue.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-02-01 Tempat Berkumpul.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-02-01 Tempat Berkumpul.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/NewBehaviourScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/NewBehaviourScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/NewBehaviourScript1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/NewBehaviourScript1.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RiderFlow.UserData/Editor/Scenes/Sections.Map/118fa4112ddad614a869ca5853fa51a8.userdata" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RiderFlow.UserData/Editor/Scenes/Sections.Map/118fa4112ddad614a869ca5853fa51a8.userdata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Enum/TeleportEnum.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Enum/TeleportEnum.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/World/TeleporterManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/World/TeleporterManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Submodules.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Submodules/CSharpGenerator.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Submodules/CSharpGenerator/CSharpGenerator.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Submodules/CSharpGenerator/CSharpGenerator.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Submodules/CSharpGenerator/Demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Submodules/CSharpGenerator/Demo/CSharpGeneratorDemo.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Submodules/CSharpGenerator/Demo/CSharpGeneratorDemo.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Submodules/CSharpGenerator/Demo/Demo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Submodules/CSharpGenerator/Demo/Demo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Submodules/CSharpGenerator/Demo/GeneratedDemoScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Submodules/CSharpGenerator/Demo/GeneratedDemoScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Submodules/CSharpGenerator/Docs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Submodules/CSharpGenerator/Docs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Submodules/CSharpGenerator/Docs/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Submodules/CSharpGenerator/Docs/README.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Submodules/CSharpGenerator/Docs/README.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Submodules/CSharpGenerator/Docs/README_EN.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Submodules/CSharpGenerator/Docs/README_EN.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Submodules/CSharpGenerator/Docs/README_RU.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Submodules/CSharpGenerator/Docs/README_RU.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Submodules/CSharpGenerator/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Submodules/CSharpGenerator/Resources/Redcode.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Submodules/CSharpGenerator/Resources/Redcode/CSharpGenerator.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Submodules/CSharpGenerator/Resources/Redcode/CSharpGenerator/Settings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Submodules/CSharpGenerator/Resources/Redcode/CSharpGenerator/Settings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Submodules/CSharpGenerator/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Submodules/CSharpGenerator/Scripts/CreateMenuContextWindow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Submodules/CSharpGenerator/Scripts/CreateMenuContextWindow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Submodules/CSharpGenerator/Scripts/MenuScriptsGenerator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Submodules/CSharpGenerator/Scripts/MenuScriptsGenerator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Submodules/CSharpGenerator/Scripts/ModificationProcessor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Submodules/CSharpGenerator/Scripts/ModificationProcessor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Submodules/CSharpGenerator/Scripts/Settings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Submodules/CSharpGenerator/Scripts/Settings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +182,8 @@
       <workItem from="1681245100488" duration="636000" />
       <workItem from="1681452912284" duration="1274000" />
       <workItem from="1681454512549" duration="3273000" />
-      <workItem from="1681529127169" duration="4340000" />
+      <workItem from="1681529127169" duration="4936000" />
+      <workItem from="1682907381956" duration="1865000" />
     </task>
     <servers />
   </component>

@@ -8,7 +8,7 @@ public class TeleporterManager : MonoBehaviour
     [Header("Player Teleport Component")]
     [SerializeField] private float posX;
     [SerializeField] private float posY;
-    [SerializeField] private float teleportDelay;
+    private float teleportDelay;
     public TeleportSelection teleportSelection;
     
     [Header("Reference")]
@@ -32,6 +32,7 @@ public class TeleporterManager : MonoBehaviour
     {
         playerObj = GameObject.FindGameObjectWithTag("Player");
         teleporterEventHandler = fadeTeleport.GetComponent<TeleporterEventHandler>();
+        teleportDelay = 0.4f;
     }
 
 
