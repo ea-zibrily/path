@@ -19,7 +19,7 @@ public class AttackStateManager : MonoBehaviour
     [Header("Reference")]
     Rigidbody2D myRb;
     public Animator myAnim { get; private set; }
-    private PlayerMain playerMain;
+    private PlayerMainController _playerMainController;
     private WeaponBase primaryWeapon;
     private WeaponBase secondaryWeapon;
     public AttackStateMethod attackStateMethod { get; private set; }
@@ -27,16 +27,16 @@ public class AttackStateManager : MonoBehaviour
 
     private void Awake()
     {
-        playerMain = GetComponent<PlayerMain>();
+        _playerMainController = GetComponent<PlayerMainController>();
         primaryWeapon = transform.Find("PrimaryWeapon").GetComponent<WeaponBase>();
         secondaryWeapon = transform.Find("SecondaryWeapon").GetComponent<WeaponBase>();
         myAnim = GetComponent<Animator>();
 
         attackStateMethod = new AttackStateMethod();
 
-        primaryAttackState = new AttackMainState(playerMain,this, attackStateMethod, animationBoolName[0], primaryWeapon);
-        secondaryAttackState = new AttackMainState(playerMain,this, attackStateMethod, animationBoolName[1], secondaryWeapon);
-        idleAttackState = new AttackIdleState(playerMain,this, attackStateMethod, animationBoolName[2]);
+        primaryAttackState = new AttackMainState(_playerMainController,this, attackStateMethod, animationBoolName[0], primaryWeapon);
+        secondaryAttackState = new AttackMainState(_playerMainController,this, attackStateMethod, animationBoolName[1], secondaryWeapon);
+        idleAttackState = new AttackIdleState(_playerMainController,this, attackStateMethod, animationBoolName[2]);
     }
 
     void Start()

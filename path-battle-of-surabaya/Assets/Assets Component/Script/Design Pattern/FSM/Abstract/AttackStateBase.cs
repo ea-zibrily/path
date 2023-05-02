@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AttackStateBase
 {
-    protected PlayerMain playerMain;
+    protected PlayerMainController PlayerMainController;
     protected AttackStateManager attackManager;
     protected AttackStateMethod attackStateMethod;
 
@@ -14,9 +14,9 @@ public class AttackStateBase
     protected bool isExitingState;
     protected bool isCombatDone;
 
-    public AttackStateBase(PlayerMain playerMain, AttackStateManager attackManager, AttackStateMethod attackStateMethod, string animBoolName)
+    public AttackStateBase(PlayerMainController playerMainController, AttackStateManager attackManager, AttackStateMethod attackStateMethod, string animBoolName)
     {
-        this.playerMain = playerMain;
+        this.PlayerMainController = playerMainController;
         this.attackManager = attackManager;
         this.attackStateMethod = attackStateMethod;
         this.animBoolName = animBoolName;

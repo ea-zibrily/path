@@ -67,12 +67,12 @@ namespace Tsukuyomi.Weapons.Component
 
             #endregion
 
-            playerMain.SetVelocity(attackCurrentData.Direction, attackCurrentData.Velocity);
+            PlayerMainController.SetVelocity(attackCurrentData.Direction, attackCurrentData.Velocity);
         }
         
         private void HandleStopMovement()
         {
-            playerMain.SetZeroVelocity();
+            PlayerMainController.SetZeroVelocity();
         }
     }
 }

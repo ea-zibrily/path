@@ -45,7 +45,7 @@ namespace Tsukuyomi.Weapons
         private GameObject playerObj;
         private Animator playerAnim;
         public AttackStateManager playerAttackStateManager { get; private set; }
-        private PlayerMain playerMain;
+        private PlayerMainController _playerMainController;
         
         #endregion
 
@@ -77,7 +77,7 @@ namespace Tsukuyomi.Weapons
             playerObj = GameObject.FindGameObjectWithTag("Player").gameObject;
             playerAnim = playerObj.GetComponent<Animator>();
             playerAttackStateManager = playerObj.GetComponent<AttackStateManager>();
-            playerMain = playerObj.GetComponent<PlayerMain>();
+            _playerMainController = playerObj.GetComponent<PlayerMainController>();
 
             counterResetTimer = new Timer(timeResetCurrentCounter);
         }

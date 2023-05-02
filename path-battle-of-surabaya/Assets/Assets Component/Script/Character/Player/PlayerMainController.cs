@@ -3,7 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using CodeMonkey.Utils;
 
-public class PlayerMain : MonoBehaviour
+#region Player Require Component
+[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(BoxCollider2D))]
+#endregion
+
+public class PlayerMainController : MonoBehaviour
 { 
     [Header("Scriptable Object Component")]
     public PlayerData playerDataSO;
@@ -27,7 +32,7 @@ public class PlayerMain : MonoBehaviour
     {
         myRb = GetComponent<Rigidbody2D>();
         myAnim = GetComponent<Animator>();
-
+        
         gameObject.name = playerDataSO.playerName;
     }
 

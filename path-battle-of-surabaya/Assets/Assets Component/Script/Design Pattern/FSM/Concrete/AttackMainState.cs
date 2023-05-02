@@ -7,7 +7,7 @@ public class AttackMainState : AttackStateBase
 
     private WeaponBase weaponBase;
 
-    public AttackMainState(PlayerMain playerMain, AttackStateManager attackManager, AttackStateMethod attackStateMethod, string animBoolName, WeaponBase weaponBase) : base(playerMain, attackManager, attackStateMethod, animBoolName)
+    public AttackMainState(PlayerMainController playerMainController, AttackStateManager attackManager, AttackStateMethod attackStateMethod, string animBoolName, WeaponBase weaponBase) : base(playerMainController, attackManager, attackStateMethod, animBoolName)
     {
         this.weaponBase = weaponBase;
         weaponBase.OnExit += ExitHandler;
@@ -18,7 +18,7 @@ public class AttackMainState : AttackStateBase
         base.EnterState();
 
         //manggil enter method di func weaponBase
-        playerMain.isPlayerAttack = true;
+        PlayerMainController.isPlayerAttack = true;
         attackManager.myAnim.SetBool("isAttack", true);
         weaponBase.WeaponEnter();
     }
@@ -33,7 +33,7 @@ public class AttackMainState : AttackStateBase
     {
         AnimationFinishTrigger();
         isCombatDone = true;
-        playerMain.isPlayerAttack = false;
+        PlayerMainController.isPlayerAttack = false;
         attackManager.myAnim.SetBool("isAttack", false);
     }
 

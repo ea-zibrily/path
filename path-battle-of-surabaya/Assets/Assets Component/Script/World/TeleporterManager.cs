@@ -8,31 +8,27 @@ public class TeleporterManager : MonoBehaviour
     [Header("Player Teleport Component")]
     [SerializeField] private float posX;
     [SerializeField] private float posY;
-    private float teleportDelay;
     public TeleportSelection teleportSelection;
     
     [Header("Reference")]
     public GameObject fadeTeleport;
-    private GameObject playerObj;
+    private Transform playerObj;
     private TeleporterEventHandler teleporterEventHandler;
 
     private void OnEnable()
     {
-        teleporterEventHandler.OnTeleportEnter += TeleportPlayer;
         teleporterEventHandler.OnFaderDone += InactiveFadeTeleport;
     }
 
     private void OnDisable()
     {
-        teleporterEventHandler.OnTeleportEnter -= TeleportPlayer;
         teleporterEventHandler.OnFaderDone -= InactiveFadeTeleport;
     }
 
     private void Awake()
     {
-        playerObj = GameObject.FindGameObjectWithTag("Player");
+        playerObj = GameObject.FindGameObjectWithTag("Player").transform;
         teleporterEventHandler = fadeTeleport.GetComponent<TeleporterEventHandler>();
-        teleportDelay = 0.4f;
     }
 
 
@@ -46,10 +42,12 @@ public class TeleporterManager : MonoBehaviour
     
     private IEnumerator Teleport()
     {
-        yield return new WaitForSeconds(teleportDelay);
+        yield return new WaitForSeconds(0.4f);
         fadeTeleport.SetActive(true);
+        yield return new WaitForSeconds(1f);
+        TeleportPlayer();
     }
     
-    private void TeleportPlayer() => playerObj.transform.position = new Vector2(posX, posY);
+    private void TeleportPlayer() => playerObj.position = new Vector2(posX, posY);
     private void InactiveFadeTeleport() => fadeTeleport.SetActive(false);
 }

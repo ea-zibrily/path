@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,52 +7,59 @@ using TMPro;
 
 public class PlayerManager : MonoSingleton<PlayerManager>
 {
+    
+    [Serializable]
+    public struct InterfaceComponent
+    {
+        [Header("Health UI Component")]
+        public Image healthEffect;
+        
+        [Header("Energy UI Component")]
+        public Image energyBar;
+        public Image energyEffect;
+        
+        [Header("Experience UI Component")]
+        public TextMeshProUGUI experienceText;
+        public TextMeshProUGUI experienceProgressText;
+        public Image experienceBar;
+    }
+    
     [Header("Health Component")]
     public float maxHealth;
-    [SerializeField] private float currentHealth;
-    [SerializeField] private float regenTimer;
+    private float currentHealth;
     [SerializeField] private float healthRegenAmount;
     public bool isDeath;
 
-    [Header("Health UI Component")]
-    public Image healthEffect;
-
     [Header("Energy Component")]
     public float maxEnergy;
-    [SerializeField] private float currentEnergy;
+    private float currentEnergy;
     [SerializeField] private float energyUseAmount;
     [SerializeField] private float eneryRegenAmount;
-    public bool isEnergyRegen;
-
-    [Header("Energy UI Component")]
     [SerializeField] private float energyDecreaseTime;
-    public Image energyBar;
-    public Image energyEffect;
+    public bool isEnergyRegen;
 
     [Header("Experience Component")]
     public float maxExperienceProgress;
     private float currentMaxExperienceProgress;
-    [SerializeField] private float currentExperienceProgress;
-    [SerializeField] private float experienceProgressAmount;
-    public float currentExperience;
+    private float currentExperienceProgress;
+    private float experienceProgressAmount;
+    private float currentExperience;
 
-    [Header("Experience UI Component")]
-    public TextMeshProUGUI experienceText;
-    public TextMeshProUGUI experienceProgressText;
-    public Image experienceBar;
+    [Space]
+    public InterfaceComponent interfaceComponent;
     
     [Header("Reference")]
-    private PlayerMain playerMain;
+    private PlayerMainController _playerMainController;
 
     protected override void Awake()
     {
-        playerMain = GetComponent<PlayerMain>();
+        _playerMainController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMainController>();
 
         currentHealth = maxHealth;
         currentEnergy = maxEnergy;
     }
 
-    void Update()
+    private void Update()
     {
         #region Health
         HealthInterface();
@@ -68,7 +76,7 @@ public class PlayerManager : MonoSingleton<PlayerManager>
         #endregion
     }
 
-    public float DecreaseHealth(float _damage)
+    public void DecreaseHealth(float _damage)
     {
         currentHealth -= _damage;
         if (currentHealth <= 0)
@@ -76,28 +84,26 @@ public class PlayerManager : MonoSingleton<PlayerManager>
             currentHealth = 0;
             isDeath = true;
         }
-        return currentHealth;
     }
 
-    public float IncreaseHealth()
+    public void IncreaseHealth()
     {
         currentHealth += healthRegenAmount * Time.deltaTime;
         if (currentHealth >= maxHealth)
         {
             currentHealth = maxHealth;
         }
-        return currentHealth;
     }
 
     private void HealthInterface()
     {
         float currentColor = 1 - (currentHealth / maxHealth);
-        healthEffect.color = new Color(0, 0, 0, currentColor);
+        interfaceComponent.healthEffect.color = new Color(0, 0, 0, currentColor);
     }
 
     private void DecreaseEnergy()
     {
-        if (playerMain.isSprint && currentEnergy >= 0)
+        if (_playerMainController.isSprint && currentEnergy >= 0)
         {
             currentEnergy -= energyUseAmount;
         }
@@ -105,7 +111,7 @@ public class PlayerManager : MonoSingleton<PlayerManager>
 
     private void IncreaseEnergy()
     {
-        if (!playerMain.isSprint && currentEnergy <= maxEnergy)
+        if (!_playerMainController.isSprint && currentEnergy <= maxEnergy)
         {
             currentEnergy += eneryRegenAmount;
             isEnergyRegen = false;
@@ -119,19 +125,19 @@ public class PlayerManager : MonoSingleton<PlayerManager>
 
     private void EnergyInterface()
     {
-        energyBar.fillAmount = currentEnergy / maxEnergy;
+        interfaceComponent.energyBar.fillAmount = currentEnergy / maxEnergy;
 
-        if (energyEffect.fillAmount > energyBar.fillAmount)
+        if (interfaceComponent.energyEffect.fillAmount > interfaceComponent.energyBar.fillAmount)
         {
-            energyEffect.fillAmount -= energyDecreaseTime * Time.deltaTime;
+            interfaceComponent.energyEffect.fillAmount -= energyDecreaseTime * Time.deltaTime;
         }
         else
         {
-            energyEffect.fillAmount = energyBar.fillAmount;
+            interfaceComponent.energyEffect.fillAmount = interfaceComponent.energyBar.fillAmount;
         }
     }
 
-    public float IncreaseExperience(float _experience)
+    public void IncreaseExperience(float _experience)
     {
         currentExperienceProgress += _experience;
         if (currentExperienceProgress >= maxExperienceProgress)
@@ -142,14 +148,13 @@ public class PlayerManager : MonoSingleton<PlayerManager>
             currentMaxExperienceProgress = maxExperienceProgress;
             maxExperienceProgress = currentMaxExperienceProgress + experienceProgressAmount;
         }
-        return currentExperience;
     }
 
     private void ExperienceInterface()
     {
-        experienceBar.fillAmount = currentExperienceProgress / maxExperienceProgress;
+        interfaceComponent.experienceBar.fillAmount = currentExperienceProgress / maxExperienceProgress;
 
-        experienceText.text = currentExperience.ToString();
-        experienceProgressText.text = currentExperienceProgress + ("/") + maxExperienceProgress;
+        interfaceComponent.experienceText.text = currentExperience.ToString();
+        interfaceComponent.experienceProgressText.text = currentExperienceProgress + "/" + maxExperienceProgress;
     }
 }

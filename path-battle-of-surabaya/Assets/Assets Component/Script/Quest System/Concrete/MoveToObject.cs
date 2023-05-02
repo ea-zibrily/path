@@ -56,7 +56,7 @@ public class MoveToObject : QuestBase
         }
     }
 
-    private void OnDrawGizmos()
+    private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.black;
         Gizmos.DrawWireSphere(objTransform.position, objRadius);

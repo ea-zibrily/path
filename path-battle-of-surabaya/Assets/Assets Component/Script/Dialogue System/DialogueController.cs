@@ -40,10 +40,7 @@ public class DialogueController : MonoBehaviour
         storyIndex = 0;
         isDialogueFirstActive = DialogueDataSO.isDialogueOnFirstTime;
         isStoryEnd = false;
-    }
-
-    void Update()
-    {
+        
         if (!DialogueDataSO.isDialogueOnFirstTime)
         {
             return;
@@ -54,6 +51,20 @@ public class DialogueController : MonoBehaviour
             Invoke("EnterDialogue", DialogueDataSO.invokeDelay);
             isDialogueFirstActive = false;
         }
+    }
+
+    void Update()
+    {
+        // if (!DialogueDataSO.isDialogueOnFirstTime)
+        // {
+        //     return;
+        // }
+        //
+        // if (isDialogueFirstActive)
+        // {
+        //     Invoke("EnterDialogue", DialogueDataSO.invokeDelay);
+        //     isDialogueFirstActive = false;
+        // }
     }
 
     public void EnterDialogue()

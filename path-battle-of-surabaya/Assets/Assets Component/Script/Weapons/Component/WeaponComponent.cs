@@ -6,7 +6,7 @@ namespace Tsukuyomi.Weapons.Component
     public abstract class WeaponComponent : MonoBehaviour
     {
         protected WeaponBase weaponBase;
-        protected PlayerMain playerMain;
+        protected PlayerMainController PlayerMainController;
         protected WeaponAnimationEventHandler weaponAnimHandler;
         protected bool isAttackActive;
         protected int weaponDirection;
@@ -19,7 +19,7 @@ namespace Tsukuyomi.Weapons.Component
         protected virtual void Awake()
         {
             weaponBase = GetComponent<WeaponBase>();
-            playerMain = GetComponentInParent<PlayerMain>();
+            PlayerMainController = GetComponentInParent<PlayerMainController>();
             weaponAnimHandler = GetComponentInChildren<WeaponAnimationEventHandler>();
         }
 

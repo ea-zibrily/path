@@ -5,6 +5,6 @@ Saat sebelum sampai ke ruangan tujuan aku melihat seseorang dengan baju seperti 
 
 Aku juga tidak mau nilai raporku merah yang nanti akan membuatku tidak naik kelas  #speaker:Galang #portrait:galang_normal #layout:left
 
-Tanpa pikir panjang aku pun mengikuti orang itu dan ikut masuk kedalam ruangan yang ia masuki
+Tanpa pikir panjang aku pun mengikuti orang itu dan ikut masuk kedalam ruangan yang ia masuki #speaker:  #portrait:empty  #layout:narator
 
 -> END

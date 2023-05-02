@@ -24,7 +24,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     [SerializeField] private TextMeshProUGUI characterNameTextUI;
     [SerializeField] private TextMeshProUGUI conversationTextUI;
     [SerializeField] private GameObject textBoxPanel;
-    [SerializeField] private GameObject continueObj;
+    [SerializeField] private GameObject continueObject;
     public bool isDialogueActive { get; private set; }
 
     #endregion
@@ -193,7 +193,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
         //empty dialogue text
         conversationTextUI.text = "";
         isDialogueEnd = false;
-        continueObj.SetActive(false);
+        continueObject.SetActive(false);
 
         //display each letter one at the time
         foreach (var letter in newLine.ToCharArray())
@@ -216,7 +216,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
             }
         }
 
-        continueObj.SetActive(true);
+        continueObject.SetActive(true);
         isDialogueEnd = true;
     }
     

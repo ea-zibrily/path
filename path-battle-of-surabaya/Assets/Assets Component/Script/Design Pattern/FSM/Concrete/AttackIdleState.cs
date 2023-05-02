@@ -7,7 +7,7 @@ public class AttackIdleState : AttackStateBase
 {
     // Concrete State
 
-    public AttackIdleState(PlayerMain playerMain, AttackStateManager attackManager, AttackStateMethod attackStateMethod, string animBoolName) : base(playerMain, attackManager, attackStateMethod, animBoolName)
+    public AttackIdleState(PlayerMainController playerMainController, AttackStateManager attackManager, AttackStateMethod attackStateMethod, string animBoolName) : base(playerMainController, attackManager, attackStateMethod, animBoolName)
     {
         // AttackIdleState Class Constructor
     }
