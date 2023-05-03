@@ -23,7 +23,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     [Header("Dialogue UI Component")] 
     [SerializeField] private TextMeshProUGUI characterNameTextUI;
     [SerializeField] private TextMeshProUGUI conversationTextUI;
-    [SerializeField] private GameObject textBoxPanel;
+    [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private GameObject continueObject;
     public bool isDialogueActive { get; private set; }
 
@@ -69,8 +69,8 @@ public class DialogueManager : MonoSingleton<DialogueManager>
 
     protected override void Awake()
     {
-        dialoguePanelAnimator = textBoxPanel.GetComponent<Animator>();
-        dialogueAnimationHandler = textBoxPanel.GetComponent<DialogueAnimationHandler>();
+        dialoguePanelAnimator = dialoguePanel.GetComponent<Animator>();
+        dialogueAnimationHandler = dialoguePanel.GetComponent<DialogueAnimationHandler>();
         myAudio = GetComponent<AudioSource>();
         dialogueController = GameObject.Find("DialogueController").GetComponent<DialogueController>();
     }
@@ -79,7 +79,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     {
         isDialogueActive = false;
         isStoryEnd = false;
-        textBoxPanel.SetActive(false);
+        dialoguePanel.SetActive(false);
     }
 
     private void Update()
@@ -143,7 +143,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
     {
         currentStory = new Story(inkJSONText.text);
         isDialogueActive = true;
-        textBoxPanel.SetActive(true);
+        dialoguePanel.SetActive(true);
 
         //reset
         characterNameTextUI.text = "";
@@ -165,7 +165,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
         
         yield return new WaitForSeconds(0.2f);
         isDialogueActive = false;
-        textBoxPanel.SetActive(false);
+        dialoguePanel.SetActive(false);
         conversationTextUI.text = "";
     }
     

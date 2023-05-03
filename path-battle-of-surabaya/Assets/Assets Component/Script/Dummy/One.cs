@@ -20,9 +20,9 @@ public class One : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit2D(Collider2D other)
+    private void OnTriggerExit2D(Collider2D col)
     {
-        if (other.CompareTag("Player"))
+        if (col.CompareTag("Player"))
         {
             gameObject.GetComponent<Collider2D>().enabled = false;
         }

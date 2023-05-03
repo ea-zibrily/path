@@ -2,58 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aabeb4e3-0343-4f19-9234-ed470167c51c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-03.5 Museum.ink" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-03.5 Museum.ink.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-03.5 Museum.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-03.5 Museum.json.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/Environment.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/Quest.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/Quest/Quest.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/Quest/Quest.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/World.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/World/Gate.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/World/Gate.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Tsukuyomi/CustomGIUI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Tsukuyomi/CustomGIUI/PlayableDirectorInspector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Tsukuyomi/CustomGIUI/PlayableDirectorInspector.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.path-battle-of-surabaya/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.path-battle-of-surabaya/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/World/FadeTeleport.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/World/FadeTeleport.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Redundant/white-paper-texture (2) 1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Redundant/white-paper-texture (2) 1.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Redundant/white-paper-texture (2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Redundant/white-paper-texture (2).jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Data/Dialogue/DSO-01-03 Museum.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Data/Dialogue/DSO-01-03 Museum.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-04 Museum.ink" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-04 Museum.ink" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-04 Museum.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-04 Museum.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-05 Museum.ink" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-05 Museum.ink" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-05 Museum.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-05 Museum.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-06 Museum.ink" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-06 Museum.ink" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-06 Museum.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-06 Museum.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/BusChair.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/Environment/BusChair.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/BusChair.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/Environment/BusChair.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/Chair n Table.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/Environment/Chair n Table.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/Chair n Table.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/Environment/Chair n Table.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/Empty.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/Environment/Empty.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/Empty.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/Environment/Empty.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/QST-P-01 Temukan Ruangan.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/QST-P-01 Temukan Ruangan.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-02 Prologue.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-02 Prologue.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-03 Prologue.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-03 Prologue.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Player/PlayerMain.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Player/PlayerMainController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Player/PlayerMain.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Player/PlayerMainController.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Player/PlayerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Player/PlayerManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Abstract/AttackStateBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Abstract/AttackStateBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Concrete/AttackIdleState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Concrete/AttackIdleState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Concrete/AttackMainState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Concrete/AttackMainState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Context/AttackStateManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Context/AttackStateManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Dialogue System/DialogueController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Dialogue System/DialogueController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Dialogue System/DialogueManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Dialogue System/DialogueManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/Concrete/MoveToObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/Concrete/MoveToObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/QuestBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/QuestBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Weapons/Component/WeaponComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Weapons/Component/WeaponComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Weapons/Component/WeaponMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Weapons/Component/WeaponMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Weapons/WeaponBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Weapons/WeaponBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/World/TeleporterEventHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/World/TeleporterEventHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/World/TeleporterManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/World/TeleporterManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Dummy/One.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Dummy/One.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RiderFlow.UserData/Editor/Scenes/Bookmarks.Map/c6915b74bd2d831428dc5a0fbbc3ce46.userdata" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RiderFlow.UserData/Editor/Scenes/Bookmarks.Map/c6915b74bd2d831428dc5a0fbbc3ce46.userdata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -180,6 +136,8 @@
       <workItem from="1682955542181" duration="244000" />
       <workItem from="1682955843351" duration="159000" />
       <workItem from="1682991511919" duration="2826000" />
+      <workItem from="1683050722820" duration="415000" />
+      <workItem from="1683051639744" duration="370000" />
     </task>
     <servers />
   </component>

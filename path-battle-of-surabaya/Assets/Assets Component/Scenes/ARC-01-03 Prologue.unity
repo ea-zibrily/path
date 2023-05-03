@@ -251,6 +251,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &148258435 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2364767610998809349, guid: 1d8efb57106639f44a4ec8119c5bc00c, type: 3}
+  m_PrefabInstance: {fileID: 861431549}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &193773259
 GameObject:
   m_ObjectHideFlags: 0
@@ -819,7 +824,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 0}
+  m_Follow: {fileID: 1848863917}
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 5
@@ -1239,7 +1244,7 @@ GameObject:
   m_Layer: 0
   m_Name: --------- Environment ----------
   m_TagString: Untagged
-  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1428,11 +1433,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &861431555 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5836546995732191063, guid: 1d8efb57106639f44a4ec8119c5bc00c, type: 3}
-  m_PrefabInstance: {fileID: 861431549}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &870243691
 GameObject:
   m_ObjectHideFlags: 0
@@ -1645,7 +1645,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 937088550}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.68004, y: 32.709713, z: 0.17788155}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3212,7 +3212,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1529067013}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.8366678, y: 6.2820473, z: -0.2335088}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3374,7 +3374,7 @@ MonoBehaviour:
   textSpeed: 0.04
   characterNameTextUI: {fileID: 861431554}
   conversationTextUI: {fileID: 861431553}
-  textBoxPanel: {fileID: 861431555}
+  dialoguePanel: {fileID: 148258435}
   continueObject: {fileID: 861431552}
   characterPanelAnimator: {fileID: 861431551}
 --- !u!82 &1560661366
@@ -3639,6 +3639,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1848863917 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2627497443922217534, guid: 1d0212d6fb56c7f4e8a4d98f85df0944, type: 3}
+  m_PrefabInstance: {fileID: 2627497444690670032}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1868622289
 GameObject:
   m_ObjectHideFlags: 0
@@ -3919,6 +3924,10 @@ PrefabInstance:
     - target: {fileID: 6627019460039424390, guid: 2658c6862cec88c43af3c482c5899762, type: 3}
       propertyPath: m_Name
       value: EnergyPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 6627019460039424390, guid: 2658c6862cec88c43af3c482c5899762, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2658c6862cec88c43af3c482c5899762, type: 3}
