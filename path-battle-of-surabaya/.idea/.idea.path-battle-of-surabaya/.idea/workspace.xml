@@ -2,64 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aabeb4e3-0343-4f19-9234-ed470167c51c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.path-battle-of-surabaya/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.path-battle-of-surabaya/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.path-battle-of-surabaya/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.path-battle-of-surabaya/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.path-battle-of-surabaya/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Data/Player.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Data/Player/Galang.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Data/Player/Galang.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Data/Weapon.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Data/Weapon/Bamboo.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Data/Weapon/Bamboo.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Character.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Enemy.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Enemy/EnemyBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Enemy/EnemyBase.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Enemy/EnemyManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Enemy/EnemyManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Player.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Player/PlayerMain.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Player/PlayerMain.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Player/PlayerManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Player/PlayerManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Abstract.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Concrete.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Context.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/Singleton.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/Singleton/MonoSingleton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/Singleton/MonoSingleton.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Enum.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Enum/CharacterEnum.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Enum/CharacterEnum.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Enum/WeaponEnum.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Enum/WeaponEnum.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/ScriptableObject.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/ScriptableObject/DialogueData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/ScriptableObject/DialogueData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/ScriptableObject/PlayerData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/ScriptableObject/PlayerData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/ScriptableObject/WeaponData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/ScriptableObject/WeaponData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Weapon.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Weapon/Components.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Weapon/Components/WeaponComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Weapon/Components/WeaponComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Weapon/WeaponAnimationEventHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Weapon/WeaponAnimationEventHandler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Weapon/WeaponBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Weapon/WeaponBase.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/SceneTemplateSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserSettings/Search.settings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-01 Prologue.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-01 Prologue.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Tsukuyomi/CustomGIUI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Tsukuyomi/CustomGIUI/PlayableDirectorInspector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Tsukuyomi/CustomGIUI/PlayableDirectorInspector.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.path-battle-of-surabaya/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.path-battle-of-surabaya/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-03 Prologue.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-03 Prologue.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Dialogue System/DialogueManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Dialogue System/DialogueManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Dummy/One.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Dummy/One.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RiderFlow.UserData/Editor/Scenes/Bookmarks.Map/c6915b74bd2d831428dc5a0fbbc3ce46.userdata" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RiderFlow.UserData/Editor/Scenes/Bookmarks.Map/c6915b74bd2d831428dc5a0fbbc3ce46.userdata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +19,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Assets Component/Script/Dialogue System/DialogueController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Assets Component/Script/Game Manager/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/Concrete/MoveToObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Assets Component/Script/World/TeleporterEventHandler.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -84,7 +37,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;discord-project&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;discord-application&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -147,6 +100,44 @@
       <workItem from="1678097322285" duration="3339000" />
       <workItem from="1678116610933" duration="4588000" />
       <workItem from="1678172477938" duration="515000" />
+      <workItem from="1679629726927" duration="836000" />
+      <workItem from="1679718511184" duration="5032000" />
+      <workItem from="1679758381607" duration="9542000" />
+      <workItem from="1679850965060" duration="2328000" />
+      <workItem from="1679853495302" duration="3543000" />
+      <workItem from="1679891264396" duration="3989000" />
+      <workItem from="1679973857352" duration="3820000" />
+      <workItem from="1680007090055" duration="4428000" />
+      <workItem from="1680020214295" duration="1272000" />
+      <workItem from="1680053066370" duration="2236000" />
+      <workItem from="1680056435116" duration="131000" />
+      <workItem from="1680061683987" duration="870000" />
+      <workItem from="1680241084003" duration="104000" />
+      <workItem from="1680379031653" duration="1431000" />
+      <workItem from="1680410337144" duration="13734000" />
+      <workItem from="1680431676853" duration="2423000" />
+      <workItem from="1680434330960" duration="225000" />
+      <workItem from="1680441232502" duration="626000" />
+      <workItem from="1680449035070" duration="3144000" />
+      <workItem from="1680452686616" duration="6302000" />
+      <workItem from="1680459717668" duration="415000" />
+      <workItem from="1680460236107" duration="964000" />
+      <workItem from="1680665527122" duration="1965000" />
+      <workItem from="1680811615713" duration="845000" />
+      <workItem from="1681013627850" duration="8690000" />
+      <workItem from="1681095870255" duration="4417000" />
+      <workItem from="1681111435001" duration="7961000" />
+      <workItem from="1681245100488" duration="636000" />
+      <workItem from="1681452912284" duration="1274000" />
+      <workItem from="1681454512549" duration="3273000" />
+      <workItem from="1681529127169" duration="4936000" />
+      <workItem from="1682907381956" duration="6177000" />
+      <workItem from="1682935726630" duration="2691000" />
+      <workItem from="1682955542181" duration="244000" />
+      <workItem from="1682955843351" duration="159000" />
+      <workItem from="1682991511919" duration="2826000" />
+      <workItem from="1683050722820" duration="415000" />
+      <workItem from="1683051639744" duration="370000" />
     </task>
     <servers />
   </component>

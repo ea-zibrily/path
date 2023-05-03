@@ -1,13 +1,12 @@
-﻿using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-[CreateAssetMenu(fileName = "PlayerData", menuName = "ScriptableObject Data/Player/New Player Data", order = 0)]
+[CreateAssetMenu(fileName = "Player Data", menuName = "ScriptableObject Data/Player/New Player Data", order = 1)]
 public class PlayerData : ScriptableObject
 {
-    [Header("General")] 
     public string playerName;
-
-    [Header("Movement")]
-    public float moveSpeed;
-    public float maxMoveSpeed;
-
+    public float originalSpeed;
+    public float sprintSpeed;
+    
 }

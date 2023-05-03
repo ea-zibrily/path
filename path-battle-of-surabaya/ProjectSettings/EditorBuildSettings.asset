@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Assets Component/Scenes/ARC-01-01 Prologue.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Assets Component/Scenes/ARC-01-02 Prologue.unity
+    guid: cb904475159057a40ad1abfd0ed948fc
+  - enabled: 1
+    path: Assets/Assets Component/Scenes/ARC-01-03 Prologue.unity
+    guid: c6915b74bd2d831428dc5a0fbbc3ce46
   m_configObjects: {}

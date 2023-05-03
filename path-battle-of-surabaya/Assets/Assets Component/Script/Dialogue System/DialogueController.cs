@@ -1,28 +1,82 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Ink.Runtime;
 using UnityEngine;
+using UnityEngine.Playables;
 
 public class DialogueController : MonoBehaviour
 {
-    [Header("ScriptableObject Data")] 
-    public DialogueData dialogueDataSO;
+    #region ScriptableObject Component
     
-    [Header("Dialogue Component")] 
-    [SerializeField] private TextAsset story;
+    [field: SerializeField] public DialogueData DialogueDataSO {get; private set;}
 
-    // Start is called before the first frame update
-    void Start()
+    #endregion
+    
+    #region Timeline Component
+
+    [Serializable]
+    public class TimelineLists
     {
+        public string timelineName;
+        public PlayableDirector playableDirector;
+    }
+    
+    [field: SerializeField] public TimelineLists[] TimelineList { get; private set; }
+    [HideInInspector] public int timelinePlayingIndex;
+    
+    #endregion
+
+    #region Etc
+    
+    [SerializeField] private int storyIndex;
+    private bool isDialogueFirstActive;
+    [HideInInspector] public bool isStoryEnd;
+
+    #endregion
+    
+    private void Start()
+    {
+        storyIndex = 0;
+        isDialogueFirstActive = DialogueDataSO.isDialogueOnFirstTime;
+        isStoryEnd = false;
         
+        if (!DialogueDataSO.isDialogueOnFirstTime)
+        {
+            return;
+        }
+
+        if (isDialogueFirstActive)
+        {
+            Invoke("EnterDialogue", DialogueDataSO.invokeDelay);
+            isDialogueFirstActive = false;
+        }
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Z))
+        // if (!DialogueDataSO.isDialogueOnFirstTime)
+        // {
+        //     return;
+        // }
+        //
+        // if (isDialogueFirstActive)
+        // {
+        //     Invoke("EnterDialogue", DialogueDataSO.invokeDelay);
+        //     isDialogueFirstActive = false;
+        // }
+    }
+
+    public void EnterDialogue()
+    {
+        if (storyIndex <= DialogueDataSO.StoryList.Length - 1)
         {
-            DialogueManager.Instance.EnterDialogueMode(story);
+            DialogueManager.Instance.EnterDialogueMode(DialogueDataSO.StoryList[storyIndex]);
+            storyIndex++;
+        }
+        else
+        {
+            DialogueManager.Instance.ExitDialogueMode();
         }
     }
 }
