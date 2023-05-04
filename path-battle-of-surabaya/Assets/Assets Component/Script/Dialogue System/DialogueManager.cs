@@ -115,6 +115,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
                     break;
                 case POTRAIT_TAG:
                     characterPanelAnimator.Play(tagValue);
+                    characterPanelAnimator.gameObject.SetActive(true);
                     break;
                 case LAYOUT_TAG:
                     dialoguePanelAnimator.Play(tagValue);

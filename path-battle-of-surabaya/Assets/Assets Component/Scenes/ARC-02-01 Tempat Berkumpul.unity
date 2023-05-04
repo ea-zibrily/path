@@ -249,7 +249,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   posX: 0
   posY: 0
-  teleportDelay: 0
   teleportSelection: 2
   fadeTeleport: {fileID: 0}
 --- !u!1 &49302263
@@ -1261,7 +1260,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   posX: -7.81
   posY: 12.78
-  teleportDelay: 0.4
   teleportSelection: 0
   fadeTeleport: {fileID: 862534161}
 --- !u!1 &298225135
@@ -1405,26 +1403,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 20
-  currentHealth: 0
-  regenTimer: 0
   healthRegenAmount: 50.5
   isDeath: 0
-  healthEffect: {fileID: 489892118}
   maxEnergy: 20
-  currentEnergy: 0
   energyUseAmount: 0.007
   eneryRegenAmount: 0.007
-  isEnergyRegen: 0
   energyDecreaseTime: 3
-  energyBar: {fileID: 1180424202}
-  energyEffect: {fileID: 1080438248}
+  isEnergyRegen: 0
   maxExperienceProgress: 50
-  currentExperienceProgress: 0
-  experienceProgressAmount: 0
-  currentExperience: 0
-  experienceText: {fileID: 1404809879}
-  experienceProgressText: {fileID: 973353644}
-  experienceBar: {fileID: 895210117}
+  interfaceComponent:
+    healthEffect: {fileID: 0}
+    energyBar: {fileID: 0}
+    energyEffect: {fileID: 0}
+    experienceText: {fileID: 0}
+    experienceProgressText: {fileID: 0}
+    experienceBar: {fileID: 0}
 --- !u!50 &298225141
 Rigidbody2D:
   serializedVersion: 4
@@ -3005,7 +2998,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   posX: 0
   posY: 0
-  teleportDelay: 0
   teleportSelection: 1
   fadeTeleport: {fileID: 0}
 --- !u!61 &897295608
@@ -3212,7 +3204,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   posX: 0
   posY: 0
-  teleportDelay: 0
   teleportSelection: 1
   fadeTeleport: {fileID: 0}
 --- !u!1 &927639815
@@ -5365,8 +5356,8 @@ MonoBehaviour:
   textSpeed: 0.04
   characterNameTextUI: {fileID: 1295692810}
   conversationTextUI: {fileID: 1496190145}
-  textBoxPanel: {fileID: 115199426}
-  continueObj: {fileID: 1537687324}
+  dialoguePanel: {fileID: 0}
+  continueObject: {fileID: 0}
   characterPanelAnimator: {fileID: 2044570547}
 --- !u!82 &1560661366
 AudioSource:

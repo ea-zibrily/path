@@ -543,7 +543,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 10
   m_wordSpacing: 1.5
-  m_lineSpacing: 2
+  m_lineSpacing: 35
   m_lineSpacingMax: 0
   m_paragraphSpacing: 6
   m_charWidthMaxAdj: 0
@@ -948,7 +948,7 @@ GameObject:
   - component: {fileID: 1967938610290521471}
   - component: {fileID: 8632603548321326754}
   - component: {fileID: 8646132268116424560}
-  - component: {fileID: 330182965299081390}
+  - component: {fileID: 1551277410003405123}
   m_Layer: 5
   m_Name: Character_Main
   m_TagString: Untagged
@@ -1014,7 +1014,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!95 &330182965299081390
+--- !u!95 &1551277410003405123
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
