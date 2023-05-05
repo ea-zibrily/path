@@ -1,7 +1,214 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aabeb4e3-0343-4f19-9234-ed470167c51c" name="Changes" comment="" />
+    <list default="true" id="aabeb4e3-0343-4f19-9234-ed470167c51c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.path-battle-of-surabaya/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.path-battle-of-surabaya/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Galang/Non-Story/ANM-I-01 Idle Right.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Galang/Non-Story/ANM-I-01 Idle Right.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Galang/Non-Story/ANM-I-02 Idle Left.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Galang/Non-Story/ANM-I-02 Idle Left.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Galang/Non-Story/ANM-I-03 Idle Top.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Galang/Non-Story/ANM-I-03 Idle Top.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Galang/Non-Story/ANM-I-04 Idle Down.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Galang/Non-Story/ANM-I-04 Idle Down.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Galang/Non-Story/ANM-W-01 Walk Right.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Galang/Non-Story/ANM-W-01 Walk Right.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Galang/Non-Story/ANM-W-02 Walk Left.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Galang/Non-Story/ANM-W-02 Walk Left.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Galang/Non-Story/ANM-W-03 Walk Top.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Galang/Non-Story/ANM-W-03 Walk Top.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Galang/Non-Story/ANM-W-04 Walk Down.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Galang/Non-Story/ANM-W-04 Walk Down.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Pak Guru/ANM-I-01 Idle Right.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Pak Guru/ANM-I-01 Idle Right.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Pak Guru/ANM-I-02 Idle Left.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Pak Guru/ANM-I-02 Idle Left.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Pak Guru/ANM-I-03 Idle Top.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Pak Guru/ANM-I-03 Idle Top.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Pak Guru/ANM-I-04 Idle Down.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Pak Guru/ANM-I-04 Idle Down.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Pak Guru/ANM-W-01 Walk Right.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Pak Guru/ANM-W-01 Walk Right.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Pak Guru/ANM-W-02 Walk Left.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Pak Guru/ANM-W-02 Walk Left.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Pak Guru/ANM-W-03 Walk Top.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Pak Guru/ANM-W-03 Walk Top.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Pak Guru/ANM-W-04 Walk Down.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/Pak Guru/ANM-W-04 Walk Down.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Controller/Character/PakGuruController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Controller/Character/PakGuruController.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/00_Empty.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/00_Empty/mc_new_jalan_belakang8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/00_Empty/mc_new_jalan_belakang8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleDown.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleDown/mc_new_idle_depan1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleDown/mc_new_idle_depan1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleDown/mc_new_idle_depan2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleDown/mc_new_idle_depan2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleDown/mc_new_idle_depan3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleDown/mc_new_idle_depan3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleDown/mc_new_idle_depan4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleDown/mc_new_idle_depan4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleDown/mc_new_idle_depan5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleDown/mc_new_idle_depan5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleDown/mc_new_idle_depan6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleDown/mc_new_idle_depan6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleLeft.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleLeft/mc_new_idle_kiri1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleLeft/mc_new_idle_kiri1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleLeft/mc_new_idle_kiri2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleLeft/mc_new_idle_kiri2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleLeft/mc_new_idle_kiri3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleLeft/mc_new_idle_kiri3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleLeft/mc_new_idle_kiri4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleLeft/mc_new_idle_kiri4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleLeft/mc_new_idle_kiri5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleLeft/mc_new_idle_kiri5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleLeft/mc_new_idle_kiri6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleLeft/mc_new_idle_kiri6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleRight.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleRight/mc_new_idle_kanan1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleRight/mc_new_idle_kanan1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleRight/mc_new_idle_kanan2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleRight/mc_new_idle_kanan2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleRight/mc_new_idle_kanan3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleRight/mc_new_idle_kanan3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleRight/mc_new_idle_kanan4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleRight/mc_new_idle_kanan4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleRight/mc_new_idle_kanan5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleRight/mc_new_idle_kanan5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleRight/mc_new_idle_kanan6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleRight/mc_new_idle_kanan6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleTop.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleTop/mc_new_idle_belakang1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleTop/mc_new_idle_belakang1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleTop/mc_new_idle_belakang2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleTop/mc_new_idle_belakang2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleTop/mc_new_idle_belakang3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleTop/mc_new_idle_belakang3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleTop/mc_new_idle_belakang4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleTop/mc_new_idle_belakang4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleTop/mc_new_idle_belakang5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleTop/mc_new_idle_belakang5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleTop/mc_new_idle_belakang6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/01_IdleTop/mc_new_idle_belakang6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveDown.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveDown/mc_new_jalan_depan1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveDown/mc_new_jalan_depan1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveDown/mc_new_jalan_depan2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveDown/mc_new_jalan_depan2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveDown/mc_new_jalan_depan3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveDown/mc_new_jalan_depan3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveDown/mc_new_jalan_depan4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveDown/mc_new_jalan_depan4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveDown/mc_new_jalan_depan5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveDown/mc_new_jalan_depan5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveDown/mc_new_jalan_depan6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveDown/mc_new_jalan_depan6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveDown/mc_new_jalan_depan7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveDown/mc_new_jalan_depan7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveDown/mc_new_jalan_depan8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveDown/mc_new_jalan_depan8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveLeft.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveLeft/mc_new_jalan_kiri2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveLeft/mc_new_jalan_kiri2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveLeft/mc_new_jalan_kiri3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveLeft/mc_new_jalan_kiri3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveLeft/mc_new_jalan_kiri4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveLeft/mc_new_jalan_kiri4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveLeft/mc_new_jalan_kiri5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveLeft/mc_new_jalan_kiri5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveLeft/mc_new_jalan_kiri6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveLeft/mc_new_jalan_kiri6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveLeft/mc_new_jalan_kiri7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveLeft/mc_new_jalan_kiri7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveLeft/mc_new_jalan_kiri8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveLeft/mc_new_jalan_kiri8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveLeft/mc_new_jalan_kiri9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveLeft/mc_new_jalan_kiri9.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveRight.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveRight/mc_new_jalan_kanan2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveRight/mc_new_jalan_kanan2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveRight/mc_new_jalan_kanan3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveRight/mc_new_jalan_kanan3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveRight/mc_new_jalan_kanan4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveRight/mc_new_jalan_kanan4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveRight/mc_new_jalan_kanan5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveRight/mc_new_jalan_kanan5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveRight/mc_new_jalan_kanan6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveRight/mc_new_jalan_kanan6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveRight/mc_new_jalan_kanan7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveRight/mc_new_jalan_kanan7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveRight/mc_new_jalan_kanan8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveRight/mc_new_jalan_kanan8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveRight/mc_new_jalan_kanan9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveRight/mc_new_jalan_kanan9.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveTop.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveTop/mc_new_jalan_belakang1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveTop/mc_new_jalan_belakang1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveTop/mc_new_jalan_belakang2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveTop/mc_new_jalan_belakang2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveTop/mc_new_jalan_belakang3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveTop/mc_new_jalan_belakang3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveTop/mc_new_jalan_belakang4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveTop/mc_new_jalan_belakang4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveTop/mc_new_jalan_belakang5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveTop/mc_new_jalan_belakang5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveTop/mc_new_jalan_belakang6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveTop/mc_new_jalan_belakang6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveTop/mc_new_jalan_belakang7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveTop/mc_new_jalan_belakang7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveTop/mc_new_jalan_belakang8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Sprite/MC/02_MoveTop/mc_new_jalan_belakang8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/dinding_museum.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/dinding_museum.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/diorama museum.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/diorama museum.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/kursi logam.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/kursi logam.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lampu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lampu.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai_museum.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai_museum.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lukisan ruangan 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lukisan ruangan 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/manekin_a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/manekin_a.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/manekin_a2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/manekin_a2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/manekin_b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/manekin_b.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/nama museum.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/nama museum.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/peta museum.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/peta museum.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/rak susun.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/rak susun.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/sukarno_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/sukarno_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/sukarno_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/sukarno_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/sukarno_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/sukarno_3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/tanaman_hias_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/tanaman_hias_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/tanaman_hias_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/tanaman_hias_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Data/Dialogue/DSO-01-03 Museum.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Data/Dialogue/DSO-01-03 Museum.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Data/Quest/QST-P-01 Pergi ke Denah Besar.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Data/Quest/QST-P-01 Pergi ke Denah Besar.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Data/Quest/QST-P-02 Kembali ke Rombongan.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Data/Quest/QST-P-02 Kembali ke Rombongan.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-03 Museum.ink" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-03 Museum.ink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-03 Museum.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-03 Museum.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/Quest.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/Quest/INK-Q-01 Prologue.ink" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/Quest/INK-Q-01 Prologue.ink.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/Quest/INK-Q-01 Prologue.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/Quest/INK-Q-01 Prologue.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/8 Bit Limit/8-bit-limit.brk SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/8 Bit Limit/8-bit-limit.brk SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/8 Bit Limit/8-bit-limit.o-brk SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/8 Bit Limit/8-bit-limit.o-brk SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/8 Bit Limit/8-bit-limit.r-brk SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/8 Bit Limit/8-bit-limit.r-brk SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/8 Bit Limit/8-bit-limit.ro-brk SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/8 Bit Limit/8-bit-limit.ro-brk SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/Abaddon/Abaddon Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/Abaddon/Abaddon Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/Abaddon/Abaddon Light SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/Abaddon/Abaddon Light SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/Pixeboy/Pixeboy-z8XGD SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/Pixeboy/Pixeboy-z8XGD SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/Character/GalangPlayable.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/Character/GalangPlayable.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/Character/Jamet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/Character/Jamet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-01 Prologue.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-01 Prologue.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-02 Prologue.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-02 Prologue.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-03 Prologue.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-03 Prologue.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/World/TeleporterManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/World/TeleporterManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RiderFlow.UserData/Editor/Scenes/Bookmarks.Map/c6915b74bd2d831428dc5a0fbbc3ce46.userdata" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RiderFlow.UserData/Editor/Scenes/Bookmarks.Map/c6915b74bd2d831428dc5a0fbbc3ce46.userdata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +217,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Assets Component/Script/Dialogue System/DialogueController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Assets Component/Script/Game Manager/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Assets Component/Script/Interaction/NPCInteraction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/Concrete/MoveToObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Assets Component/Script/World/TeleporterEventHandler.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -129,6 +337,8 @@
       <workItem from="1683050722820" duration="415000" />
       <workItem from="1683051639744" duration="370000" />
       <workItem from="1683204227461" duration="2222000" />
+      <workItem from="1683253266612" duration="2246000" />
+      <workItem from="1683265739945" duration="3412000" />
     </task>
     <servers />
   </component>

@@ -14,7 +14,7 @@ GameObject:
   m_Layer: 6
   m_Name: Jamet
   m_TagString: NPC
-  m_Icon: {fileID: 2800000, guid: 1686cb381a652fb42888f7c3b4f72380, type: 3}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -74,8 +74,8 @@ SpriteRenderer:
   m_SortingLayerID: 913527839
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 121e0a742dc477c4e9ce823fa6642901, type: 3}
-  m_Color: {r: 0.2735849, g: 0.2735849, b: 0.2735849, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 8e634742e6acade4f9c4a52424e680bf, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -95,7 +95,7 @@ Animator:
   m_GameObject: {fileID: 6190942243323609986}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9db1becca1dec6e45a70b6712711c91d, type: 2}
+  m_Controller: {fileID: 9100000, guid: dbdb2c485f6d3c8448da89810161d395, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

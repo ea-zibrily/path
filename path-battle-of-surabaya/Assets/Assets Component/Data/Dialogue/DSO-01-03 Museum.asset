@@ -25,9 +25,9 @@ MonoBehaviour:
   <isDialogueOnFirstTime>k__BackingField: 1
   <StoryList>k__BackingField:
   - {fileID: 4900000, guid: 86fd6e8fe96356449a660f8ea358ea55, type: 3}
+  - {fileID: 4900000, guid: 3cea401c2a177844887e41fd2d7a9662, type: 3}
+  - {fileID: 4900000, guid: 35f3953e61908174883c7eeb7dfa0ccd, type: 3}
   - {fileID: 4900000, guid: bdc47341864518d4baa5e8e79f369b33, type: 3}
-  - {fileID: 4900000, guid: f1a062b6b0865fb43911c64df2643404, type: 3}
-  - {fileID: 4900000, guid: 1cf995761ef7486458f15d3720cf61ad, type: 3}
   - {fileID: 4900000, guid: a381e1d6e489f584c9ac545fda317ea9, type: 3}
   - {fileID: 4900000, guid: 9a7de7a26a9a89a4eb53d71e032843b4, type: 3}
   - {fileID: 4900000, guid: d48114bb7f8d3ad49af3c6def52c5eb5, type: 3}

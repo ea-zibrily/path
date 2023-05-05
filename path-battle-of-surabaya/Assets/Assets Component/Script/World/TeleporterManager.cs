@@ -3,11 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(BoxCollider2D))]
 public class TeleporterManager : MonoBehaviour
 {
     [Header("Player Teleport Component")]
     [SerializeField] private float posX;
     [SerializeField] private float posY;
+    [SerializeField] private Transform gateTransform;
     public TeleportSelection teleportSelection;
     
     [Header("Reference")]
@@ -46,8 +48,10 @@ public class TeleporterManager : MonoBehaviour
         fadeTeleport.SetActive(true);
         yield return new WaitForSeconds(1f);
         TeleportPlayer();
+        // TeleportPlayerWithPos();
     }
     
-    private void TeleportPlayer() => playerObj.position = new Vector2(posX, posY);
+    private void TeleportPlayer() => playerObj.position = gateTransform.position;
+    private void TeleportPlayerWithPos() => playerObj.position = new Vector2(posX, posY);
     private void InactiveFadeTeleport() => fadeTeleport.SetActive(false);
 }
