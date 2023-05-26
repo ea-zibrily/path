@@ -11,21 +11,37 @@ Ughhh… udah selesai kah pelajarannya? #speaker:Galang #portrait:galang_normal 
 
 Udah selesai kok pelajarannya. #speaker:Bu Guru #portrait:buguru_normal #layout:left
 
-Uwahhh… Bu guru kenapa bisa ada di depanku. #speaker:Galang #portrait:galang_normal #layout:left
+Uwahhh… #speaker:Galang #portrait:galang_normal #layout:left
 
-Ini sudah ke berapa kalinya kamu tidur saat pelajaran ibu. #speaker:Bu Guru #portrait:buguru_normal #layout:left
+Selamat pagi pak… #speaker:Galang #portrait:galang_normal #layout:left
 
-M-Maafkan saya bu, saya tidak akan mengulanginya lagi lain kali. #speaker:Galang #portrait:galang_normal #layout:left
+Selamat pagi? #speaker:Bu Guru #portrait:buguru_normal #layout:left
 
-Ibu sudah bosan dengan perkataanmu itu. #speaker:Bu Guru #portrait:buguru_normal #layout:left
+Kamu ini sudah keterlaluan Galang. #speaker:Bu Guru #portrait:buguru_normal #layout:lef
 
-Jadi karena ibu rasa kamu sudah terlalu sering tidur saat pelajaran, maka kali ini ibu akan beri kamu hukuman. #speaker:Bu Guru #portrait:buguru_normal #layout:left
+Ini sudah ke berapa kalinya kamu tidur saat pelajaran saya. #speaker:Bu Guru #portrait:buguru_normal #layout:left
 
-Untuk hukumanmu… ahhh kamu harus mencari 1 objek sejarah yang sesuai dengan cerita ibu tadi di museum yang akan kita kunjungi akhir bulan nanti. #speaker:Bu Guru #portrait:buguru_normal #layout:left
+M-Maafkan saya pak… #speaker:Galang #portrait:galang_normal #layout:left
 
-Kamu juga harus bisa menjelaskan tentang objek sejarah itu secara detail pada teman-temanmu saat di museum nanti. #speaker:Bu Guru #portrait:buguru_normal #layout:left
+saya tidak akan mengulanginya lagi lain kali. #speaker:Galang #portrait:galang_normal #layout:left
 
-Kalau kamu tidak bisa melakukannya, maka bapak akan memberikan nilai merah pada raport kenaikan kelasmu nanti. #speaker:Bu Guru #portrait:buguru_normal #layout:left
+Bapak sudah bosan dengan perkataanmu itu. #speaker:Bu Guru #portrait:buguru_normal #layout:left
+
+Jadi karena bapak merasa kamu sudah terlalu sering tidur saat pelajaran. #speaker:Bu Guru #portrait:buguru_normal #layout:left
+
+Maka kali ini bapak akan beri kamu hukuman. #speaker:Bu Guru #portrait:buguru_normal #layout:left
+
+Untuk hukumanmu… #speaker:Bu Guru #portrait:buguru_normal #layout:left
+
+Ah iya… #speaker:Bu Guru #portrait:buguru_normal #layout:left
+
+kamu harus mencari 1 objek sejarah yang sesuai dengan cerita Bapak tadi di museum yang akan kita kunjungi akhir bulan nanti. #speaker:Bu Guru #portrait:buguru_normal #layout:left
+
+Kamu juga harus bisa menjelaskan tentang objek sejarah itu secara detail pada teman-temanmu saat pelajaran bapak berikutnya. #speaker:Bu Guru #portrait:buguru_normal #layout:left
+
+Kalau kamu tidak bisa melakukannya #speaker:Bu Guru #portrait:buguru_normal #layout:left
+
+Maka bapak akan memberikan nilai merah pada raport kenaikan kelasmu nanti. #speaker:Bu Guru #portrait:buguru_normal #layout:left
 
 Ba-baik pak. #speaker:Galang #portrait:galang_normal #layout:left
 

@@ -17,6 +17,12 @@ GLUDAK !!! #speaker:  #portrait:  #layout:narator
 
 Aku tersandung sesuatu dan terjatuh #speaker:  #portrait:  #layout:narator
 
+Aduhhh… #speaker:Galang #portrait:galang_normal #layout:left
+
+Bisa-bisanya aku terjatuh… #speaker:Galang #portrait:galang_normal #layout:left
+
+Kenapa hidupku sangat sial #speaker:Galang #portrait:galang_normal #layout:left
+
 Karena sudah ketakutan aku menutup mata dan telingaku lalu berteriak #speaker:  #portrait:  #layout:narator
 
 JANGAN MENDEKAT… JANGAN MENDEKAAATTT… #speaker:Galang #portrait:galang_normal #layout:left
