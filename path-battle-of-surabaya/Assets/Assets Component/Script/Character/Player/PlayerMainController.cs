@@ -21,10 +21,11 @@ public class PlayerMainController : MonoBehaviour
     public bool isSprint;
     public bool isShoot;
     public bool isPlayerAttack;
-
+    
     [Header("Reference")]
     private Rigidbody2D myRb;
     private Animator myAnim;
+    private Animator energyAnim;
 
     #region MonoBehaviour Method
 
@@ -32,6 +33,7 @@ public class PlayerMainController : MonoBehaviour
     {
         myRb = GetComponent<Rigidbody2D>();
         myAnim = GetComponent<Animator>();
+        energyAnim = GetComponentInChildren<Animator>();
         
         gameObject.name = playerDataSO.playerName;
     }
@@ -93,23 +95,35 @@ public class PlayerMainController : MonoBehaviour
 
     private void PlayerSprint()
     {
-        if (PlayerManager.Instance.isEnergyRegen)
+        if (!PlayerManager.Instance.isEnergyRegen)
         {
-            isSprint = Input.GetKey(KeyCode.LeftShift);
-            normalSpeed = isSprint ? playerDataSO.sprintSpeed : playerDataSO.originalSpeed;
+            return;
         }
-    }
-    
-    public void SetVelocity(Vector2 direction, float velocity)
-    {
-        myRb.velocity = direction * velocity;
+        
+        isSprint = Input.GetKey(KeyCode.LeftShift);
+        if (isSprint)
+        {
+            normalSpeed = playerDataSO.sprintSpeed;
+            energyAnim.SetBool("isUseEnergy", true);
+        }
+        else
+        {
+            normalSpeed = playerDataSO.originalSpeed;
+            StartCoroutine(TurnOffEnergyPanel());
+        }
+        
+        // normalSpeed = isSprint ? playerDataSO.sprintSpeed : playerDataSO.originalSpeed;
     }
 
-    public void SetZeroVelocity()
+    private IEnumerator TurnOffEnergyPanel()
     {
-        myRb.velocity = Vector2.zero;
+        yield return new WaitForSeconds(0.35f);
+        energyAnim.SetBool("isUseEnergy", false);
     }
     
+    public void SetVelocity(Vector2 direction, float velocity) => myRb.velocity = direction * velocity;
+    public void SetZeroVelocity() => myRb.velocity = Vector2.zero;
+
     #endregion
 }
 
