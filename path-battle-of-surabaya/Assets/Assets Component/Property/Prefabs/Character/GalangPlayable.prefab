@@ -154,6 +154,7 @@ MonoBehaviour:
   isSprint: 0
   isShoot: 0
   isPlayerAttack: 0
+  energyAnim: {fileID: 2627497444690670034}
 --- !u!95 &2627497443922217528
 Animator:
   serializedVersion: 5

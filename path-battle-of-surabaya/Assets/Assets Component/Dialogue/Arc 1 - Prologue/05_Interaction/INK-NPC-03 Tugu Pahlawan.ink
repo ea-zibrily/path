@@ -1,0 +1,1 @@
+Wah gede banget ya Tugu ini. #speaker:Galang #portrait:galang_normal #layout:left

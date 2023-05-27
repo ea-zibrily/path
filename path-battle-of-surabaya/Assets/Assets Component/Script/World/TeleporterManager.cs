@@ -10,8 +10,7 @@ public class TeleporterManager : MonoBehaviour
     [SerializeField] private float posX;
     [SerializeField] private float posY;
     [SerializeField] private Transform gateTransform;
-    public TeleportSelection teleportSelection;
-    
+
     [Header("Reference")]
     public GameObject fadeTeleport;
     private Transform playerObj;

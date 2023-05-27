@@ -23,9 +23,9 @@ public class PlayerMainController : MonoBehaviour
     public bool isPlayerAttack;
     
     [Header("Reference")]
+    public Animator energyAnim;
     private Rigidbody2D myRb;
     private Animator myAnim;
-    private Animator energyAnim;
 
     #region MonoBehaviour Method
 
@@ -33,8 +33,7 @@ public class PlayerMainController : MonoBehaviour
     {
         myRb = GetComponent<Rigidbody2D>();
         myAnim = GetComponent<Animator>();
-        energyAnim = GetComponentInChildren<Animator>();
-        
+
         gameObject.name = playerDataSO.playerName;
     }
 
@@ -64,17 +63,17 @@ public class PlayerMainController : MonoBehaviour
 
     private void PlayerMovement()
     {
-        // if (isPlayerAttack || DialogueManager.Instance.isDialogueActive)
-        // {
-        //     SetZeroVelocity();
-        //     return;
-        // }
+        if (isPlayerAttack || DialogueManager.Instance.isDialogueActive)
+        {
+            SetZeroVelocity();
+            return;
+        }
         
         float x, y;
         x = Input.GetAxisRaw("Horizontal");
         y = Input.GetAxisRaw("Vertical");
         
-        movementDirection = new Vector2(x, y); 
+        movementDirection = new Vector2(x, y);
         movementDirection.Normalize();
         myRb.velocity = movementDirection * normalSpeed;
     }
@@ -111,13 +110,11 @@ public class PlayerMainController : MonoBehaviour
             normalSpeed = playerDataSO.originalSpeed;
             StartCoroutine(TurnOffEnergyPanel());
         }
-        
-        // normalSpeed = isSprint ? playerDataSO.sprintSpeed : playerDataSO.originalSpeed;
     }
 
     private IEnumerator TurnOffEnergyPanel()
     {
-        yield return new WaitForSeconds(0.35f);
+        yield return new WaitForSeconds(0.2f);
         energyAnim.SetBool("isUseEnergy", false);
     }
     

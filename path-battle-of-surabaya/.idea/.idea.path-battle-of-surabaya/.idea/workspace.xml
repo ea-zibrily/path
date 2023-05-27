@@ -5,47 +5,104 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aabeb4e3-0343-4f19-9234-ed470167c51c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/UI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/UI/ANM-E-00 Empty.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/UI/ANM-E-00 Empty.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/UI/ANM-E-01 Use.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/UI/ANM-E-01 Use.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/UI/ANM-E-02 Unuse.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/UI/ANM-E-02 Unuse.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Controller/UI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Controller/UI/EnergyController.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Controller/UI/EnergyController.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Energy.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/Character/GalangPlayableTest.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/Character/GalangPlayableTest.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Scenes/mechanic-test.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Scenes/mechanic-test.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Collider2D Optimization.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Collider2D Optimization/EdgeColliderOptimizer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Collider2D Optimization/EdgeColliderOptimizer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Collider2D Optimization/PolygonColliderOptimizer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Collider2D Optimization/PolygonColliderOptimizer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Collider2D Optimization/ShapeOptimizationHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Collider2D Optimization/ShapeOptimizationHelper.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Collider2D Optimization/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Collider2D Optimization/readme.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/Observer/IObserver.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/Observer/IObserver.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Enum/ActionEnum.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Enum/ActionEnum.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.path-battle-of-surabaya/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.path-battle-of-surabaya/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/ANM-E-00 Empty.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/ANM-C-00 Empty.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/ANM-E-00 Empty.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/Character/ANM-C-00 Empty.anim.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/energybar.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Energy/energyFill.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/energybar.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Energy/energyFill.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/energyborder.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Energy/energyBorder.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/energyborder.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Energy/energyBorder.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/energyeffect.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Energy/energyEffect.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/energyeffect.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Energy/energyEffect.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/UI/ANM-E-01 Use.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/UI/ANM-E-01 Use.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/UI/ANM-E-02 Unuse.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/UI/ANM-E-02 Unuse.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Controller/UI/EnergyController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Controller/UI/EnergyController.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Redundant/329229162_2860566917421469_3499030055456910011_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Redundant/329229162_2860566917421469_3499030055456910011_n.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Redundant/329272702_688815442983462_8044970365305810354_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Redundant/329272702_688815442983462_8044970365305810354_n.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Redundant/330301443_222973113640219_6710193439797002564_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Redundant/330301443_222973113640219_6710193439797002564_n.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tile Pallete/03_Museum/Lantai 3/PLT-PG-03 Museum Third Floor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tile Pallete/03_Museum/Lantai 3/PLT-PG-03 Museum Third Floor.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/dinding_lantai_tanaman hias.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/dinding_lantai_tanaman hias/dinding_museum.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/dinding_lantai_tanaman hias/dinding_museum.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/dinding_lantai_tanaman hias/lantai_museum.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/dinding_lantai_tanaman hias/lantai_museum.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/dinding_lantai_tanaman hias/tanaman_hias_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/dinding_lantai_tanaman hias/tanaman_hias_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/dinding_lantai_tanaman hias/tanaman_hias_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/dinding_lantai_tanaman hias/tanaman_hias_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 1/lampu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 1/lampu.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 1/lukisan ruangan 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 1/lukisan ruangan 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 2/diorama museum.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 2/diorama museum.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 2/kursi logam.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 2/kursi logam.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 2/nama museum.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 2/nama museum.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 2/peta museum.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 2/peta museum.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 2/sukarno_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 2/sukarno_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 2/sukarno_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 2/sukarno_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 2/sukarno_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 2/sukarno_3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 2/tempat_sampah.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 2/tempat_sampah.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/diorama masjid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/diorama masjid.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/kaca.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/kaca.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/manekin_polisi_istimewa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/manekin_polisi_istimewa.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/manekin_tentara_bkr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/manekin_tentara_bkr.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/objek_mesin_ketik.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/objek_mesin_ketik.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/resepsionis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/resepsionis.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/sby_proklamasi_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/sby_proklamasi_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/sby_proklamasi_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/sby_proklamasi_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/sby_proklamasi_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/sby_proklamasi_3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/stand_majalah.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/stand_majalah.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/ruang manekin.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/ruang manekin/manekin_a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/ruang manekin/manekin_a.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/ruang manekin/manekin_a2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/ruang manekin/manekin_a2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/ruang manekin/manekin_b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/ruang manekin/manekin_b.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/ruang manekin/rak susun.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/ruang manekin/rak susun.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/ruang manekin/tangga.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/ruang manekin/tangga.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/Character/GalangPlayable.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/Character/GalangPlayable.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/GameObject.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/GameObject/Canvas.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/GameObject/Canvas.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-03 Prologue.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-03 Prologue.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Player/PlayerMainController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Player/PlayerMainController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Abstract.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Abstract/AttackStateBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Abstract/AttackStateBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Abstract/AttackStateBaseAbstract.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Abstract/AttackStateBaseAbstract.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Abstract/AttackStateMethod.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Abstract/AttackStateMethod.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Concrete.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Concrete/AttackIdleState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Concrete/AttackIdleState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Concrete/AttackMainState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Concrete/AttackMainState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Context.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Context/AttackStateManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Context/AttackStateManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/World/TeleporterManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/World/TeleporterManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +135,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "discord-application",
     "vue.rearranger.settings.migration": "true"
   },
@@ -191,6 +249,7 @@
       <workItem from="1683253266612" duration="2246000" />
       <workItem from="1683265739945" duration="3412000" />
       <workItem from="1684477745834" duration="2855000" />
+      <workItem from="1685156669181" duration="3565000" />
     </task>
     <servers />
   </component>
