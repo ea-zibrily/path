@@ -21,6 +21,7 @@ public class PlayerMainController : MonoBehaviour
     public bool isSprint;
     public bool isShoot;
     public bool isPlayerAttack;
+    public bool isTeleport;
     
     [Header("Reference")]
     public Animator energyAnim;
@@ -63,7 +64,7 @@ public class PlayerMainController : MonoBehaviour
 
     private void PlayerMovement()
     {
-        if (isPlayerAttack || DialogueManager.Instance.isDialogueActive)
+        if (isPlayerAttack || DialogueManager.Instance.isDialogueActive || isTeleport)
         {
             SetZeroVelocity();
             return;

@@ -1,8 +1,8 @@
-Jadi seperti yang ibu ceritakan minggu kemain ini adalah... #speaker:Bu Guru #portrait:buguru_normal #layout:opening
+Pemberitahuan bagi para pengunjung yang belum menukarkan tiket, harap segera menukarkan tiket di loket museum. Terima kasih. #speaker:  #portrait:empty  #layout:naratoropen
 -> main
 
 ==main==
 
-Bu guru sedang fokus menjelaskan ke siswa lain, sepertinya ini kesempatanku untuk kabur dan pergi ke ruangan yang aku tandai tadi #speaker:Galang #portrait:galang_normal #layout:left #quest:2
+Eh aku harus segera menukar tiketku di loket agar bisa masuk. #speaker:Galang #portrait:galang_normal #layout:left #timeline:10 #quest:0
 
 -> END

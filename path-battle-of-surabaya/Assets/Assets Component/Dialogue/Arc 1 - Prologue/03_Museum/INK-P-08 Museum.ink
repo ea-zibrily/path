@@ -1,8 +1,11 @@
-Aku harus cepat menemukan orang tadi dan segera keluar dari ruangan ini karena ntah kenapa perasaanku mulai tidak enak #speaker:Galang #portrait:galang_normal #layout:opening
+Jadi seperti yang bapak ceritakan minggu kemain ini adalah... #speaker:Bu Guru #portrait:buguru_normal #layout:opening
 -> main
 
-===main===
+==main==
 
-Aku mulai mencari dimana keberadaan orang tadi. Semakin dalam aku mencari semakin banyak manekin yang ada dan mulai muncul perasaan seakan aku sedang diawasi oleh para manekin ini. #speaker:Galang #portrait:galang_normal #layout:narator #timeline:4
+Bu guru sedang fokus menjelaskan ke siswa lain, sepertinya ini kesempatanku untuk kabur dan pergi ke ruangan yang aku tandai tadi #speaker:Galang #portrait:galang_normal #layout:left
+
+Sepertinya ini kesempatanku untuk kabur dan pergi ke ruangan yang telah aku tandai tadi. #speaker:Galang #portrait:galang_normal #layout:left #quest:3
+
 
 -> END

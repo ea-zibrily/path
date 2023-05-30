@@ -7,13 +7,12 @@ using UnityEngine;
 public class TeleporterManager : MonoBehaviour
 {
     [Header("Player Teleport Component")]
-    [SerializeField] private float posX;
-    [SerializeField] private float posY;
     [SerializeField] private Transform gateTransform;
 
     [Header("Reference")]
     public GameObject fadeTeleport;
     private Transform playerObj;
+    private PlayerMainController playerController;
     private TeleporterEventHandler teleporterEventHandler;
 
     private void OnEnable()
@@ -29,6 +28,7 @@ public class TeleporterManager : MonoBehaviour
     private void Awake()
     {
         playerObj = GameObject.FindGameObjectWithTag("Player").transform;
+        playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMainController>();
         teleporterEventHandler = fadeTeleport.GetComponent<TeleporterEventHandler>();
     }
 
@@ -43,14 +43,18 @@ public class TeleporterManager : MonoBehaviour
     
     private IEnumerator Teleport()
     {
+        yield return new WaitForSeconds(1.3f);
+        playerController.SetZeroVelocity();
+        playerController.isTeleport = true;
+        
         yield return new WaitForSeconds(0.4f);
         fadeTeleport.SetActive(true);
+        
         yield return new WaitForSeconds(1f);
         TeleportPlayer();
-        // TeleportPlayerWithPos();
+        playerController.isTeleport = false;
     }
     
     private void TeleportPlayer() => playerObj.position = gateTransform.position;
-    private void TeleportPlayerWithPos() => playerObj.position = new Vector2(posX, posY);
     private void InactiveFadeTeleport() => fadeTeleport.SetActive(false);
 }

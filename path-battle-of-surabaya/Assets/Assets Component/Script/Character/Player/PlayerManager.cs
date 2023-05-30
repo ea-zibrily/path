@@ -7,7 +7,6 @@ using TMPro;
 
 public class PlayerManager : MonoSingleton<PlayerManager>
 {
-    
     [Serializable]
     public struct InterfaceComponent
     {

@@ -1,10 +1,14 @@
-Saat sebelum sampai ke ruangan tujuan aku melihat seseorang dengan baju seperti pejuang masuk ke salah satu ruangan. Saat itu terbesit di pikiranku bagaimana kalau aku tanya bapak itu untuk menjelaskan tentang salah satu objek sejarah karena kan dia memakai baju pejuang dan harusnya dia tau satu dua hal tentang sejarah yang diceritakan pak guru. #speaker:  #portrait:empty  #layout:naratoropen 
+Ohh jadi begini bagian dalam museum 10 Nopember. #speaker:Galang #portrait:galang_normal #layout:left
 -> main
 
 ===main===
 
-Aku juga tidak mau nilai raporku merah yang nanti akan membuatku tidak naik kelas  #speaker:Galang #portrait:galang_normal #layout:left
+Di halaman tadi aku tidak bisa menemukan tempat untuk kabur. #speaker:Galang #portrait:galang_normal #layout:left
 
-Tanpa pikir panjang aku pun mengikuti orang itu dan ikut masuk kedalam ruangan yang ia masuki #speaker:  #portrait:empty  #layout:narator
+Aku harus mencari sesuatu yang bisa menunjukkan berbagai macam tempat disini. #speaker:Galang #portrait:galang_normal #layout:left
 
--> END
+Sebentar #speaker:Galang #portrait:galang_normal #layout:left
+
+Bukannya itu… #speaker:Galang #portrait:galang_normal #layout:left #timeline: 10 #quest: 1
+
+->END

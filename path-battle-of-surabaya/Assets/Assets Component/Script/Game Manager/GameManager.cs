@@ -1,9 +1,8 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.Serialization;
+using UnityEngine.UI;
 
 public class GameManager : MonoSingleton<GameManager>
 {
@@ -13,28 +12,27 @@ public class GameManager : MonoSingleton<GameManager>
     [SerializeField] private RectTransform sceneFader;
 
     #endregion
-    
-    #region Game Condition
 
-    public const string NEXT_LEVEL = "NextLevel";
-    public const string GAME_OVER = "GameOver";
-
-    #endregion
+    #region MonoBehaviour Callbacks
 
     private void Start()
     {
         StartFader();
     }
 
-    public void SceneMoveController(string gameCondition)
+    #endregion
+
+    #region Tsukuyomi Methods
+
+    public void SceneMoveController(SceneEnum sceneEnum)
     {
-        switch (gameCondition)
+        switch (sceneEnum)
         {
-            case GAME_OVER:
+            case SceneEnum.GameOver:
                 OpenGameScene();
                 break;
-            case NEXT_LEVEL:
-                OpenNextLevelScene();
+            case SceneEnum.NextScene:
+                OpenNextScene();
                 break;
             default:
                 Debug.LogWarning("Game Conditionnya Gaada Kang");
@@ -42,9 +40,7 @@ public class GameManager : MonoSingleton<GameManager>
         }
     }
 
-    #region Scene Fader Component Method
-
-    private void StartFader()
+     private void StartFader()
     {
         sceneFader.gameObject.SetActive (true);
         
@@ -61,7 +57,7 @@ public class GameManager : MonoSingleton<GameManager>
         // });
     }
     
-    public void OpenMenuScene () 
+    public void OpenMenuScene() 
     {
         sceneFader.gameObject.SetActive (true);
         
@@ -97,7 +93,7 @@ public class GameManager : MonoSingleton<GameManager>
         //     Invoke ("LoadGame", 0.5f);
         // });
     }
-    private void OpenNextLevelScene()
+    private void OpenNextScene()
     {
         sceneFader.gameObject.SetActive (true);
         
@@ -105,7 +101,7 @@ public class GameManager : MonoSingleton<GameManager>
         LeanTween.alpha (sceneFader, 0, 0);
         LeanTween.alpha (sceneFader, 1, 1f).setOnComplete (() => {
             // Example for little pause before laoding the next scene
-            Invoke ("LoadNextLevel", 0.5f);
+            Invoke ("LoadNextScene", 0.5f);
         });
         
         // // SCALE
@@ -116,10 +112,10 @@ public class GameManager : MonoSingleton<GameManager>
         //     Invoke ("LoadGame", 0.5f);
         // });
     }
-        
-    private void LoadGame () => SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex);
-    private void LoadNextLevel () => SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex + 1);
 
+    private void LoadGame () => SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    private void LoadNextScene () => SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    
     #endregion
-
+    
 }

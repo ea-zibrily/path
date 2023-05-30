@@ -22,7 +22,7 @@ public abstract class QuestBase : MonoBehaviour
 
     #endregion
     
-    private void Awake()
+    public virtual void Awake()
     {
         storyIndex = 0;
         DialogueController = GameObject.Find("DialogueController").GetComponent<DialogueController>();

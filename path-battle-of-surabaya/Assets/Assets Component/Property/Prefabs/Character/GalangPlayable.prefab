@@ -1,5 +1,65 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2006888343842963578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7876266645187255729}
+  - component: {fileID: 4763473955566774394}
+  m_Layer: 0
+  m_Name: PlayerManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7876266645187255729
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006888343842963578}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.44, y: 5.37, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2627497443922217534}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4763473955566774394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006888343842963578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d2a2534cd944b8a8b605207a4741cd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 20
+  healthRegenAmount: 50.5
+  isDeath: 0
+  maxEnergy: 20
+  energyUseAmount: 0.007
+  eneryRegenAmount: 0.007
+  energyDecreaseTime: 0.007
+  isEnergyRegen: 0
+  maxExperienceProgress: 50
+  interfaceComponent:
+    healthEffect: {fileID: 0}
+    energyBar: {fileID: 2550488713037449225}
+    energyEffect: {fileID: 8007289338304234675}
+    experienceText: {fileID: 0}
+    experienceProgressText: {fileID: 0}
+    experienceBar: {fileID: 0}
 --- !u!1 &2627497443922217527
 GameObject:
   m_ObjectHideFlags: 0
@@ -33,6 +93,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 7876266645187255729}
   - {fileID: 1358569230001985424}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -154,6 +215,7 @@ MonoBehaviour:
   isSprint: 0
   isShoot: 0
   isPlayerAttack: 0
+  isTeleport: 0
   energyAnim: {fileID: 2627497444690670034}
 --- !u!95 &2627497443922217528
 Animator:
@@ -208,7 +270,7 @@ RectTransform:
   m_Children:
   - {fileID: 3890339630343375571}
   m_Father: {fileID: 2627497443922217534}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -385,6 +447,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2658c6862cec88c43af3c482c5899762, type: 3}
+--- !u!114 &2550488713037449225 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5042720200537015005, guid: 2658c6862cec88c43af3c482c5899762, type: 3}
+  m_PrefabInstance: {fileID: 7394471568372370132}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &3890339630343375571 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6008703496351793159, guid: 2658c6862cec88c43af3c482c5899762, type: 3}
@@ -415,3 +488,14 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &8007289338304234675 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 685087605702397543, guid: 2658c6862cec88c43af3c482c5899762, type: 3}
+  m_PrefabInstance: {fileID: 7394471568372370132}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

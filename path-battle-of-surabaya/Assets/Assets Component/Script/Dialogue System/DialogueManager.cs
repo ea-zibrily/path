@@ -8,7 +8,7 @@ using Ink.UnityIntegration;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
 
-public class DialogueManager : MonoSingleton<DialogueManager>
+public class DialogueManager : MoSingleton<DialogueManager>
 {
     #region Dialogue Parameters
 
@@ -102,7 +102,7 @@ public class DialogueManager : MonoSingleton<DialogueManager>
             string[] tagSplit = tag.Split(':');
             if (tagSplit.Length != 2)
             {
-                Debug.LogError($"Tagnya salah kang: {tag}");
+                Debug.LogError($"Tagx salah masbro: {tag}");
             }
             
             string tagType = tagSplit[0].Trim();
@@ -234,7 +234,9 @@ public class DialogueManager : MonoSingleton<DialogueManager>
         {
             return;
         }
-        GameManager.Instance.SceneMoveController(GameManager.NEXT_LEVEL);
+        
+        // gameManagerOriginal.SceneMoveController(SceneEnum.NextScene);
+        GameManager.Instance.SceneMoveController(SceneEnum.NextScene);
     }
     private void SetQuest()
     {

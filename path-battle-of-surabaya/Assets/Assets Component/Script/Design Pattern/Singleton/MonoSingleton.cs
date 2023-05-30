@@ -1,10 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
+//Singleton Save Object Reference When Move Scene
 public class MonoSingleton<T> : MonoBehaviour where T : Component
 {
     private static T _instance;
+
     public static T Instance
     {
         get
@@ -13,7 +13,7 @@ public class MonoSingleton<T> : MonoBehaviour where T : Component
             {
                 // Kalau instance kosong, maka script akan mencari object lain
                 // yang memiliki tipe atau class yang sama dengan target
-                    
+
                 _instance = FindObjectOfType<T>();
                 if (_instance == null)
                 {
@@ -24,25 +24,26 @@ public class MonoSingleton<T> : MonoBehaviour where T : Component
                     _instance = obj.AddComponent<T>();
                 }
             }
+
             return _instance;
         }
     }
 
     protected virtual void Awake()
     {
-        if (_instance == null)
+        //Singleton method
+        if (_instance == null) 
         {
-            // jika instance masih kosong, derived class (class yang ngeextend MonoSingleton)
-            // akan di assign ke instance
+            //First run, set the instance
             _instance = this as T;
             DontDestroyOnLoad(gameObject);
-        }
-        else
+        } 
+        else if (_instance != this)
         {
-            if (_instance != this)
-            {
-                Destroy(gameObject);
-            }
+            //Instance is not the same as the one we have, destroy old one, and reset to newest one
+            Destroy(_instance.gameObject);
+            _instance = this as T;
+            DontDestroyOnLoad(gameObject);
         }
     }
 }

@@ -14,12 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   arcName: Prologue
   actName: Bus
-  characterList:
-  - characterName: Galang
-    characterRole: 0
-  - characterName: Pak Guru
-    characterRole: 1
-  invokeDelay: 3.5
+  invokeDelay: 2
   <isDialogueOnFirstTime>k__BackingField: 1
   <StoryList>k__BackingField:
   - {fileID: 4900000, guid: 728b7d4b03c6c0c449abd635fed8428b, type: 3}

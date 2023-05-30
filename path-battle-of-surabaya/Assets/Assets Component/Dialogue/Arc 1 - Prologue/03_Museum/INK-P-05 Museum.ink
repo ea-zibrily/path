@@ -1,9 +1,12 @@
-Sepertinya jalan ini mengarah ke ruangan yang ingin kutuju. #speaker:Galang #portrait:galang_normal #layout:opening
+Selamat datang kak, silahkan tiketnya.  #speaker:Petugas #portrait:buguru_normal #layout:opening
 -> main
 
 ==main==
-Aku harus cepat agar dapat bersantai dan bermalas-malasan disana. #speaker:Galang #portrait:galang_normal #layout:left
 
-Kalau tidak salah ruangannya ada di lantai 3 kan ya? #speaker:Galang #portrait:galang_normal #layout:left
+Ohh ini kak tiket saya. #speaker:Galang #portrait:galang_normal #layout:left
+
+Baik kak, sudah bisa masuk. #speaker:Petugas #portrait:buguru_normal #layout:left
+
+Ttt-terima kasih banyak kak. #speaker:Galang #portrait:galang_normal #layout:left #timeline: 10 #quest: 16
 
 -> END

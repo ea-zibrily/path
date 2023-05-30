@@ -5,104 +5,258 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aabeb4e3-0343-4f19-9234-ed470167c51c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/Observer/IObserver.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/Observer/IObserver.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Enum/ActionEnum.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Enum/ActionEnum.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/MainMenuBG.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/MainMenuBG.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/MainMenuBG.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/MainMenuBG.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/1130469.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/1130469.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile000.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile001.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile002.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile003.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile004.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile005.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile006.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile007.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile008.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile009.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile010.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile011.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile011.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile012.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile012.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile013.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile013.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile014.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile014.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile015.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile015.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile016.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile016.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile017.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile017.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile018.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile018.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile019.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile019.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile020.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile020.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile021.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile021.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile022.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile022.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile023.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile024.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile025.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile025.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile026.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile026.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile027.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile027.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile028.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile028.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile029.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile029.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile030.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile030.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile031.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/Animated/tile031.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/wallpaperflare.com_wallpaper (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/wallpaperflare.com_wallpaper (2).jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/wallpaperflare.com_wallpaper (3).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/wallpaperflare.com_wallpaper (3).jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/wallpaperflare.com_wallpaper (4).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy/wallpaperflare.com_wallpaper (4).jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Main Menu.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Main Menu/LAZYDAY_LOGO 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Main Menu/LAZYDAY_LOGO 2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Data/Quest/QST-P-02 Benda Apa Itu.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Data/Quest/QST-P-02 Benda Apa Itu.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/02_Bus/INK-P-02 BusOld.ink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/02_Bus/INK-P-02 BusOld.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-11 Museum.ink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-11 Museum.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-15 Museum.ink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-15 Museum.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-17 Museum.ink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-17 Museum.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-18 Museum.ink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-18 Museum.ink.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-18 Museum.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-18 Museum.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-19 Museum.ink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-19 Museum.ink.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-19 Museum.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-19 Museum.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-20 Museum.ink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-20 Museum.ink.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-20 Museum.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-20 Museum.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/Futile Pro.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/Futile Pro/FutilePro SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/Futile Pro/FutilePro SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/Futile Pro/FutilePro.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/Futile Pro/FutilePro.otf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/Futile Pro/FutilePro.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/Futile Pro/FutilePro.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/Futile Pro/futile-pro-v1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/Futile Pro/futile-pro-v1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/UI/Main Menu.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/UI/Main Menu/CreditPanel.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/UI/Main Menu/CreditPanel.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/UI/Main Menu/MainMenuPanel.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/UI/Main Menu/MainMenuPanel.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/UI/Main Menu/SettingsPanel.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/UI/Main Menu/SettingsPanel.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Scenes/MM-01-Main Menu.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Scenes/MM-01-Main Menu.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Scenes/MM-02-Select Arc.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Scenes/MM-02-Select Arc.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/Singleton/MoSingleton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/Singleton/MoSingleton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Enum/SceneEnum.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Enum/SceneEnum.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Game Manager/GameManagerOriginal.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Game Manager/GameManagerOriginal.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/Concrete/DefeatEnemy.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/Concrete/DefeatEnemy/DefeatManyEnemy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/Concrete/DefeatEnemy/DefeatManyEnemy.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/Concrete/DefeatEnemy/DefeatOneEnemy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/Concrete/DefeatEnemy/DefeatOneEnemy.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/Concrete/FindObject.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/Concrete/FindObject/FindObjectDetector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/Concrete/FindObject/FindObjectDetector.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/Concrete/FindObject/FindOneObjectGO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/Concrete/FindObject/FindOneObjectGO.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/Concrete/FindObject/Redundant.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/UI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/UI/MainMenuManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/UI/MainMenuManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/UI/SelectArcManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/UI/SelectArcManager.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.path-battle-of-surabaya/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.path-battle-of-surabaya/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/UI/ANM-E-01 Use.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/UI/ANM-E-01 Use.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/UI/ANM-E-02 Unuse.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Animation/UI/ANM-E-02 Unuse.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Controller/UI/EnergyController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Animation/Controller/UI/EnergyController.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Redundant/329229162_2860566917421469_3499030055456910011_n.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Redundant/329229162_2860566917421469_3499030055456910011_n.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Redundant/329272702_688815442983462_8044970365305810354_n.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Redundant/329272702_688815442983462_8044970365305810354_n.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Redundant/330301443_222973113640219_6710193439797002564_n.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Redundant/330301443_222973113640219_6710193439797002564_n.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tile Pallete/03_Museum/Lantai 3/PLT-PG-03 Museum Third Floor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tile Pallete/03_Museum/Lantai 3/PLT-PG-03 Museum Third Floor.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/dinding_lantai_tanaman hias.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/dinding_lantai_tanaman hias/dinding_museum.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/dinding_lantai_tanaman hias/dinding_museum.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/dinding_lantai_tanaman hias/lantai_museum.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/dinding_lantai_tanaman hias/lantai_museum.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/dinding_lantai_tanaman hias/tanaman_hias_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/dinding_lantai_tanaman hias/tanaman_hias_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/dinding_lantai_tanaman hias/tanaman_hias_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/dinding_lantai_tanaman hias/tanaman_hias_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 1.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 1/lampu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 1/lampu.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 1/lukisan ruangan 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 1/lukisan ruangan 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 2.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 2/diorama museum.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 2/diorama museum.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 2/kursi logam.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 2/kursi logam.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 2/nama museum.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 2/nama museum.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 2/peta museum.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 2/peta museum.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 2/sukarno_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 2/sukarno_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 2/sukarno_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 2/sukarno_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 2/sukarno_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 2/sukarno_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 2/tempat_sampah.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 2/tempat_sampah.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/diorama masjid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/diorama masjid.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/kaca.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/kaca.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/manekin_polisi_istimewa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/manekin_polisi_istimewa.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/manekin_tentara_bkr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/manekin_tentara_bkr.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/objek_mesin_ketik.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/objek_mesin_ketik.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/resepsionis.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/resepsionis.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/sby_proklamasi_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/sby_proklamasi_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/sby_proklamasi_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/sby_proklamasi_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/sby_proklamasi_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/sby_proklamasi_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/stand_majalah.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/lantai 3/stand_majalah.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/ruang manekin.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/ruang manekin/manekin_a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/ruang manekin/manekin_a.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/ruang manekin/manekin_a2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/ruang manekin/manekin_a2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/ruang manekin/manekin_b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/ruang manekin/manekin_b.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/ruang manekin/rak susun.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/ruang manekin/rak susun.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/ruang manekin/tangga.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/Tile/Tileset/3_Museum/ruang manekin/tangga.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Exp.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Experience.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Exp/exp bar.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Experience/exp bar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Exp/exp bar.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Experience/exp bar.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Exp/exp border.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Experience/exp border.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Exp/exp border.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Experience/exp border.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Exp/exp effect.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Experience/exp effect.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Exp/exp effect.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Experience/exp effect.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Exp/level box border.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Experience/level box border.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Exp/level box border.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Experience/level box border.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Exp/level box.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Experience/level box.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Exp/level box.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Experience/level box.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/PanelButton.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Panel Button.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/PanelButton/tombol 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Panel Button/tombol 1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/PanelButton/tombol 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Panel Button/tombol 1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/PanelButton/tombol.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Panel Button/tombol.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/PanelButton/tombol.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/UI/Panel Button/tombol.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Data/Dialogue/DSO-01-01 Ruang Kelas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Data/Dialogue/DSO-01-01 Ruang Kelas.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Data/Dialogue/DSO-01-02 Bus.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Data/Dialogue/DSO-01-02 Bus.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Data/Dialogue/DSO-01-03 Museum.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Data/Dialogue/DSO-01-03 Museum.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Data/Dialogue/DSO-02-01 Tempat Berkumpul.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Data/Dialogue/DSO-02-01 Tempat Berkumpul.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Data/Quest/QST-P-02 Jangan sampai tertinggal.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Data/Quest/QST-P-03 Jangan sampai tertinggal.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Data/Quest/QST-P-02 Jangan sampai tertinggal.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Data/Quest/QST-P-03 Jangan sampai tertinggal.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Data/Quest/QST-P-03 Cari Ruangan.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Data/Quest/QST-P-04 Cari Ruangan.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Data/Quest/QST-P-03 Cari Ruangan.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Data/Quest/QST-P-04 Cari Ruangan.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/01_Kelas/INK-P-00 Ruang Kelas.ink" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/01_Kelas/INK-P-00 Ruang Kelas.ink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/01_Kelas/INK-P-00 Ruang Kelas.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/01_Kelas/INK-P-00 Ruang Kelas.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/01_Kelas/INK-P-01 Ruang Kelas.ink" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/01_Kelas/INK-P-01 Ruang Kelas.ink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/01_Kelas/INK-P-01 Ruang Kelas.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/01_Kelas/INK-P-01 Ruang Kelas.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/02_Bus/INK-P-02 Bus.ink" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/02_Bus/INK-P-02 Bus.ink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/02_Bus/INK-P-02 Bus.ink.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/02_Bus/INK-P-02 Bus.ink.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/02_Bus/INK-P-02 Bus.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/02_Bus/INK-P-02 Bus.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-03 Museum.ink" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-03 Museum.ink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-03 Museum.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-03 Museum.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-03.1 Museum.ink" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-03.1 Museum.ink.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-17 Museum.ink.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-03.1 Museum.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-03.1 Museum.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/02_Bus/INK-P-02 BusOld.json.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-03.2 Museum.ink" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-03.2 Museum.ink.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-11 Museum.ink.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-03.2 Museum.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-03.2 Museum.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-15 Museum.json.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-03.5 Museum.ink" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-03.5 Museum.ink.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/02_Bus/INK-P-02 BusOld.ink.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-03.5 Museum.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-03.5 Museum.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-11 Museum.json.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-03.6 Museum.ink" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-03.6 Museum.ink.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-15 Museum.ink.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-03.6 Museum.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-03.6 Museum.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-17 Museum.json.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-04 Museum.ink" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-04 Museum.ink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-04 Museum.ink.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-04 Museum.ink.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-04 Museum.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-04 Museum.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-05 Museum.ink" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-05 Museum.ink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-05 Museum.ink.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-05 Museum.ink.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-05 Museum.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-05 Museum.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-06 Museum.ink" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-06 Museum.ink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-06 Museum.ink.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-06 Museum.ink.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-06 Museum.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-06 Museum.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-07 Museum.ink" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-07 Museum.ink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-07 Museum.ink.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-07 Museum.ink.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-07 Museum.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-07 Museum.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-08 Museum.ink" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-08 Museum.ink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-08 Museum.ink.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-08 Museum.ink.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-08 Museum.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-08 Museum.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-09 Museum.ink" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-09 Museum.ink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-09 Museum.ink.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-09 Museum.ink.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-09 Museum.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-09 Museum.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-09 Museum.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-09 Museum.json.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-10 Museum.ink" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-10 Museum.ink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-10 Museum.ink.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-10 Museum.ink.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-10 Museum.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-10 Museum.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-10 Museum.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/03_Museum/INK-P-10 Museum.json.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/05_Interaction/INK-NPC-03 Tugu Pahlawan.ink" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/05_Interaction/INK-NPC-03 Tugu Pahlawan.ink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/05_Interaction/INK-NPC-03 Tugu Pahlawan.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/Arc 1 - Prologue/05_Interaction/INK-NPC-03 Tugu Pahlawan.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Dialogue/New Arc 1 -  Prologue.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Art/Dummy.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/8 Bit Limit/8-bit-limit.ro-brk SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/8 Bit Limit/8-bit-limit.ro-brk SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/Peaberry Monospace/Peaberry-Mono SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/Peaberry Monospace/Peaberry-Mono SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/Pixeboy/Pixeboy-z8XGD SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Font/Pixeboy/Pixeboy-z8XGD SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/Character/GalangPlayable.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/Character/GalangPlayable.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/UI/DialoguePanel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Property/Prefabs/UI/DialoguePanel.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-01 Prologue.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-01 Prologue.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-02 Prologue.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-02 Prologue.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-03 Prologue.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Scenes/ARC-01-03 Prologue.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Player/PlayerMainController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Player/PlayerMainController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Abstract.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Abstract/AttackStateBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Abstract/AttackStateBase.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Abstract/AttackStateBaseAbstract.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Abstract/AttackStateBaseAbstract.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Abstract/AttackStateMethod.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Abstract/AttackStateMethod.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Concrete.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Concrete/AttackIdleState.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Concrete/AttackIdleState.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Concrete/AttackMainState.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Concrete/AttackMainState.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Context.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Context/AttackStateManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/FSM/Context/AttackStateManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Player/PlayerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Character/Player/PlayerManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/Singleton/MonoSingleton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/Singleton/MonoSingleton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/Singleton/MonoSingleton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Design Pattern/Singleton/MonoSingleton.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Dialogue System/DialogueManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Dialogue System/DialogueManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Dummy/One.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Dialogue System/DialogueTrigger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Dummy/One.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Dialogue System/DialogueTrigger.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Game Manager/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Game Manager/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Game Manager/GameManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Game Manager/GameManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Interaction.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/World/Interaction.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Interaction/NPCInteraction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/World/Interaction/ObjectInteraction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Interaction/NPCInteraction.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/World/Interaction/ObjectInteraction.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/Concrete/FindQuest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/Concrete/FindObject/FindManyObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/Concrete/FindQuest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/Concrete/FindObject/FindManyObject.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/Concrete/FindQuestOld.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/Concrete/FindObject/Redundant/FindQuestOld.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/Concrete/FindQuestOld.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/Concrete/FindObject/Redundant/FindQuestOld.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/Concrete/MoveToObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/Concrete/FindObject/Redundant/FindOneObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/Concrete/MoveToObject.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/Concrete/FindObject/Redundant/FindOneObject.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/QuestBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/QuestBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/ScriptableObject/DialogueData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/ScriptableObject/DialogueData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets Component/Script/World/TeleporterManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets Component/Script/World/TeleporterManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,8 +267,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Assets Component/Script/Dialogue System/DialogueController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Assets Component/Script/Game Manager/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Assets Component/Script/Interaction/NPCInteraction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Assets Component/Script/Quest System/Concrete/MoveToObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Assets Component/Script/UI/MainMenuManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Assets Component/Script/World/TeleporterEventHandler.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -125,28 +279,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Discover.Launch.Via.Unity": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "discord-application",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;discord-application&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\LENOVO\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\LENOVO\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\LENOVO\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\LENOVO\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\LENOVO\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\LENOVO\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files (x86)\2021.3.18f1\Editor\Unity.exe" />
@@ -250,6 +404,14 @@
       <workItem from="1683265739945" duration="3412000" />
       <workItem from="1684477745834" duration="2855000" />
       <workItem from="1685156669181" duration="3565000" />
+      <workItem from="1685173215179" duration="2447000" />
+      <workItem from="1685205554045" duration="597000" />
+      <workItem from="1685246561987" duration="6489000" />
+      <workItem from="1685336051513" duration="4555000" />
+      <workItem from="1685356615979" duration="1122000" />
+      <workItem from="1685362211692" duration="4041000" />
+      <workItem from="1685381499041" duration="300000" />
+      <workItem from="1685426875477" duration="453000" />
     </task>
     <servers />
   </component>
