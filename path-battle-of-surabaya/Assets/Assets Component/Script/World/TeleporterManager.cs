@@ -43,7 +43,7 @@ public class TeleporterManager : MonoBehaviour
     
     private IEnumerator Teleport()
     {
-        yield return new WaitForSeconds(1.3f);
+        yield return new WaitForSeconds(1f);
         playerController.SetZeroVelocity();
         playerController.isTeleport = true;
         

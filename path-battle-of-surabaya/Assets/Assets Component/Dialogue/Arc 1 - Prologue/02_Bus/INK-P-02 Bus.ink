@@ -16,7 +16,7 @@ Dari luar aku sudah merasakan kalau tempat ini pasti bakal sangat membosankan. #
 
 Mungkin aku cuman bertahan 10 menit di dalam sana. #speaker:Galang #portrait:galang_normal #layout:left
 
-Baik anak-anak nanti kalian berkumpul di loket tiket terlebih dahulu sebelum ambil tiket. #speaker:PakGuru #portrait:pakguru_normal #layout:left
+Baik anak-anak nanti kalian berkumpul di loket tiket terlebih dahulu sebelum ambil tiket. #speaker:Pak Guru #portrait:buguru_normal #layout:left
 
 Nanti kita akan ambil tiket dan masuk bersamaan pada pukul 10.00 #speaker:Bu Guru #portrait:buguru_normal #layout:left
 

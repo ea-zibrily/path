@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 417b55af36eea22489cf251024a7fc06
+guid: 2b053b3e79f55a84c8c8bb338a0f7d95
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -153,169 +153,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tombol_0
+      name: UI_select_chapter_f_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 151
-        width: 42
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ece9c7294d37f704a824c85025fc8611
-      internalID: 781942946
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tombol_1
-      rect:
-        serializedVersion: 2
-        x: 142
-        y: 151
-        width: 4
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 600cb02e24e1c77439e2de8a2cba1153
-      internalID: 346908033
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tombol_2
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 138
-        width: 80
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a43eee524e120db4a809eba2d0f45cda
-      internalID: -887612903
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tombol_3
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 84
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 017d5d83b52c6864da85c845f42534ac
-      internalID: 1336365813
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tombol_4
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 100
-        width: 23
+        x: 9
+        y: 31
+        width: 28
         height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5cfb76c564f2e8947a58e84338a59c32
-      internalID: 80212367
+      spriteID: d755df4c859eaca4e90730fd7b93722f
+      internalID: -814491840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tombol_5
+      name: UI_select_chapter_f_1
       rect:
         serializedVersion: 2
-        x: 116
-        y: 102
-        width: 6
-        height: 9
+        x: 34
+        y: 11
+        width: 28
+        height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdce9644dc4038b4dacb2d45f0d14ffe
-      internalID: 1071603023
+      spriteID: 3d5d28f56c2d8234aa6067b252a3749b
+      internalID: -1665394034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tombol_6
+      name: UI_select_chapter_f_2
       rect:
         serializedVersion: 2
-        x: 134
-        y: 102
-        width: 6
-        height: 9
+        x: 59
+        y: 31
+        width: 28
+        height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a99e8ba013578eb439c09712e2122b1e
-      internalID: 325119658
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tombol_7
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 20
-        width: 144
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd294a5c9851150408a8a01e36bdb75f
-      internalID: -164323826
+      spriteID: 76a5cc7a1c2a8e442a9c8f50296f543f
+      internalID: -1519694142
       vertices: []
       indices: 
       edges: []
@@ -331,14 +226,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      tombol_1: 346908033
-      tombol_3: 1336365813
-      tombol_4: 80212367
-      tombol_7: -164323826
-      tombol_5: 1071603023
-      tombol_6: 325119658
-      tombol_0: 781942946
-      tombol_2: -887612903
+      UI_select_chapter_f_0: -814491840
+      UI_select_chapter_f_2: -1519694142
+      UI_select_chapter_f_1: -1665394034
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
