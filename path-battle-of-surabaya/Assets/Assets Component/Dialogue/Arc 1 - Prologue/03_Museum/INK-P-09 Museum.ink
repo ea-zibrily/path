@@ -1,9 +1,8 @@
-Sepertinya jalan ini mengarah ke ruangan yang ingin kutuju. #speaker:Galang #portrait:galang_normal #layout:opening
+Lantai 2 ini ramai banget, ruangannya juga tidak seberapa besar. #speaker:Galang #portrait:galang_normal #layout:opening
 -> main
 
 ==main==
-Aku harus cepat agar dapat bersantai dan bermalas-malasan disana. #speaker:Galang #portrait:galang_normal #layout:left
 
-Kalau tidak salah ruangannya ada di lantai 3 kan ya? #speaker:Galang #portrait:galang_normal #layout:left #timeline: 10 #quest: 16
+Naik ke lantai 3 sabi nih, sepertinya disana sepi. #speaker:Galang #portrait:galang_normal #layout:left #timeline: 10 #quest: 16
 
 -> END

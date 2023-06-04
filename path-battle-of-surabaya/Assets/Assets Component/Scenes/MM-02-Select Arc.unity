@@ -1049,6 +1049,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ProloguePanel
       objectReference: {fileID: 0}
+    - target: {fileID: 4336415338578186575, guid: ea225fbfb57330b48a45eac4f81a2778, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea225fbfb57330b48a45eac4f81a2778, type: 3}
 --- !u!1001 &6114855356873956309
@@ -1058,42 +1062,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2064250957}
     m_Modifications:
-    - target: {fileID: 6114855357894079910, guid: b44a5b6a7fe0a1947973bfeae17282c2, type: 3}
+    - target: {fileID: 269486947, guid: b44a5b6a7fe0a1947973bfeae17282c2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 731690189}
     - target: {fileID: 6114855357894079910, guid: b44a5b6a7fe0a1947973bfeae17282c2, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SelectArcPanel
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 731690189}
+    - target: {fileID: 6114855357894079911, guid: b44a5b6a7fe0a1947973bfeae17282c2, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 222.4
       objectReference: {fileID: 0}
     - target: {fileID: 6114855357978699582, guid: b44a5b6a7fe0a1947973bfeae17282c2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 731690189}
-    - target: {fileID: 6114855357978699582, guid: b44a5b6a7fe0a1947973bfeae17282c2, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SelectArcPanel
+    - target: {fileID: 6114855357978699583, guid: b44a5b6a7fe0a1947973bfeae17282c2, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 120.3
       objectReference: {fileID: 0}
     - target: {fileID: 6114855358052065108, guid: b44a5b6a7fe0a1947973bfeae17282c2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 731690189}
-    - target: {fileID: 6114855358052065108, guid: b44a5b6a7fe0a1947973bfeae17282c2, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SelectArcPanel
-      objectReference: {fileID: 0}
-    - target: {fileID: 6114855358052065109, guid: b44a5b6a7fe0a1947973bfeae17282c2, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.5354177
-      objectReference: {fileID: 0}
-    - target: {fileID: 6114855358052065109, guid: b44a5b6a7fe0a1947973bfeae17282c2, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.425533
-      objectReference: {fileID: 0}
-    - target: {fileID: 6114855358052065109, guid: b44a5b6a7fe0a1947973bfeae17282c2, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.5354177
-      objectReference: {fileID: 0}
     - target: {fileID: 6114855358291426633, guid: b44a5b6a7fe0a1947973bfeae17282c2, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1181,10 +1173,6 @@ PrefabInstance:
     - target: {fileID: 6114855358291426638, guid: b44a5b6a7fe0a1947973bfeae17282c2, type: 3}
       propertyPath: m_Name
       value: SelectArcPanel
-      objectReference: {fileID: 0}
-    - target: {fileID: 6114855358291426638, guid: b44a5b6a7fe0a1947973bfeae17282c2, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b44a5b6a7fe0a1947973bfeae17282c2, type: 3}
