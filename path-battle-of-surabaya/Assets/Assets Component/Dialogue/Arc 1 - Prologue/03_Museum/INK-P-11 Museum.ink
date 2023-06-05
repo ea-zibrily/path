@@ -1,7 +1,10 @@
-Ehhh… #speaker:Galang #portrait:galang_normal #layout:opening
+Saat sebelum masuk ke ruangan itu, aku melihat seseorang dengan baju seperti pejuang masuk ke salah satu ruangan lainnya.  #speaker:   #portrait:empty #layout:naratoropen
+
 -> main
 
 ===main===
+
+Ehhh… #speaker:Galang #portrait:galang_normal #layout:opening
 
 Apakah ruangan itu sedang dipakai? #speaker:Galang #portrait:galang_normal #layout:left
 
@@ -15,7 +18,7 @@ Apalagi orang tadi sepertinya sangat tahu tentang sejarah apalah itu. #speaker:G
 
 Aku juga tidak mau nilai raporku merah yang nanti akan membuatku tidak naik kelas.  #speaker:Galang #portrait:galang_normal #layout:left
 
-Baiklah sudah diputuskan aku akan melakukan rencana baruku ini. #speaker:Galang #portrait:galang_normal #layout:left #timeline: 10 #quest: 16
+Baiklah sudah diputuskan aku akan melakukan rencana baruku ini. #speaker:Galang #portrait:galang_normal #layout:left #timeline: 10 #quest: 4
 
 
 -> END

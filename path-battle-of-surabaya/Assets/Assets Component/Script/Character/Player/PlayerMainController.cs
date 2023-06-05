@@ -14,7 +14,7 @@ public class PlayerMainController : MonoBehaviour
     public PlayerData playerDataSO;
 
     [Header("Player Movement Component")]
-    [SerializeField] private float normalSpeed;
+    public float normalSpeed;
     public Vector2 movementDirection;
 
     [Space]

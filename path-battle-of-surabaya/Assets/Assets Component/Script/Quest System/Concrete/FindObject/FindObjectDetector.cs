@@ -7,7 +7,7 @@ public class FindObjectDetector : MonoBehaviour
 
     [field: SerializeField] public bool isArea {get; private set;}
     [SerializeField] private GameObject interactObject;
-    [SerializeField] private GameObject questObject;
+    [field: SerializeField] public GameObject QuestObject {get; private set;}
     private FindOneObjectGO findOneObjectGO;
 
     #endregion
@@ -16,7 +16,7 @@ public class FindObjectDetector : MonoBehaviour
     
     private void Awake()
     {
-        findOneObjectGO = questObject.GetComponent<FindOneObjectGO>();
+        findOneObjectGO = QuestObject.GetComponent<FindOneObjectGO>();
     }
 
     private void Start()
@@ -26,7 +26,7 @@ public class FindObjectDetector : MonoBehaviour
 
     private void Update()
     {
-        if (questObject.activeSelf)
+        if (QuestObject.activeSelf)
         {
             gameObject.GetComponent<BoxCollider2D>().enabled = true;
         }

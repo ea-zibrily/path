@@ -36,6 +36,7 @@ public class DialogueManager : MoSingleton<DialogueManager>
     private int timelineIndex;
     private int questIndex;
     private bool isStoryEnd;
+    private int gameObjectIndex;
 
     #endregion
 
@@ -54,6 +55,7 @@ public class DialogueManager : MoSingleton<DialogueManager>
     private const string TIMELINE_TAG = "timeline";
     private const string END_TAG = "end";
     private const string QUEST_TAG = "quest";
+    private const string GAMEOBJECT_TAG = "object";
 
     #endregion
 
@@ -133,6 +135,9 @@ public class DialogueManager : MoSingleton<DialogueManager>
                 case QUEST_TAG:
                     questIndex = Convert.ToInt32(tagValue);
                     break;
+                case GAMEOBJECT_TAG:
+                    gameObjectIndex = Convert.ToInt32(tagValue);
+                    break;
                 default:
                     Debug.Log("Tagnya gaada kang");
                     break;
@@ -148,8 +153,7 @@ public class DialogueManager : MoSingleton<DialogueManager>
 
         //reset
         characterNameTextUI.text = "";
-        characterPanelAnimator.Play("empty");
-        dialoguePanelAnimator.Play("left");
+        characterPanelAnimator.Play("empty"); dialoguePanelAnimator.Play("left");
         
         ContinueDialogue();
     }
@@ -162,6 +166,7 @@ public class DialogueManager : MoSingleton<DialogueManager>
         SetTimeline();
 
         yield return new WaitForSeconds(2.5f);
+        SetGameObject();
         SetScene();
         
         yield return new WaitForSeconds(0.2f);
@@ -244,7 +249,18 @@ public class DialogueManager : MoSingleton<DialogueManager>
         {
             return;
         }
+        
         QuestManager.Instance.EnterQuest(questIndex);
+    }
+
+    private void SetGameObject()
+    {
+        if (gameObjectIndex > 15)
+        {
+            return;
+        }
+        
+        ObjectManager.Instance.SetObjectActive(0);
     }
 }
 

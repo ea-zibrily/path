@@ -1,9 +1,9 @@
-Sepertinya jalan ini mengarah ke ruangan yang ingin kutuju. #speaker:Galang #portrait:galang_normal #layout:opening
+Hah! #speaker:Galang #portrait:galang_normal #layout:opening
+
 -> main
 
-==main==
-Aku harus cepat agar dapat bersantai dan bermalas-malasan disana. #speaker:Galang #portrait:galang_normal #layout:left
+===main===
 
-Kalau tidak salah ruangannya ada di lantai 3 kan ya? #speaker:Galang #portrait:galang_normal #layout:left #timeline: 10 #quest: 16
+Aku harus lari keluar ruangan ini secepatnya! #speaker:Galang #portrait:galang_normal #layout:left #timeline: 10 #quest: 6
 
 -> END
