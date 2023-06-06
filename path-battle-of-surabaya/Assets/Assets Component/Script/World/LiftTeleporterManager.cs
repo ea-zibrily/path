@@ -4,14 +4,16 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class MuseumManager : MonoBehaviour
+public class LiftTeleporterManager : MonoBehaviour
 {
+    #region Variable
+
     [Header("Player Teleport Component")]
     private Transform gateTransform;
 
     [Header("UI Component")] 
     public TextMeshProUGUI floorNumberUI;
-    [SerializeField] private int floorNumber;
+    private int floorNumber;
 
     [Header("Reference")]
     public GameObject fadeTeleport;
@@ -20,6 +22,10 @@ public class MuseumManager : MonoBehaviour
     private TeleporterEventHandler teleporterEventHandler;
     [SerializeField] private GameObject panelObject;
     private Animator panelAnimator;
+
+    #endregion
+
+    #region MonoBehaviour Callbacks
 
     private void OnEnable()
     {
@@ -42,6 +48,7 @@ public class MuseumManager : MonoBehaviour
 
     private void Start()
     {
+        floorNumber = 0;
         floorNumberUI.text = " ";
     }
 
@@ -49,6 +56,10 @@ public class MuseumManager : MonoBehaviour
     {
         floorNumberUI.text = floorNumber.ToString();
     }
+
+    #endregion
+
+    #region Tsukuyomi Methods
 
     public IEnumerator Teleport()
     {
@@ -71,5 +82,7 @@ public class MuseumManager : MonoBehaviour
     public void SetGateTransfrom(Transform newGate) => gateTransform = newGate;
     public void GoTeleport() => StartCoroutine(Teleport());
     public void SetFloorNumber(int newFloorNumber) => floorNumber = newFloorNumber;
+
+    #endregion
 
 }

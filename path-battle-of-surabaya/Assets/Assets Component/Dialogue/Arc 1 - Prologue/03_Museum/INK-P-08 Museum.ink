@@ -3,6 +3,6 @@ Jadi seperti yang bapak ceritakan minggu kemain ini adalah... #speaker:Bu Guru #
 
 ==main==
 
-Sepertinya ini kesempatanku untuk kabur dan mencari ruangan yang cocok untuk bersembunyi. #speaker:Galang #portrait:galang_normal #layout:left #timeline: 10 #quest:3
+Sepertinya ini kesempatanku untuk kabur dan mencari ruangan yang cocok untuk bersembunyi. #speaker:Galang #portrait:galang_normal #layout:left #timeline: 10 #quest:3 #object: 10
 
 -> END

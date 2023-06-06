@@ -28,6 +28,9 @@ public class GameManager : MonoSingleton<GameManager>
     {
         switch (sceneEnum)
         {
+            case SceneEnum.MainMenu:
+                OpenMenuScene();
+                break;
             case SceneEnum.GameOver:
                 OpenGameScene();
                 break;

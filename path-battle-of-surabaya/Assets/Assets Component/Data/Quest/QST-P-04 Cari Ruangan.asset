@@ -15,7 +15,7 @@ MonoBehaviour:
   questName: Cari Ruangan
   questId: QST-P-04
   questNumber: 4
-  questDescription: Cari Ruangan L3-03!
+  questDescription: Cari Ruangan Kosong!
   questType: 0
   isTaskMoreThanOne: 0
   subTaskCount: 0

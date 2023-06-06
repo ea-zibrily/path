@@ -3,6 +3,6 @@ Wahh ruangan ini sepertinya besar.  #speaker:Galang #portrait:galang_normal #lay
 
 ===main===
 
-Sepi juga lagi, cocok banget buat tempat bersembunyi. #speaker:Galang #portrait:galang_normal #layout:left #timeline: 0 #quest: 16
+Sepi juga lagi, cocok banget buat tempat bersembunyi. #speaker:Galang #portrait:galang_normal #layout:left #timeline: 0 #quest: 16 #object: 10
 
 -> END

@@ -1,4 +1,4 @@
-Ohh jadi begini bagian dalam museum 10 Nopember. #speaker:Galang #portrait:galang_normal #layout:left
+Ohh jadi begini bagian dalam museum 10 Nopember. #speaker:Galang #portrait:galang_normal #layout:opening
 -> main
 
 ===main===
@@ -9,6 +9,6 @@ Aku harus mencari sesuatu yang bisa menunjukkan berbagai macam tempat disini. #s
 
 Sebentar #speaker:Galang #portrait:galang_normal #layout:left
 
-Bukannya itu… #speaker:Galang #portrait:galang_normal #layout:left #timeline: 10 #quest: 1
+Bukannya itu… #speaker:Galang #portrait:galang_normal #layout:left #timeline: 10 #quest: 1 #object: 10
 
 ->END
