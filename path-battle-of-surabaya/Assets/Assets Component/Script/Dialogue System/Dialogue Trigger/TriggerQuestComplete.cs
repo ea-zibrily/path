@@ -11,7 +11,7 @@ public class TriggerQuestComplete : TriggerNormal
 
     private void QuestCompleteChecker()
     {
-        if (findOneObjectGo.isQuestCompleted)
+        if (findOneObjectGo.isQuestCompleted && !isDialogueEnter)
         {
             gameObject.GetComponent<BoxCollider2D>().enabled = true;
         }

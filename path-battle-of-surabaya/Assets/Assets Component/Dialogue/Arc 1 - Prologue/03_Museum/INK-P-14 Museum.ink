@@ -31,6 +31,6 @@ WOI SIAPA DISANA!!?? #speaker:Galang #portrait:galang_normal #layout:left
 
 Tidak ada yang merespon sama sekali. #speaker:Galang #portrait:galang_normal #layout:left
 
-Aku harus keluar dari sini dan kembali ke Pak Guru secepatnya. #speaker:Galang #portrait:galang_normal #layout:left #timeline: 10 #quest: 16
+Aku harus keluar dari sini dan kembali ke Pak Guru secepatnya. #speaker:Galang #portrait:galang_normal #layout:left #timeline: 10 #quest: 16 #object: 0
 
 -> END

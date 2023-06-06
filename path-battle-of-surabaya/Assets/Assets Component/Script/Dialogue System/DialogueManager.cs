@@ -164,9 +164,9 @@ public class DialogueManager : MoSingleton<DialogueManager>
         yield return new WaitForSeconds(0.4f);
         SetQuest();
         SetTimeline();
+        SetGameObject();
 
         yield return new WaitForSeconds(2.5f);
-        SetGameObject();
         SetScene();
         
         yield return new WaitForSeconds(0.2f);
@@ -255,12 +255,12 @@ public class DialogueManager : MoSingleton<DialogueManager>
 
     private void SetGameObject()
     {
-        if (gameObjectIndex > 15)
+        if (gameObjectIndex > 9)
         {
             return;
         }
         
-        ObjectManager.Instance.SetObjectActive(0);
+        ObjectManager.Instance.SetObjectActive(gameObjectIndex);
     }
 }
 

@@ -3,6 +3,6 @@ Pemberitahuan bagi para pengunjung yang belum menukarkan tiket, harap segera men
 
 ==main==
 
-Eh aku harus segera menukar tiketku di loket agar bisa masuk. #speaker:Galang #portrait:galang_normal #layout:left #timeline:10 #quest:0
+Eh aku harus segera menukar tiketku di loket agar bisa masuk. #speaker:Galang #portrait:galang_normal #layout:left #timeline:10 #quest:0 #object: 10
 
 -> END
