@@ -24,6 +24,6 @@ Dan untuk Galang jangan lupa tugas yang telah saya berikan. #speaker:Bu Guru #po
 
 Baik pak. #speaker:Galang #portrait:galang_normal #layout:left
 
-Aku akan kabur ke tempat lain saat sudah didalam tempat itu dan berpisah dengan rombongan bu guru. #speaker:  #portrait:empty  #layout:narator #timeline:10 #quest:16 #end:true
+Aku akan kabur ke tempat lain saat sudah didalam tempat itu dan berpisah dengan rombongan bu guru. #speaker:  #portrait:empty  #layout:narator #timeline:10 #quest:16 #end:true #object: 16
 
 -> END

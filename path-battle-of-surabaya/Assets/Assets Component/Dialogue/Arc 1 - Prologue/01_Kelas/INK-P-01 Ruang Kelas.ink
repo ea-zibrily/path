@@ -26,10 +26,10 @@ Ya lain kali jangan tidur pas pelajaran. #speaker:Jamet #portrait:jamet_normal #
 
 Kamu tidak membantu sama sekali.  #speaker:Galang #portrait:galang_normal #layout:left
 
-Kalau sudah terlanjur begini… #speaker:Galang #portrait:galang_normal #layout:left
+Kalau sudah terlanjur begini. #speaker:Galang #portrait:galang_normal #layout:left
 
-Aku hanya bisa pasra.h #speaker:Galang #portrait:galang_normal #layout:left
+Aku hanya bisa pasrah. #speaker:Galang #portrait:galang_normal #layout:left
 
-Yang semangat ya bro.  #speaker:Jamet #portrait:jamet_normal #layout:left #timeline:10 #end:true #quest: 16
+Yang semangat ya bro.  #speaker:Jamet #portrait:jamet_normal #layout:left #timeline:10 #end:true #quest: 16 #object: 16
 
 -> END

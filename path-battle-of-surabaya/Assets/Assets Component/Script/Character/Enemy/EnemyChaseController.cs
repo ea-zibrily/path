@@ -15,6 +15,7 @@ public class EnemyChaseController : MonoBehaviour
     private PlayerMainController playerMainController;
     private RunAwayDetector runAwayDetector;
     private DialogueController dialogueController;
+    private AudioManager audioManager;
 
     #region MonoBehavior Callbacks
 
@@ -28,6 +29,7 @@ public class EnemyChaseController : MonoBehaviour
         runAwayDetector = GetComponentInChildren<RunAwayDetector>();
         
         dialogueController = GameObject.Find("DialogueController").GetComponent<DialogueController>();
+        audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
     }
     
     private void Update()
@@ -52,6 +54,8 @@ public class EnemyChaseController : MonoBehaviour
         playerMainController.normalSpeed = 3f;
         transform.position = Vector2.MoveTowards(transform.position, 
             playerTransform.position, moveSpeed * Time.deltaTime);
+        
+       audioManager.Play(SoundEnum.SFX_ManekinWalk);
     }
 
     private void EnemyIdleAnimation()

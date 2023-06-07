@@ -22,6 +22,7 @@ public class LiftTeleporterManager : MonoBehaviour
     private TeleporterEventHandler teleporterEventHandler;
     [SerializeField] private GameObject panelObject;
     private Animator panelAnimator;
+    private AudioManager audioManager;
 
     #endregion
 
@@ -44,6 +45,7 @@ public class LiftTeleporterManager : MonoBehaviour
         
         teleporterEventHandler = fadeTeleport.GetComponent<TeleporterEventHandler>();
         panelAnimator = panelObject.GetComponent<Animator>();
+        audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
     }
 
     private void Start()
@@ -82,6 +84,8 @@ public class LiftTeleporterManager : MonoBehaviour
     public void SetGateTransfrom(Transform newGate) => gateTransform = newGate;
     public void GoTeleport() => StartCoroutine(Teleport());
     public void SetFloorNumber(int newFloorNumber) => floorNumber = newFloorNumber;
+    public void ClickAudio() => audioManager.Play(SoundEnum.SFX_Clicked);
+    public void LiftAudio() => audioManager.Play(SoundEnum.SFX_Lift);
 
     #endregion
 

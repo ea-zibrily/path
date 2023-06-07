@@ -27,6 +27,7 @@ public class PlayerMainController : MonoBehaviour
     public Animator energyAnim;
     private Rigidbody2D myRb;
     private Animator myAnim;
+    private AudioManager audioManager;
 
     #region MonoBehaviour Method
 
@@ -34,6 +35,7 @@ public class PlayerMainController : MonoBehaviour
     {
         myRb = GetComponent<Rigidbody2D>();
         myAnim = GetComponent<Animator>();
+        audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
 
         gameObject.name = playerDataSO.playerName;
     }
@@ -77,6 +79,7 @@ public class PlayerMainController : MonoBehaviour
         movementDirection = new Vector2(x, y);
         movementDirection.Normalize();
         myRb.velocity = movementDirection * normalSpeed;
+        audioManager.Play(SoundEnum.SFX_GalangWalk);
     }
 
     private void PlayerMovementAnimation()
@@ -105,6 +108,7 @@ public class PlayerMainController : MonoBehaviour
         {
             normalSpeed = playerDataSO.sprintSpeed;
             energyAnim.SetBool("isUseEnergy", true);
+            audioManager.Play(SoundEnum.SFX_GalangRun);
         }
         else
         {

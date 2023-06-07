@@ -14,6 +14,7 @@ public class TeleporterManager : MonoBehaviour
     private Transform playerObj;
     private PlayerMainController playerController;
     private TeleporterEventHandler teleporterEventHandler;
+    private AudioManager audioManager;
 
     private void OnEnable()
     {
@@ -30,6 +31,7 @@ public class TeleporterManager : MonoBehaviour
         playerObj = GameObject.FindGameObjectWithTag("Player").transform;
         playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMainController>();
         teleporterEventHandler = fadeTeleport.GetComponent<TeleporterEventHandler>();
+        audioManager = GameObject.FindGameObjectWithTag("AudioManager").GetComponent<AudioManager>();
     }
 
 
@@ -48,6 +50,7 @@ public class TeleporterManager : MonoBehaviour
         playerController.isTeleport = true;
         
         yield return new WaitForSeconds(0.4f);
+        audioManager.Play(SoundEnum.SFX_Door);
         fadeTeleport.SetActive(true);
         
         yield return new WaitForSeconds(1f);

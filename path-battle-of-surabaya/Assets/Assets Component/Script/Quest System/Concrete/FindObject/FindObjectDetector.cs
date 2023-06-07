@@ -42,18 +42,18 @@ public class FindObjectDetector : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        interactObject.SetActive(true);
         if (other.CompareTag("Player"))
         {
+            interactObject.SetActive(true);
             isArea = true;
         }
     }
     
     private void OnTriggerExit2D(Collider2D other)
     {
-        interactObject.SetActive(false);
         if (other.CompareTag("Player"))
         {
+            interactObject.SetActive(false);
             isArea = false;
         }
     }

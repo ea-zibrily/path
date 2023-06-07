@@ -47,7 +47,7 @@ Ba-baik pak. #speaker:Galang #portrait:galang_normal #layout:left
 
 Baiklah kalau sudah jelas. #speaker:Pak Guru #portrait:buguru_normal #layout:left
 
-Oke anak-anak bapak akhiri pelajaran hari ini, sampai bertemu minggu depan. #speaker:Pak Guru #portrait:buguru_normal #layout:left #timeline: 0 #quest: 16
+Oke anak-anak bapak akhiri pelajaran hari ini, sampai bertemu minggu depan. #speaker:Pak Guru #portrait:buguru_normal #layout:left #timeline: 0 #quest: 16 #object: 16
 
 -> END
 

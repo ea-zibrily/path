@@ -14,8 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   arcName: Prologue
   actName: Class Act
-  characterList: []
-  invokeDelay: 3.5
+  invokeDelay: 16.5
   <isDialogueOnFirstTime>k__BackingField: 1
   <StoryList>k__BackingField:
   - {fileID: 4900000, guid: 724d52481eb61544aa2029e84db32767, type: 3}

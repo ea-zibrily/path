@@ -40,12 +40,6 @@ public class DialogueManager : MoSingleton<DialogueManager>
 
     #endregion
 
-    #region Dialogue SoundEffect
-    
-    private AudioSource myAudio;
-
-    #endregion
-    
     #region Dialogue Tag
    
     private const string SPEAKER_TAG = "speaker";
@@ -73,7 +67,6 @@ public class DialogueManager : MoSingleton<DialogueManager>
     {
         dialoguePanelAnimator = dialoguePanel.GetComponent<Animator>();
         dialogueAnimationHandler = dialoguePanel.GetComponent<DialogueAnimationHandler>();
-        myAudio = GetComponent<AudioSource>();
         dialogueController = GameObject.Find("DialogueController").GetComponent<DialogueController>();
     }
     
@@ -153,7 +146,8 @@ public class DialogueManager : MoSingleton<DialogueManager>
 
         //reset
         characterNameTextUI.text = "";
-        characterPanelAnimator.Play("empty"); dialoguePanelAnimator.Play("left");
+        characterPanelAnimator.Play("empty"); 
+        dialoguePanelAnimator.Play("left");
         
         ContinueDialogue();
     }
@@ -217,7 +211,7 @@ public class DialogueManager : MoSingleton<DialogueManager>
             else
             {
                 conversationTextUI.text += letter;
-                myAudio.Play();
+                FindObjectOfType<AudioManager>().Play(SoundEnum.SFX_Typing);
                 yield return new WaitForSeconds(textSpeed);
             }
         }
@@ -240,7 +234,6 @@ public class DialogueManager : MoSingleton<DialogueManager>
             return;
         }
         
-        // gameManagerOriginal.SceneMoveController(SceneEnum.NextScene);
         GameManager.Instance.SceneMoveController(SceneEnum.NextScene);
     }
     private void SetQuest()
